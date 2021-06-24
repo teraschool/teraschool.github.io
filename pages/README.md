@@ -2,6 +2,6 @@
 sort: 1
 ---
 
-# プログラミング情報まとめ
+# インデックス
 
 {% include list.liquid all=true %}
