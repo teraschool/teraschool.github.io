@@ -1,7 +1,7 @@
 ---
 sort: 1
 ---
-# Scratchについて
+# Scratch
 ScratchはMITメディアラボにあるライフロング・キンダーガーテングループが開発したビジュアルプログラミング言語で、Scratch財団により無償で提供されています。
 
 - [Scratch 公式サイト](https://scratch.mit.edu/){:target="_blank"}
