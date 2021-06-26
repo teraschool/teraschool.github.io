@@ -3,7 +3,7 @@ sort: 4
 ---
 # JavaScript
 
-- [JavaScript　ガイド](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide) {:target="_blank"}
+- [JavaScript　ガイド](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide){:target="_blank"}
 - [JavaScript　リファレンス](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference){:target="_blank"}
 - [Canvas　API](https://developer.mozilla.org/ja/docs/Web/API/CanvasRenderingContext2D){:target="_blank"}
 
