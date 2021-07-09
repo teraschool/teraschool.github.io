@@ -1,7 +1,7 @@
 ---
-sort: 4
+sort: 7
 ---
-# JavaScript
+# Go
 
 - [Goのインストール for Windows](https://docs.google.com/document/d/1jbx3_uG4UDsfbV5K9Bed_uNmjKP0cFCDxPG9a5xeng8/edit?usp=sharing){:target="_blank"}
 - [Goの書き方](https://docs.google.com/document/d/1JiMQHAiNqPcqF7HpJdCbaXSf3g3LhBH6MzPnfih-NPo/edit?usp=sharing){:target="_blank"}
