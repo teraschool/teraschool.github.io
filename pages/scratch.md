@@ -31,7 +31,7 @@ Scratchアカウントの作成にはメールアドレスが必要ですが、�
 
 Scratch アカウントの作り方については、こちらの動画で詳しく説明されていますので、こちらをご覧ください。
 
-<iframe style="width:100%; max-width:560px; height:auto; max-height:315px;" src="https://www.youtube.com/embed/TfzsNagGC_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="width:560px; height:315px;" src="https://www.youtube.com/embed/TfzsNagGC_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 利用時の注意事項
 Scratchを利用するにあたっては、まず以下のページをご一読ください。特に[Scratchコミュニティーのガイドライン](https://scratch.mit.edu/community_guidelines){:target="_blank"}は重要ですので、必ずお読みください。
