@@ -2,20 +2,43 @@
 sort: 1
 ---
 # Scratch
+
+## Scratchについて
 ScratchはMITメディアラボにあるライフロング・キンダーガーテングループが開発したビジュアルプログラミング言語で、Scratch財団により無償で提供されています。
+
+## 利用方法
+Scratchにはwebブラウザで利用できる「オンライン版」とPCにインストールして利用する「インストール版」があり、いずれも無償で利用できます。
+
+オンライン版は[Scratch公式サイト](https://scratch.mit.edu/){:target="_blank"}にアクセスし「作る」を選択するとプログラミング画面が表示されます。オンライン版はwebブラウザが動作するデバイスであれば動作しますが、InternetExplorerなど一部のブラウザやバージョンの古いブラウザでは動作しない場合があります。
+
+インストール版は、[Scratch公式サイト](https://scratch.mit.edu/){:target="_blank"}の一番下にあるたくさんのリンクのなかの「リソース」から「[ダウンロード](https://scratch.mit.edu/download)を選択するとダウンロード画面になります。インストール版が利用できるのは、Mac / Windows PC / Chromebook / Androidタブレットで、iPadやiPhone、Andrdoidスマートフォンでは利用できません。
+
+
+オンライン版とオフライン版の違いは以下の通りです。
+||オンライン版|インストール版|
+|:--:|:--|:--|
+||||
+||||
+||||
+||||
+
+### Scratchアカウントについて
+オンライン版Scratchを利用する際、Scratchアカウントを作っておくと自分のアカウントに作品を保存したり、作った作品を共有（公開）できるので便利です。
+
+Scratchアカウントの作成にはメールアドレスが必要ですが、アカウントの作成者が16歳未満の場合は、保護者のメールアドレスが必要となりますのでご注意ください。
+
+Scratch アカウントの作り方については、こちらの動画で詳しく説明されていますので、こちらをご覧ください。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TfzsNagGC_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 利用時の注意事項
+
+
+
 
 - [Scratch 公式サイト](https://scratch.mit.edu/){:target="_blank"}
 - [Scratch 補足資料](https://docs.google.com/document/d/1BD5fTRX7ihLNrUrq-fiuGtyQgzIq2qxuXb02o6LKadw/edit){:target="_blank"}
 
-## 教材
-Tera school オリジナルの教材です。
-- [Scratch0）Scratchをはじめよう！](https://docs.google.com/document/d/1zGpG-K_EYTrKhw3F4C1R2YQROT75KMkG8ELqv7G-h1k/edit?usp=sharing){:target="_blank"}
-- [Scratch1）動き・定義ブロック](https://docs.google.com/document/d/1I96mF_u0RWC9_Qo7w_DmqbHS3fTF4Vn8sHiv6uY4PNs/edit?usp=sharing){:target="_blank"}
-- [Scratch2）変数ブロック](https://docs.google.com/document/d/1Ggz71P8RxrYlns82OvOCQWpGmulz3WDxE3QZzWiIrvw/edit?usp=sharing){:target="_blank"}
-- [Scratch3）色判定](https://docs.google.com/document/d/1-WgdBU6TNeV4G7_53qYL2qO9fqkwHn1DlUgn5Pe-Zug/edit?usp=sharing){:target="_blank"}
-- [Scratch4）色センサー](https://docs.google.com/document/d/1dCY_UUJ1tY5MLPyjRcR0wjQgykw9Hnuw-Ul3fNnEpE0/edit?usp=sharing){:target="_blank"}
-- [Scratch5）フィズバズ](https://docs.google.com/document/d/1-loDFBBmnmuUUA5Rd00AhqBUv6FQ9OmtjLQ8En3y7i4/edit?usp=sharing){:target="_blank"}
-- [Scratch6）九九](https://docs.google.com/document/d/1ew41jiwAQGYDRU0bXnaKhSats8aiB4GW4NNILonB2hg/edit?usp=sharing){:target="_blank"}
 
 ## 作品例
 - [Scratchサンプルプログラム](https://scratch.mit.edu/projects/264543197/){:target="_blank"}
