@@ -71,6 +71,15 @@ Scratchを利用するにあたっては、まず以下のページをご一読�
     - [参考プログラム](https://scratch.mit.edu/projects/351385971/editor){:target="_blank"}
 - [タイマー](https://scratch.mit.edu/projects/321676224/){:target="_blank"}
 
+## Tera schoolオリジナル教材
+ - [Scratch0）Scratchをはじめよう！](https://docs.google.com/document/d/1zGpG-K_EYTrKhw3F4C1R2YQROT75KMkG8ELqv7G-h1k/edit?usp=sharing){:target="_blank"}
+ - [Scratch1）動き・定義ブロック](https://docs.google.com/document/d/1I96mF_u0RWC9_Qo7w_DmqbHS3fTF4Vn8sHiv6uY4PNs/edit?usp=sharing){:target="_blank"}
+ - [Scratch2）変数ブロック](https://docs.google.com/document/d/1Ggz71P8RxrYlns82OvOCQWpGmulz3WDxE3QZzWiIrvw/edit?usp=sharing){:target="_blank"}
+ - [Scratch3）色判定](https://docs.google.com/document/d/1-WgdBU6TNeV4G7_53qYL2qO9fqkwHn1DlUgn5Pe-Zug/edit?usp=sharing){:target="_blank"}
+ - [Scratch4）色センサー](https://docs.google.com/document/d/1dCY_UUJ1tY5MLPyjRcR0wjQgykw9Hnuw-Ul3fNnEpE0/edit?usp=sharing){:target="_blank"}
+ - [Scratch5）フィズバズ](https://docs.google.com/document/d/1-loDFBBmnmuUUA5Rd00AhqBUv6FQ9OmtjLQ8En3y7i4/edit?usp=sharing){:target="_blank"}
+ - [Scratch6）九九](https://docs.google.com/document/d/1ew41jiwAQGYDRU0bXnaKhSats8aiB4GW4NNILonB2hg/edit?usp=sharing){:target="_blank"}
+
 ## よくあるご質問
 
 ## スタッフからのコメント
