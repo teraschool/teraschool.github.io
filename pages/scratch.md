@@ -5,6 +5,18 @@ sort: 1
 ## Scratchについて
 ScratchはMITメディアラボにあるライフロング・キンダーガーテングループが開発したビジュアルプログラミング言語で、Scratch財団により無償で提供されています。
 
+## 作品例
+- [FirstMission](https://scratch.mit.edu/projects/68155398/){:target="_blank"}
+- [Scratchサンプルプログラム](https://scratch.mit.edu/projects/264543197/){:target="_blank"}
+- [風船割りゲーム](https://scratch.mit.edu/projects/335964929/){:target="_blank"}
+- [インベーダー](https://scratch.mit.edu/projects/240742062/){:target="_blank"}
+- [棒人間](https://scratch.mit.edu/projects/335965017/){:target="_blank"}
+    - [棒人間モーション素材（パンチ&キック）](https://scratch.mit.edu/projects/343607140/){:target="_blank"}
+- [リズムゲーム](https://scratch.mit.edu/projects/335965068/){:target="_blank"}
+    - [解説資料](https://drive.google.com/file/d/1FHda8CV1BfjV05ZOC2R-Z2Lvj8vCOHGA/view){:target="_blank"}
+    - [参考プログラム](https://scratch.mit.edu/projects/351385971/editor){:target="_blank"}
+- [タイマー](https://scratch.mit.edu/projects/321676224/){:target="_blank"}
+
 ## 使い方
 Scratchにはwebブラウザで利用できる「オンライン版」とPCにインストールして利用する「インストール版」があり、いずれも無償で利用できます。
 
@@ -33,16 +45,6 @@ Scratch アカウントの作り方については、こちらの動画で詳し
 
 <iframe style="width:560px; height:315px;" src="https://www.youtube.com/embed/TfzsNagGC_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## 作品例
-- [Scratchサンプルプログラム](https://scratch.mit.edu/projects/264543197/){:target="_blank"}
-- [風船割りゲーム](https://scratch.mit.edu/projects/335964929/){:target="_blank"}
-- [インベーダー](https://scratch.mit.edu/projects/240742062/){:target="_blank"}
-- [棒人間](https://scratch.mit.edu/projects/335965017/){:target="_blank"}
-    - [棒人間モーション素材（パンチ&キック）](https://scratch.mit.edu/projects/343607140/){:target="_blank"}
-- [リズムゲーム](https://scratch.mit.edu/projects/335965068/){:target="_blank"}
-    - [解説資料](https://drive.google.com/file/d/1FHda8CV1BfjV05ZOC2R-Z2Lvj8vCOHGA/view){:target="_blank"}
-    - [参考プログラム](https://scratch.mit.edu/projects/351385971/editor){:target="_blank"}
-- [タイマー](https://scratch.mit.edu/projects/321676224/){:target="_blank"}
 
 ## 利用時の注意事項
 Scratchを利用するにあたっては、まず以下のページをご一読ください。特に[Scratchコミュニティーのガイドライン](https://scratch.mit.edu/community_guidelines){:target="_blank"}は重要ですので、必ずお読みください。
