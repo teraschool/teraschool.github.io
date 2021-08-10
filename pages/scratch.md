@@ -33,6 +33,17 @@ Scratch アカウントの作り方については、こちらの動画で詳し
 
 <iframe style="width:560px; height:315px;" src="https://www.youtube.com/embed/TfzsNagGC_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## 作品例
+- [Scratchサンプルプログラム](https://scratch.mit.edu/projects/264543197/){:target="_blank"}
+- [風船割りゲーム](https://scratch.mit.edu/projects/335964929/){:target="_blank"}
+- [インベーダー](https://scratch.mit.edu/projects/240742062/){:target="_blank"}
+- [棒人間](https://scratch.mit.edu/projects/335965017/){:target="_blank"}
+    - [棒人間モーション素材（パンチ&キック）](https://scratch.mit.edu/projects/343607140/){:target="_blank"}
+- [リズムゲーム](https://scratch.mit.edu/projects/335965068/){:target="_blank"}
+    - [解説資料](https://drive.google.com/file/d/1FHda8CV1BfjV05ZOC2R-Z2Lvj8vCOHGA/view){:target="_blank"}
+    - [参考プログラム](https://scratch.mit.edu/projects/351385971/editor){:target="_blank"}
+- [タイマー](https://scratch.mit.edu/projects/321676224/){:target="_blank"}
+
 ## 利用時の注意事項
 Scratchを利用するにあたっては、まず以下のページをご一読ください。特に[Scratchコミュニティーのガイドライン](https://scratch.mit.edu/community_guidelines){:target="_blank"}は重要ですので、必ずお読みください。
 
@@ -60,17 +71,8 @@ Scratchを利用するにあたっては、まず以下のページをご一読�
 ### 資料
 - [Scratch 補足資料](https://docs.google.com/document/d/1BD5fTRX7ihLNrUrq-fiuGtyQgzIq2qxuXb02o6LKadw/edit){:target="_blank"}
 
-## 作品例
-- [Scratchサンプルプログラム](https://scratch.mit.edu/projects/264543197/){:target="_blank"}
-- [風船割りゲーム](https://scratch.mit.edu/projects/335964929/){:target="_blank"}
-- [インベーダー](https://scratch.mit.edu/projects/240742062/){:target="_blank"}
-- [棒人間](https://scratch.mit.edu/projects/335965017/){:target="_blank"}
-    - [棒人間モーション素材（パンチ&キック）](https://scratch.mit.edu/projects/343607140/){:target="_blank"}
-- [リズムゲーム](https://scratch.mit.edu/projects/335965068/){:target="_blank"}
-    - [解説資料](https://drive.google.com/file/d/1FHda8CV1BfjV05ZOC2R-Z2Lvj8vCOHGA/view){:target="_blank"}
-    - [参考プログラム](https://scratch.mit.edu/projects/351385971/editor){:target="_blank"}
-- [タイマー](https://scratch.mit.edu/projects/321676224/){:target="_blank"}
 
+{% comment %}
 ## Tera schoolオリジナル教材
  - [Scratch0）Scratchをはじめよう！](https://docs.google.com/document/d/1zGpG-K_EYTrKhw3F4C1R2YQROT75KMkG8ELqv7G-h1k/edit?usp=sharing){:target="_blank"}
  - [Scratch1）動き・定義ブロック](https://docs.google.com/document/d/1I96mF_u0RWC9_Qo7w_DmqbHS3fTF4Vn8sHiv6uY4PNs/edit?usp=sharing){:target="_blank"}
@@ -79,6 +81,7 @@ Scratchを利用するにあたっては、まず以下のページをご一読�
  - [Scratch4）色センサー](https://docs.google.com/document/d/1dCY_UUJ1tY5MLPyjRcR0wjQgykw9Hnuw-Ul3fNnEpE0/edit?usp=sharing){:target="_blank"}
  - [Scratch5）フィズバズ](https://docs.google.com/document/d/1-loDFBBmnmuUUA5Rd00AhqBUv6FQ9OmtjLQ8En3y7i4/edit?usp=sharing){:target="_blank"}
  - [Scratch6）九九](https://docs.google.com/document/d/1ew41jiwAQGYDRU0bXnaKhSats8aiB4GW4NNILonB2hg/edit?usp=sharing){:target="_blank"}
+{% commentout %}
 
 ## よくあるご質問
 
