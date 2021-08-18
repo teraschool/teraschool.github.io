@@ -2,3 +2,22 @@
 ---
 
 @import "theme.scss";
+
+.markdown-body {
+  h1 {
+    font-size: 3em;
+  }
+  
+  h2 {
+    background-color: rgba(41, 128, 185, 0.1);
+    padding: 1rem 1rem;
+    margin-top: 2rem;
+  }
+  h3 {
+    text-decoration: underline;
+    margin-top: 2rem;
+  }
+  p {
+    padding: 0 1rem;
+  }
+}
