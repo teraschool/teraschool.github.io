@@ -61,7 +61,7 @@ Scratchを利用するにあたっては、まず以下のページをご一読�
 - [保護者の方へ](https://scratch.mit.edu/parents/){:target="_blank"}
 - [教育者向けScratch](https://scratch.mit.edu/educators/){:target="_blank"}
 
-## 参考になるwebサイトや書籍、資料など
+## 参考情報
 
 ### 動画
 - [わくわくプログラミング](https://t.co/YRL7zT6yXD?amp=1)[https://www.youtube.com/playlist?list=PLfEbT0fPTpBt0RaNMY5mEGdOZiHZoMo0Y]  
