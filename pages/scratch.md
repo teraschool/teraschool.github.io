@@ -3,7 +3,7 @@ sort: 1
 ---
 # Scratch
 ## Scratchについて
-ScratchはMITメディアラボにあるライフロング・キンダーガーテングループが開発したビジュアルプログラミング言語で、Scratch財団により無償で提供されています。
+Scratchは[MITメディアラボ](https://www.media.mit.edu)の[Lifelong Kindergarten Group](https://www.media.mit.edu/groups/lifelong-kindergarten/overview/)が開発したビジュアルプログラミング言語で、[Scratch財団](https://www.scratchfoundation.org/)により無償で提供されています。
 
 Scratchのアカウント登録ユーザー数は全世界で約7,500万人にのぼり（2021年8月19日時点）そのうち日本のユーザーは93万人とも言われている（要出典確認）。[Scratchの統計（英語）](https://scratch.mit.edu/statistics/)
 
@@ -62,6 +62,11 @@ Scratchを利用するにあたっては、まず以下のページをご一読�
 - [教育者向けScratch](https://scratch.mit.edu/educators/){:target="_blank"}
 
 ## 参考になるwebサイトや書籍、資料など
+
+### 動画
+- [わくわくプログラミング](https://t.co/YRL7zT6yXD?amp=1)[https://www.youtube.com/playlist?list=PLfEbT0fPTpBt0RaNMY5mEGdOZiHZoMo0Y]  
+こちらは以前Udemyで公開されていたものが公式に転載されたものです。使われているScratchは1.4と古いものですが、基本的な使い方は最新の3.0でも大きくは変わっていませんので参考になると思います。
+
 ### webサイト
 - [メクルン](https://mekurun.com){:target="_blank"}  
 プログラミングや作品の作り方をスライドをめくるようにして解説しているwebサイトです。無償で利用可能です。
