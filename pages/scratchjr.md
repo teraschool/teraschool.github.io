@@ -11,7 +11,7 @@ ScratchJrは、タブレット用のアプリとして提供されておりiPad�
 - [iPad版ダウンロード](https://apps.apple.com/jp/app/scratchjr/id895485086)
 - [Android版ダウンロード](https://play.google.com/store/apps/details?id=org.scratchjr.android)
 
-## 参考になるwebサイトや書籍、資料など
+## 参考情報
 ### 動画
 - [すくすくプログラミング](https://www.youtube.com/watch?v=w9pE6jZwsqg&list=PLthT4KrjYnXV6yCK16TafYx7BIljLpxWl)
 こちらは以前Udemyで公開されていたものが公式に転載されたものです。使われているScratchは1.4と古いものですが、基本的な使い方は最新の3.0でも大きくは変わっていませんので参考になると思います。
