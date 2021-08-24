@@ -27,11 +27,9 @@
 }
 
 .bookshelf {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 
   .book {
     display: flex;
@@ -39,7 +37,7 @@
     justify-content: center;
     align-items: center;
     width: 180px;
-    text-align: center;
+    margin-bottom: 30px;
 
     .cover {
       display: block;
@@ -64,6 +62,7 @@
       -webkit-box-shadow: inset 1px 1px 1px #fff;
       box-shadow: inset 1px 1px 1px #fff;
       margin-top: 3px;
+      text-align: center;
 
       &:hover {
         background: -webkit-gradient(linear, left bottom, left top, from(#fdfbfb), to(#ebedee));
