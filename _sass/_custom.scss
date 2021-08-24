@@ -32,17 +32,25 @@
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 
   .book {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-rows: 160px 40px 40px 100px;
+    justify-items: center;
     width: 180px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
     .cover {
       display: block;
       height: 150px;
       width: auto;
+      margin-bottom: 10px;
+    }
+
+    .dummy_cover {
+      display: block;
+      height: 150px;
+      width: auto;
+      border: solid 1px gray;
+      background-color: transparent;
     }
 
     .title {
@@ -51,6 +59,7 @@
       font-size: 0.8rem;
       padding: 3px 5px;
       margin-top: 5px;
+      overflow: hidden;
     }
 
     .btn {
@@ -64,6 +73,7 @@
       box-shadow: inset 1px 1px 1px #fff;
       margin-top: 3px;
       text-align: center;
+      height: 30px;
 
       &:hover {
         background: -webkit-gradient(linear, left bottom, left top, from(#fdfbfb), to(#ebedee));
