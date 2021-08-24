@@ -38,30 +38,60 @@ Pythonの世界的なカンファレンスイベントです。世界中で活�
 
 ### 書籍
 <div class="bookshelf">
-    <div class="book">
-        <img class="cover" src="https://cover.openbd.jp/9784798153193.jpg">
-        <p class="title">Python 1年生 体験してわかる！会話でまなべる！プログラミングのしくみ</p>
-        <a class="btn amazon" href="https://amazon.jp/dp/4798153192" target="blank">Amazonで購入</a>
-        <a class="btn library" href="https://calil.jp/book/4798153192" target="blank">図書館で探す</a>
-    </div>
-    <div class="book">
-        <img class="cover" src="https://cover.openbd.jp/9784798161914.jpg">
-        <p class="title">Python2年生 スクレイピングのしくみ 体験してわかる！会話でまなべる！</p>
-        <a class="btn amazon" href="https://amazon.jp/dp/4798161918" target="blank">Amazonで購入</a>
-        <a class="btn library" href="https://calil.jp/book/4798161918" target="blank">図書館で探す</a>
-    </div>
-    <div class="book">
-        <img class="cover" src="https://cover.openbd.jp/9784798164960.jpg">
-        <p class="title">Python2年生 データ分析のしくみ 体験してわかる! 会話でまなべる!</p>
-        <a class="btn amazon" href="https://amazon.jp/dp/4798164968" target="blank">Amazonで購入</a>
-        <a class="btn library" href="https://calil.jp/book/4798161918" target="blank">図書館で探す</a>
-    </div>
-    <div class="book">
-        <img class="cover" src="https://cover.openbd.jp/978-4822288822.jpg">
-        <p class="title">ゲームセンターあらしと学ぶ プログラミング入門 まんが版こんにちはPython</p>
-        <a class="btn amazon" href="https://amazon.jp/dp/482228882X" target="blank">Amazonで購入</a>
-        <a class="btn library" href="https://calil.jp/book/9784822288822" target="blank">図書館で探す</a>
-    </div>
+	<div class="book">
+		<img class="cover" src="https://cover.openbd.jp/9784798153193.jpg">
+		<p class="title">Python 1年生 体験してわかる！会話でまなべる！プログラミングのしくみ</p>
+		<a class="btn amazon" href="https://amazon.jp/dp/4798153192" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4798153192" target="blank">図書館で探す</a>
+	</div>
+	<div class="book">
+		<img class="cover" src="https://cover.openbd.jp/9784798161914.jpg">
+		<p class="title">Python2年生 スクレイピングのしくみ 体験してわかる！会話でまなべる！</p>
+		<a class="btn amazon" href="https://amazon.jp/dp/4798161918" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4798161918" target="blank">図書館で探す</a>
+	</div>
+	<div class="book">
+		<img class="cover" src="https://cover.openbd.jp/9784798164960.jpg">
+		<p class="title">Python2年生 データ分析のしくみ 体験してわかる！会話でまなべる！</p>
+		<a class="btn amazon" href="https://amazon.jp/dp/4798164968" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4798164968" target="blank">図書館で探す</a>
+	</div>
+	<div class="book">
+		<img class="cover" src="https://cover.openbd.jp/9784822288822.jpg">
+		<p class="title">ゲームセンターあらしと学ぶ プログラミング入門 まんが版こんにちはPython</p>
+		<a class="btn amazon" href="https://amazon.jp/dp/482228882X" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/482228882X" target="blank">図書館で探す</a>
+	</div>
+	<div class="book">
+		<img class="cover" src="/assets/images/no_image.png">
+		<p class="title">つなげば動く！ Pythonふりがなプログラミング パターン文例80</p>
+		<a class="btn amazon" href="https://amazon.jp/dp/4295009202" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4295009202" target="blank">図書館で探す</a>
+	</div>
+	<div class="book">
+		<img class="cover" src="https://cover.openbd.jp/9784822292270.jpg">
+		<p class="title">独学プログラマー Python言語の基本から仕事のやり方まで</p>
+		<a class="btn amazon" href="https://amazon.jp/dp/4822292274" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4822292274" target="blank">図書館で探す</a>
+	</div>
+	<div class="book">
+		<img class="cover" src="https://cover.openbd.jp/9784297107383.jpg">
+		<p class="title">Pythonクローリング＆スクレイピング[増補改訂版] -データ収集・解析のための実践開発ガイド-</p>
+		<a class="btn amazon" href="https://amazon.jp/dp/4297107384" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4297107384" target="blank">図書館で探す</a>
+	</div>
+	<div class="book">
+		<img class="cover" src="/assets/images/no_image.png">
+		<p class="title">退屈なことはPythonにやらせよう</p>
+		<a class="btn amazon" href="https://amazon.jp/dp/487311778X" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/487311778X" target="blank">図書館で探す</a>
+	</div>
+	<div class="book">
+		<img class="cover" src="https://cover.openbd.jp/9784873119328.jpg">
+		<p class="title">入門Python3　第2版</p>
+		<a class="btn amazon" href="https://amazon.jp/dp/4873119324" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4873119324" target="blank">図書館で探す</a>
+	</div>
 </div>
 
 {% comment %}

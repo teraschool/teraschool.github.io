@@ -72,15 +72,62 @@ Scratchを利用するにあたっては、まず以下のページをご一読�
 プログラミングや作品の作り方をスライドをめくるようにして解説しているwebサイトです。無償で利用可能です。
 
 ### 書籍
-- [Scratchでつくる!たのしむ!プログラミング道場 改訂第2版 Scratch3.0対応](https://amazon.jp/dp/4800712386){:target="_blank"}
-- [小学生からはじめるわくわくプログラミング](https://amazon.jp/dp/4822285154){:target="_blank"}
-- [小学生からはじめるわくわくプログラミング2 Scratch 3.0版](https://amazon.jp/dp/4822286207){:target="_blank"}
-- [使って遊べる！Scratchおもしろプログラミングレシピ](https://amazon.jp/dp/4798159859){:target="_blank"}
-- [Scratchではじめよう! プログラミング入門 Scratch 3.0版](https://amazon.jp/dp/4822286258){:target="_blank"}
-- [できるキッズ スクラッチでゲームをつくろう! 楽しく学べるプログラミング](https://amazon.jp/dp/4295009164){:target="_blank"}
-- [できるキッズ 子どもと学ぶ Scratch プログラミング入門](https://amazon.jp/dp/4295001317){:target="_blank"}
-- [Scratchで楽しく学ぶアート&サイエンス 改訂第2版](https://amazon.jp/dp/4296070142){:target="_blank"}
-- [Scratchで学ぶ プログラミングとアルゴリズムの基本 改訂第2版](https://amazon.jp/dp/4822286177){:target="_blank"}
+<div class="bookshelf">
+	<div class="book">
+		<img class="cover" src="https://cover.openbd.jp/9784800712387.jpg">
+		<p class="title">CoderDojo Japan公式ブック         Scratchでつくる！たのしむ！プログラミング道場 改訂第2版 Scratch 3.0対応</p>
+		<a class="btn amazon" href="https://amazon.jp/dp/4800712386" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4800712386" target="blank">図書館で探す</a>
+	</div>
+	<div class="book">
+		<img class="cover" src="https://cover.openbd.jp/9784822285159.jpg">
+		<p class="title">小学生からはじめるわくわくプログラミング</p>
+		<a class="btn amazon" href="https://amazon.jp/dp/4822285154" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4822285154" target="blank">図書館で探す</a>
+	</div>
+	<div class="book">
+		<img class="cover" src="https://cover.openbd.jp/9784822286200.jpg">
+		<p class="title">小学生からはじめるわくわくプログラミング2 Scratch 3.0版</p>
+		<a class="btn amazon" href="https://amazon.jp/dp/4822286207" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4822286207" target="blank">図書館で探す</a>
+	</div>
+	<div class="book">
+		<img class="cover" src="https://cover.openbd.jp/9784798159850.jpg">
+		<p class="title">使って遊べる！Scratchおもしろプログラミングレシピ</p>
+		<a class="btn amazon" href="https://amazon.jp/dp/4798159859" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4798159859" target="blank">図書館で探す</a>
+	</div>
+	<div class="book">
+		<img class="cover" src="https://cover.openbd.jp/9784822286255.jpg">
+		<p class="title">Scratchではじめよう! プログラミング入門　Scratch 3.0版</p>
+		<a class="btn amazon" href="https://amazon.jp/dp/4822286258" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4822286258" target="blank">図書館で探す</a>
+	</div>
+	<div class="book">
+		<img class="cover" src="/assets/images/no_image.png">
+		<p class="title">できるキッズ　スクラッチでゲームをつくろう！　楽しく学べるプログラミング</p>
+		<a class="btn amazon" href="https://amazon.jp/dp/4295009164" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4295009164" target="blank">図書館で探す</a>
+	</div>
+	<div class="book">
+		<img class="cover" src="/assets/images/no_image.png">
+		<p class="title">子どもと学ぶScratchプログラミング入門</p>
+		<a class="btn amazon" href="https://amazon.jp/dp/4295001317" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4295001317" target="blank">図書館で探す</a>
+	</div>
+	<div class="book">
+		<img class="cover" src="https://cover.openbd.jp/9784296070145.jpg">
+		<p class="title">Scratchで楽しく学ぶアート＆サイエンス 改訂第２版</p>
+		<a class="btn amazon" href="https://amazon.jp/dp/4296070142" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4296070142" target="blank">図書館で探す</a>
+	</div>
+	<div class="book">
+		<img class="cover" src="/assets/images/no_image.png">
+		<p class="title">Scratchで学ぶ プログラミングとアルゴリズムの基本　改訂第２版</p>
+		<a class="btn amazon" href="https://amazon.jp/dp/4822286177" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4822286177" target="blank">図書館で探す</a>
+	</div>
+</div>
 
 ### 資料
 - [Scratch 補足資料](https://docs.google.com/document/d/1BD5fTRX7ihLNrUrq-fiuGtyQgzIq2qxuXb02o6LKadw/edit){:target="_blank"}
