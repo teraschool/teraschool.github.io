@@ -37,7 +37,10 @@ Pythonの世界的なカンファレンスイベントです。世界中で活�
 こちらはPyConの日本版です。
 
 ### 書籍
-- [ゲームセンターあらしと学ぶ プログラミング入門 まんが版こんにちはPython](https://amazon.jp/dp/482228882X){:target="_blank"}
+-[![Python 1年生 体験してわかる！会話でまなべる！プログラミングのしくみ](https://cover.openbd.jp/9784798153193.jpg)](https://amazon.jp/dp/4798153192)
+-[![Python2年生 スクレイピングのしくみ 体験してわかる！会話でまなべる！](https://cover.openbd.jp/9784798161914.jpg)](https://amazon.jp/dp/4798161918)
+-[![Python2年生 データ分析のしくみ 体験してわかる! 会話でまなべる!](https://cover.openbd.jp/9784798164960.jpg)](https://amazon.jp/dp/4798164968)
+- [![ゲームセンターあらしと学ぶ プログラミング入門 まんが版こんにちはPython](https://cover.openbd.jp/978-4822288822.jpg)](https://amazon.jp/dp/482228882X)
 
 {% comment %}
 
