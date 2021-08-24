@@ -37,10 +37,32 @@ Pythonの世界的なカンファレンスイベントです。世界中で活�
 こちらはPyConの日本版です。
 
 ### 書籍
--[![Python 1年生 体験してわかる！会話でまなべる！プログラミングのしくみ](https://cover.openbd.jp/9784798153193.jpg)](https://amazon.jp/dp/4798153192)
--[![Python2年生 スクレイピングのしくみ 体験してわかる！会話でまなべる！](https://cover.openbd.jp/9784798161914.jpg)](https://amazon.jp/dp/4798161918)
--[![Python2年生 データ分析のしくみ 体験してわかる! 会話でまなべる!](https://cover.openbd.jp/9784798164960.jpg)](https://amazon.jp/dp/4798164968)
-- [![ゲームセンターあらしと学ぶ プログラミング入門 まんが版こんにちはPython](https://cover.openbd.jp/978-4822288822.jpg)](https://amazon.jp/dp/482228882X)
+<div class="bookshelf">
+    <div class="book">
+        <img class="cover" src="https://cover.openbd.jp/9784798153193.jpg">
+        <p class="title">Python 1年生 体験してわかる！会話でまなべる！プログラミングのしくみ</p>
+        <a class="btn amazon" href="https://amazon.jp/dp/4798153192" target="blank">Amazonで購入</a>
+        <a class="btn library" href="https://calil.jp/book/4798153192" target="blank">図書館で探す</a>
+    </div>
+    <div class="book">
+        <img class="cover" src="https://cover.openbd.jp/9784798161914.jpg">
+        <p class="title">Python2年生 スクレイピングのしくみ 体験してわかる！会話でまなべる！</p>
+        <a class="btn amazon" href="https://amazon.jp/dp/4798161918" target="blank">Amazonで購入</a>
+        <a class="btn library" href="https://calil.jp/book/4798161918" target="blank">図書館で探す</a>
+    </div>
+    <div class="book">
+        <img class="cover" src="https://cover.openbd.jp/9784798164960.jpg">
+        <p class="title">Python2年生 データ分析のしくみ 体験してわかる! 会話でまなべる!</p>
+        <a class="btn amazon" href="https://amazon.jp/dp/4798164968" target="blank">Amazonで購入</a>
+        <a class="btn library" href="https://calil.jp/book/4798161918" target="blank">図書館で探す</a>
+    </div>
+    <div class="book">
+        <img class="cover" src="https://cover.openbd.jp/978-4822288822.jpg">
+        <p class="title">ゲームセンターあらしと学ぶ プログラミング入門 まんが版こんにちはPython</p>
+        <a class="btn amazon" href="https://amazon.jp/dp/482228882X" target="blank">Amazonで購入</a>
+        <a class="btn library" href="https://calil.jp/book/9784822288822" target="blank">図書館で探す</a>
+    </div>
+</div>
 
 {% comment %}
 
