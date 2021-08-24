@@ -15,7 +15,6 @@
     margin-top: 3rem;
   }
 
-
   h3 {
     font-size: 1rem;
     background-color: rgba(255, 0, 0, 0.1);
@@ -32,21 +31,31 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
+  flex-wrap: wrap;
 
   .book {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    
-    .cover {
+    align-items: center;
+    width: 180px;
+    text-align: center;
 
+    .cover {
+      display: block;
+      height: 150px;
+      width: auto;
     }
 
     .title {
+      display: block;
+      color: black;
+      font-size: 0.8rem;
+      padding: 3px 5px;
     }
 
     .btn {
+      width: 90%;
       border: 1px solid #ccc;
       background: #f1e767;
       background: -webkit-gradient(linear, left top, left bottom, from(#fdfbfb), to(#ebedee));
@@ -54,6 +63,7 @@
       background: linear-gradient(to bottom, #fdfbfb 0%, #ebedee 100%);
       -webkit-box-shadow: inset 1px 1px 1px #fff;
       box-shadow: inset 1px 1px 1px #fff;
+      margin-top: 3px;
 
       &:hover {
         background: -webkit-gradient(linear, left bottom, left top, from(#fdfbfb), to(#ebedee));
@@ -61,11 +71,12 @@
         background: linear-gradient(to top, #fdfbfb 0%, #ebedee 100%);
       }
       .amazon {
-
+        margin-bottom: 5px;
       }
 
       .library {
-
+        margin-top: 5px;
       }
     }
+  }
 }
