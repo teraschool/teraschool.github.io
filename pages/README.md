@@ -2,6 +2,6 @@
 sort: 1
 ---
 
-# インデックス
+# 目次
 
 {% include list.liquid all=true %}
