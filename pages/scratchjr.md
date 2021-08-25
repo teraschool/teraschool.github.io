@@ -13,8 +13,10 @@ ScratchJrは、タブレット用のアプリとして提供されておりiPad�
 
 ## 参考情報
 ### 動画
-- [すくすくプログラミング](https://www.youtube.com/watch?v=w9pE6jZwsqg&list=PLthT4KrjYnXV6yCK16TafYx7BIljLpxWl)
-こちらは以前Udemyで公開されていたものが公式に転載されたものです。使われているScratchは1.4と古いものですが、基本的な使い方は最新の3.0でも大きくは変わっていませんので参考になると思います。
+- [5才からはじめるすくすくプログラミング](https://www.youtube.com/watch?v=w9pE6jZwsqg&list=PLthT4KrjYnXV6yCK16TafYx7BIljLpxWl)
+こちらは以前Udemyで公開されていたものが公式に転載されたものです。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w9pE6jZwsqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 書籍
 <div class="bookshelf">
