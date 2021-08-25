@@ -19,7 +19,7 @@
                 {%- for block in blocks -%}
                     <li class="breadcrumb-item" {% if forloop.last %}aria-current="page"{% endif %}>
                         {%- if forloop.last -%}
-                            {{ page.name }}
+                            {{ page.title }}
                         {%- else -%}
                             <a href="{{ site.baseurl }}/{% for block in blocks limit: forloop.index %}{{ block }}/{% endfor %}">{{ block }}</a>
                         {%- endif -%}
