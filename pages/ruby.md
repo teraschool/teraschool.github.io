@@ -6,7 +6,6 @@ sort: 3
 
 ## Ruby on Railsについて
 
-
 ## 特徴
 
 ## 使い方
@@ -16,7 +15,7 @@ sort: 3
 ## 参考情報
 ### webサイト
 - [Ruby公式（日本語）](https://www.ruby-lang.org/ja/){:target="_blank"}
-- [Python公式ドキュメント（日本語）](https://docs.ruby-lang.org/ja/){:target="_blank"}
+- [Ruby公式ドキュメント（日本語）](https://docs.ruby-lang.org/ja/){:target="_blank"}
 
 ### コミュニティ・イベント
 
