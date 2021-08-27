@@ -1,5 +1,7 @@
 ---
 sort: 90
+title: おすすめ動画
+top_image: /assets/images/cover/movies.png
 ---
 # おすすめ動画
 

@@ -1,5 +1,7 @@
 ---
 sort: 11
+title: ScratchJr
+top_image: /assets/images/cover/scratchjr.png
 ---
 # ScratchJr
 ## ScratchJrについて

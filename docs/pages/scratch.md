@@ -1,5 +1,7 @@
 ---
 sort: 10
+title: Scratch
+top_image: /assets/images/cover/scratch.png
 ---
 # Scratch
 ## Scratchについて

@@ -1,5 +1,7 @@
 ---
 sort: 40
+title: HTML
+top_image: /assets/images/cover/html.png
 ---
 # HTML
 
