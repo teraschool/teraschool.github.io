@@ -68,7 +68,7 @@ Scratchを利用するにあたっては、まず以下のページをご一読�
 - [わくわくプログラミング](https://www.youtube.com/playlist?list=PLfEbT0fPTpBt0RaNMY5mEGdOZiHZoMo0Y)  
 こちらは以前Udemyで公開されていたものが公式に転載されたものです。使われているScratchは1.4と古いものですが、基本的な使い方は最新の3.0でも大きくは変わっていませんので参考になると思います。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfEbT0fPTpBt0RaNMY5mEGdOZiHZoMo0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include templates/youtube.liquid content="https://www.youtube.com/embed/videoseries?list=PLfEbT0fPTpBt0RaNMY5mEGdOZiHZoMo0Y" %}
 
 ### webサイト
 - [メクルン](https://mekurun.com){:target="_blank"}  
