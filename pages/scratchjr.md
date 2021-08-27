@@ -19,7 +19,7 @@ ScratchJrは、タブレット用のアプリとして提供されておりiPad�
 - [5才からはじめるすくすくプログラミング](https://www.youtube.com/watch?v=w9pE6jZwsqg&list=PLthT4KrjYnXV6yCK16TafYx7BIljLpxWl)
 こちらは以前Udemyで公開されていたものが公式に転載されたものです。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w9pE6jZwsqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include templates/youtube.liquid content="https://www.youtube.com/embed/w9pE6jZwsqg" %}
 
 ### 書籍
 <div class="bookshelf">
