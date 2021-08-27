@@ -1,5 +1,7 @@
 ---
 sort: 30
+title: Ruby
+top_image: /assets/images/cover/ruby.png
 ---
 # Ruby
 ## Rubyについて

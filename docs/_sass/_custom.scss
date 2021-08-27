@@ -106,3 +106,39 @@
   width: 100%;
   height: 100%;
 }
+
+// トップページ用
+.top_shelf {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  .top_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 120px;
+    width: 33%;
+    margin-bottom: 20px;
+    margin-right: 2rem;
+
+    p {
+      display: block;
+      color: black;
+      font-size: 0.8rem;
+      padding: 3px 1.6rem;
+      margin-top: 5px;
+      overflow: hidden;
+    }
+
+    img {
+      display: block;
+      height: 120px;
+      width: auto;
+      margin-bottom: 10px;
+    }
+  }
+}

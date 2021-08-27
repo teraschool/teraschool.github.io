@@ -1,5 +1,7 @@
 ---
 sort: 13
+title: Viscuit（ビスケット）
+top_image: /assets/images/cover/viscuit.png
 ---
 # Viscuit（ビスケット）
 ## Viscuitについて
