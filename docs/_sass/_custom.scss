@@ -4,25 +4,44 @@
   }
   
   h2 {
-    font-size: 1.2rem;
-    // background-color: rgba(41, 128, 185, 0.1);
+    font-size: 1.4rem;
     background-color: rgba(0, 0, 0, 0.1);
     padding: 0.5rem 0.5rem;
-    margin-top: 1rem;
-  }
-
-  h2:first-child {
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 
   h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     background-color: rgba(255, 0, 0, 0.1);
     padding: 0.5rem 0.5rem;
     margin-top: 1rem;
   }
+  h4 {
+    font-size: 1rem;
+    text-decoration: underline;
+    margin-left: 0.5rem;
+  }
   p {
     padding: 0 1rem;
+  }
+
+  .google {
+    display: inline-block;
+    a {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      border-radius: 6px;
+      padding: 10px 15px;
+      background-color: rgba(0,0,0,0.2);
+      line-height: 1.5rem;
+      img {
+        margin-right: 0.5rem;
+        height: 1.5rem;
+        width: auto;
+        background-color: transparent;
+      }
+    }
   }
 }
 
