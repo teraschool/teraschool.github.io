@@ -10,4 +10,5 @@
 このサイトの更新に協力してくださっているのは、[こちらの方々](https://github.com/teraschool/teraschool.github.io/graphs/contributors)です。
 
 ## サイトの更新方法
+- [Google検索リンクの埋め込みについて](how/Google.md)
 - [YouTube動画の埋め込みについて](how/YouTube.md)
