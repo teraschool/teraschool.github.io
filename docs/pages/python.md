@@ -7,21 +7,73 @@ top_image: /assets/images/cover/python.png
 ## Pythonについて
 Pythonは、1991年にグイド・ヴァン・ロッサムさんが開発されたプログラミング言語で、ビッグデータの処理や人工知能、webアプリケーションの開発まで幅広く利用されています。
 
-## 特徴
-多くのモジュール（ソフトウェアの機能の塊）が公開されており、それらを使うことで複雑なプログラムも比較的に手軽に作成できます。
+### 特徴
+#### コードのの読みやすさと書きやすさ
+Pythonはプログラムの構造（処理のまとまり）をインデント（字下げ）で表現するため、書いた人のクセが出にくく初学者には読みやすいです。
 
-## 使い方
-Pythonを利用するには、自分のPCにPythonをインストールするやり方と、ネット上で公開されているプログラミング環境を利用するやり方の2通りがあります。
+多くのプログラミング言語は { } を使って処理の塊を定義します。以下の2つのプログラムはどちらも同じ動作をしますが記述方法が異なっています。
 
-### インストール手順
-インストール手順は以下のドキュメントをご覧ください。
+```
+function func(a, b) {
+  return a + b;
+}
+
+function func(a, b) { return a + b; }
+```
+これに対して、Pythonではインデント（字下げ）で構造を表すため、誰が書いても以下のようになります。
+```
+def func(a, b):
+  return a + b
+```
+
+必ずインデント（字下げ）が用いられるため構造がわかりやすい、コードを書く人のクセが出にくいという特徴があります。
+
+#### たくさんの作成済みプログラムを再利用できる
+Pythonには多くのモジュールと呼ばれる再利用できるソフトウェアが公開されています。モジュールには、画像処理に関するもの、通信に関するもの、数学や統計に関するもの、人工知能（機械学習）に関するものなど多くのものがあり、すべてを自分でゼロから作るよりも高度なプログラムを比較的に手軽に作れます。
+
+## 利用方法
+Pythonを利用するには、自分のPCにPythonとモジュールをインストールする方法と、ネット上で公開されているプログラミング環境を利用するやり方の2通りがあります。
+
+### Python本体とモジュールのインストール
+
+#### Python本体のインストール
+インストール手順は以下のリンク先をご覧ください。
+
+- [Python環境構築ガイド](https://www.python.jp/install/install.html)
+
+> 以下のドキュメントは外そうと思います。
+
 - Python インストール（[Windows](https://drive.google.com/open?id=1wIMzs6Hqnpa8_S1rq6gRjYW2lNuNaEQRynt5BJFkFVI){:target="_blank"},[Mac](https://drive.google.com/open?id=1euMcX2DQIUjZRkNUN5-Msd5vOPhMdiWZG8w9jMl2I1Q){:target="_blank"}）
 - [Python 実行方法](https://drive.google.com/open?id=1vbJDavKES6KsAZce6jhPE8Kv4WpgqhrmXKe8VkP44p8){:target="_blank"}
 
-### ネット上の環境
+#### モジュールのインストール
+Pythonでのプログラミングには多くの場合でモジュールを利用します。もちろん、モジュールを使わずに「全部自分で作る」という選択肢もありますが、現実的ではありません。
+自分が作りたいプログラムにあったモジュールを選択して'pip'というコマンドでインストールします。'pip'の使い方については[公式のドキュメント](https://docs.python.org/ja/3/installing/index.html){:target="_blank"}を参照してください。
+
+#### 本体とモジュールを同時にインストールする
+Python本体とモジュールを一緒にインストールする方法として'Anaconda'があります。
+
+[Anaonda公式サイト（英語）](https://www.anaconda.com/){:target="_blank"}
+
+'Anaconda'とはPython本体と科学計算用途のモジュール、モジュールのインストールを管理する'conda'というシステムがセットになったもので、'Anaconda'をインストールするだけで約1,500ものモジュールがインストールされます。
+
+また、モジュールのインストールもコマンドライン（命令をキーボードで入力し実行する方法）で行なう'pip'に対してGUI（ウインドウをマウスで操作する方法）で操作する'conda'が使えますのでコマンドラインが苦手な方に向いています。
+
+一方、1,500ものモジュールを一度にインストールするため中には使わないモジュールも含まれることがあり、PCのディスク容量が無駄になるというデメリットもあります。
+
+#### tkinterを使う
+tkinterとはPythonでグラフィックを扱うためのツールで、グラフィックを使ったゲームを作る場合などに利用します。
+
+[tkinter --- Tcl/Tk の Python インタフェース](https://docs.python.org/ja/3/library/tkinter.html)
+
+{% include google.liquid content="python tkinter 使い方" %}
+
+### クラウド上の環境を利用する
 Google Colaboratoryを使うと、自分でPythonをインストールしなくてもブラウザだけですぐにPythonプログラミングを始められます。
 
-- [Google Colaboratory](http://colab.research.google.com)
+[Google Colaboratory](http://colab.research.google.com)
+
+
 
 ## 参考情報
 ### webサイト
@@ -112,6 +164,7 @@ Tera school が作成したオリジナル教材です。ご自由にお使い�
 - [Python問題_10_総合演習](https://docs.google.com/document/d/1-VSJDTZTDYgDjU5FxIc67caDHKEWnBLTuHPUOeqNOV4/edit?usp=sharing){:target="_blank"}
 
 {% endcomment %}
+
 
 ## よくあるご質問
 
