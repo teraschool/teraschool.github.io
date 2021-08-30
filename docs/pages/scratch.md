@@ -54,7 +54,7 @@ Scratchアカウントの作成にはメールアドレスが必要ですが、�
 
 Scratch アカウントの作り方については、こちらの動画で詳しく説明されていますので、こちらをご覧ください。
 
-{% include templates/youtube.liquid content="https://www.youtube.com/embed/TfzsNagGC_E" %}
+{% include youtube.liquid content="https://www.youtube.com/embed/TfzsNagGC_E" %}
 
 ## 利用時の注意事項
 Scratchを利用するにあたっては、まず以下のページをご一読ください。特に[Scratchコミュニティーのガイドライン](https://scratch.mit.edu/community_guidelines){:target="_blank"}は重要ですので、必ずお読みください。
@@ -70,7 +70,7 @@ Scratchを利用するにあたっては、まず以下のページをご一読�
 - [わくわくプログラミング](https://www.youtube.com/playlist?list=PLfEbT0fPTpBt0RaNMY5mEGdOZiHZoMo0Y)  
 こちらは以前Udemyで公開されていたものが公式に転載されたものです。使われているScratchは1.4と古いものですが、基本的な使い方は最新の3.0でも大きくは変わっていませんので参考になると思います。
 
-{% include templates/youtube.liquid content="https://www.youtube.com/embed/videoseries?list=PLfEbT0fPTpBt0RaNMY5mEGdOZiHZoMo0Y" %}
+{% include youtube.liquid content="https://www.youtube.com/embed/videoseries?list=PLfEbT0fPTpBt0RaNMY5mEGdOZiHZoMo0Y" %}
 
 ### webサイト
 - [メクルン](https://mekurun.com){:target="_blank"}  

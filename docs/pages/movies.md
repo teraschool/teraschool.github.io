@@ -7,4 +7,4 @@ top_image: /assets/images/cover/movies.png
 
 ## スーパーパワーを学ぼう - What Most Schools Don't Teach
 
-{% include templates/youtube.liquid content="https://www.youtube.com/embed/nKIu9yen5nc" %}
+{% include youtube.liquid content="https://www.youtube.com/embed/nKIu9yen5nc" %}
