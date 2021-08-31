@@ -4,9 +4,11 @@
 <div class="top_shelf">
 
 {%- for item in workdir_files %}
+    {%- if item.top_image %}
     <a class="top_item" href="{{ item.url | relative_url }}">
         <img src="{{ item.top_image }}" alt="{{ item.title }}" title="{{ item.title }}">
     </a>
+    {%- endif %}
 {%- endfor -%}
 
 </div>
