@@ -17,6 +17,7 @@ title: プログラミングをはじめよう
 教室に通う場合は、多くの教室で用意されている体験クラスに参加したり、すでに通っている人の話を聴くと良いでしょう。
 
 {% include google.liquid content="プログラミング教室 大人向け" %}
+
 {% include google.liquid content="プログラミング教室 子ども向け" %}
 
 ## 本ではじめる
@@ -46,6 +47,7 @@ title: プログラミングをはじめよう
 - [Codecademy（英語）](https://www.codecademy.com){:target="_blank"}
 
 {% include google.liquid content="プログラミング学習 動画" %}
+
 {% include google.liquid content="プログラミング学習 YouTube" %}
 
 ## 一緒に楽しむ仲間を見つける
