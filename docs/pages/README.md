@@ -14,5 +14,3 @@ sort: 1
 - このサイトで使用している書籍の表紙画像は、[openBDプロジェクト](https://openbd.jp)で提供されているものです。
 
 ## 目次
-
-{% include list.liquid all=true %}
