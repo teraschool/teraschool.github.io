@@ -1,6 +1,5 @@
 ---
 title: おすすめ動画
-top_image: /assets/images/cover/movies.png
 layout: single
 permalink: /movies/
 header:
