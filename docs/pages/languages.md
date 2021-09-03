@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/header/default.png
 ---
 
-<div id="languates">
+<div id="languages">
 {% include language.html content="scratch" %}
 {% include language.html content="scratchjr" %}
 {% include language.html content="viscuit" %}
