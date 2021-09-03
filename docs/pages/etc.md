@@ -1,12 +1,11 @@
 ---
-sort: 99
 title: その他
 top_image: /assets/images/cover/etc.png
 layout: single
 permalink: /etc/
+header:
+  overlay_image: /assets/images/cover/header.png
 ---
-# その他
-
 - [言語別文法](https://docs.google.com/document/d/1QXecBTlZa5b4ML_tPOB9gb1UuJZc9q7gB4zTHYC-ppo/edit?usp=sharing){:target="_blank"}
 - [フリー音楽：DOVA-SYNDROME](https://dova-s.jp/){:target="_blank"}
 - [フリーイラスト：いらすとや](https://www.irasutoya.com/){:target="_blank"}

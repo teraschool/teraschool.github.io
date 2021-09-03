@@ -1,11 +1,11 @@
 ---
-sort: 20
 title: Python
 top_image: /assets/images/cover/python.png
 layout: single
 permalink: /python/
+header:
+  overlay_image: /assets/images/cover/header.png
 ---
-# Python
 ## Pythonについて
 Pythonは、1991年にグイド・ヴァン・ロッサムさんが開発されたプログラミング言語で、ビッグデータの処理や人工知能、webアプリケーションの開発まで幅広く利用されています。
 

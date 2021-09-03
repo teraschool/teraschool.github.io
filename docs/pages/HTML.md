@@ -1,12 +1,11 @@
 ---
-sort: 40
 title: HTML
 top_image: /assets/images/cover/html.png
 layout: single
 permalink: /html/
+header:
+  overlay_image: /assets/images/cover/header.png
 ---
-# HTML
-
 ## 教材
 Tera school オリジナルの教材です。
 - [HTMLレジュメ_01](https://docs.google.com/document/d/1qJK5ajb8pX2GaNh6gTHjQlT_yPbb1rgFXeHyHG8sBKY/edit?usp=sharing){:target="_blank"}

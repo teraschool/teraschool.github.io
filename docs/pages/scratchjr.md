@@ -1,11 +1,11 @@
 ---
-sort: 11
 title: ScratchJr
 top_image: /assets/images/cover/scratchjr.png
 layout: single
 permalink: /scratchjr/
+header:
+  overlay_image: /assets/images/cover/header.png
 ---
-# ScratchJr
 ## ScratchJrについて
 ScratchJrは、[タフツ大学](https://www.tufts.edu)の[DevTech Research Group](https://sites.tufts.edu/devtech/)、[MITメディアラボ](https://www.media.mit.edu)の[Lifelong Kindergarten Group](https://www.media.mit.edu/groups/lifelong-kindergarten/overview/)、[Playful Invention Company](https://www.playfulinvention.com)の共同により開発された5歳〜7歳向けのビジュアルプログラミング言語です。
 

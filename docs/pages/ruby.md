@@ -1,11 +1,11 @@
 ---
-sort: 30
 title: Ruby
 top_image: /assets/images/cover/ruby.png
 layout: single
 permalink: /ruby/
+header:
+  overlay_image: /assets/images/cover/header.png
 ---
-# Ruby
 ## Rubyについて
 
 ## Ruby on Railsについて

@@ -1,11 +1,11 @@
 ---
-sort: 13
 title: Viscuit（ビスケット）
 top_image: /assets/images/cover/viscuit.png
 layout: single
 permalink: /viscuit/
+header:
+  overlay_image: /assets/images/header/language.png
 ---
-# Viscuit（ビスケット）
 ## Viscuitについて
 
 ![Viscuit画面](/assets/images/screen/viscuit.png)

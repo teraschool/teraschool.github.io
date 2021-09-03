@@ -1,12 +1,11 @@
 ---
-sort: 50
 title: JavaScript
 top_image: /assets/images/cover/javascript.png
 layout: single
 permalink: /javascript/
+header:
+  overlay_image: /assets/images/cover/header.png
 ---
-# JavaScript
-
 - [JavaScript　ガイド](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide){:target="_blank"}
 - [JavaScript　リファレンス](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference){:target="_blank"}
 - [Canvas　API](https://developer.mozilla.org/ja/docs/Web/API/CanvasRenderingContext2D){:target="_blank"}
