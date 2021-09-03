@@ -19,10 +19,10 @@ header:
 
 教室に通う場合は、多くの教室で用意されている体験クラスに参加したり、すでに通っている人の話を聴くと良いでしょう。
 
-{% include google.liquid content="プログラミング教室 大人向け" %}
+{% include google.html content="プログラミング教室 大人向け" %}
 
 
-{% include google.liquid content="プログラミング教室 子ども向け" %}
+{% include google.html content="プログラミング教室 子ども向け" %}
 
 ## 本ではじめる
 いきなり教室に通うのは難しい、もっとプログラミングのことを知ってからにしたいという方には本ではじめることをおすすめします。
@@ -50,10 +50,10 @@ header:
 - [paizaラーニング](https://paiza.jp/works){:target="_blank"}
 - [Codecademy（英語）](https://www.codecademy.com){:target="_blank"}
 
-{% include google.liquid content="プログラミング学習 動画" %}
+{% include google.html content="プログラミング学習 動画" %}
 
 
-{% include google.liquid content="プログラミング学習 YouTube" %}
+{% include google.html content="プログラミング学習 YouTube" %}
 
 ## 一緒に楽しむ仲間を見つける
 プログラミング教室でも書きましたが、どんなことでも一緒に楽しめる仲間がいることは長続きする秘訣です。

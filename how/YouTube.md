@@ -4,7 +4,7 @@ YouTube動画を埋め込む場合は以下の手順で行なってください�
 1. 動画を埋め込みたい箇所に以下のタグを挿入します。
 
 ```
-{% include youtube.liquid content="" %}
+{% include youtube.html content="" %}
 ```
 
 2. 埋め込みたいYouTube動画にブラウザでアクセスします。  
@@ -22,7 +22,7 @@ YouTube動画を埋め込む場合は以下の手順で行なってください�
 6. コピーしたURLを手順1で挿入したタグの「content=""」の中に貼り付けます。以下のようになります。
 
 ```
-{% include youtube.liquid content="https://www.youtube.com/embed/TfzsNagGC_E" %}
+{% include youtube.html content="https://www.youtube.com/embed/TfzsNagGC_E" %}
 ```
 
 7. 以上でYouTubeの埋め込みは完了です。

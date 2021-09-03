@@ -68,7 +68,7 @@ tkinterとはPythonでグラフィックを扱うためのツールで、グラ�
 
 [tkinter --- Tcl/Tk の Python インタフェース](https://docs.python.org/ja/3/library/tkinter.html)
 
-{% include google.liquid content="python tkinter 使い方" %}
+{% include google.html content="python tkinter 使い方" %}
 
 ### クラウド上の環境を利用する
 Google Colaboratoryを使うと、自分でPythonをインストールしなくてもブラウザだけですぐにPythonプログラミングを始められます。

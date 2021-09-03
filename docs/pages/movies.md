@@ -7,4 +7,4 @@ header:
 ---
 ## スーパーパワーを学ぼう - What Most Schools Don't Teach
 
-{% include youtube.liquid content="https://www.youtube.com/embed/nKIu9yen5nc" %}
+{% include youtube.html content="https://www.youtube.com/embed/nKIu9yen5nc" %}
