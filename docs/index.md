@@ -1,13 +1,14 @@
 ---
 title: やってみようプログラミング
 layout: splash
+permalink: /
 header:
   image: /assets/images/header/top.png
 feature_row:
 - image_path: /assets/images/feature/1.png
-  alt: "プログラミングをはじめよう"
-  title: "プログラミングをはじめよう"
-  excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  alt: "はじめよう"
+  title: "はじめよう"
+  excerpt: "プログラミングをはじめるには"
   url: "/introduction/"
   btn_label: "続きを読む"
   btn_class: "btn--inverse"

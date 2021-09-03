@@ -4,7 +4,7 @@ descirption: Lets' start programming
 layout: splash
 permalink: /introduction/
 header:
-  overlay_image: /assets/images/header/language.png
+  overlay_image: /assets/images/header/default.png
 ---
 今このページを見ているあなたは、きっとプログラミングに興味があり「プログラミングをやってみたいけど、どうしたらいいだろう？」と考えてここにたどりついたのでしょう。
 
@@ -20,6 +20,7 @@ header:
 教室に通う場合は、多くの教室で用意されている体験クラスに参加したり、すでに通っている人の話を聴くと良いでしょう。
 
 {% include google.liquid content="プログラミング教室 大人向け" %}
+
 
 {% include google.liquid content="プログラミング教室 子ども向け" %}
 
@@ -50,6 +51,7 @@ header:
 - [Codecademy（英語）](https://www.codecademy.com){:target="_blank"}
 
 {% include google.liquid content="プログラミング学習 動画" %}
+
 
 {% include google.liquid content="プログラミング学習 YouTube" %}
 

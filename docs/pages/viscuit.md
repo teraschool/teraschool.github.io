@@ -4,7 +4,7 @@ top_image: /assets/images/cover/viscuit.png
 layout: single
 permalink: /viscuit/
 header:
-  overlay_image: /assets/images/header/language.png
+  overlay_image: /assets/images/header/default.png
 ---
 ## Viscuitについて
 
