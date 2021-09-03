@@ -1,0 +1,12 @@
+<!-- {%- assign page_langs = site.html_pages
+    | where_exp: "item", "item.url == '/{{ include.content }}/'" -%} -->
+{%- assign page_langs = site.html_pages | where_exp: "item", "item.url contains '{{ include.content }}'"  -%}
+   
+{%- for page_lang in page_langs -%}
+<div>
+  <a href="{{ page_lang.url | relative_url }}" target="_blank">
+    <img src="{{ page_lang.top_image }}">
+    <p>{{ page_lang.title }}</p>
+  </a>
+</div>
+{%- endfor -%}
