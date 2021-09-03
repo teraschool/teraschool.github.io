@@ -2,6 +2,8 @@
 sort: 20
 title: Python
 top_image: /assets/images/cover/python.png
+layout: single
+permalink: /python/
 ---
 # Python
 ## Pythonについて

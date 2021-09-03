@@ -2,6 +2,8 @@
 sort: 99
 title: その他
 top_image: /assets/images/cover/etc.png
+layout: single
+permalink: /etc/
 ---
 # その他
 

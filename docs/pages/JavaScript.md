@@ -2,6 +2,8 @@
 sort: 50
 title: JavaScript
 top_image: /assets/images/cover/javascript.png
+layout: single
+permalink: /javascript/
 ---
 # JavaScript
 
