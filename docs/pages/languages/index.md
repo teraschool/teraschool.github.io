@@ -1,6 +1,6 @@
 ---
 title: プログラミング言語でさがそう
-layout: splash
+layout: single
 permalink: /find_by_language/
 author_profile: false
 header:

@@ -1,7 +1,7 @@
 ---
 title: プログラミングをはじめよう
 descirption: Lets' start programming
-layout: splash
+layout: single
 permalink: /introduction/
 header:
   overlay_image: /assets/images/header/default.png
