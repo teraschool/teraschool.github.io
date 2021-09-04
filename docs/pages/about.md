@@ -1,6 +1,6 @@
 ---
 title: このサイトについて
-layout: splash
+layout: single
 permalink: /about/
 author_profile: false
 header:
