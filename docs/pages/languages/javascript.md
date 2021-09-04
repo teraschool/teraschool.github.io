@@ -1,10 +1,10 @@
 ---
 title: JavaScript
-top_image: /assets/images/cover/javascript.png
+top_image: /assets/images/language/javascript.png
 layout: single
 permalink: /javascript/
 header:
-  overlay_image: /assets/images/cover/header.png
+  overlay_image: /assets/images/header/default.png
 ---
 - [JavaScript　ガイド](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide){:target="_blank"}
 - [JavaScript　リファレンス](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference){:target="_blank"}

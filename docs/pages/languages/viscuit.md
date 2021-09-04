@@ -1,6 +1,6 @@
 ---
 title: Viscuit（ビスケット）
-top_image: /assets/images/cover/viscuit.png
+top_image: /assets/images/language/viscuit.png
 layout: single
 permalink: /viscuit/
 header:

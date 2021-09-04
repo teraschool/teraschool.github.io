@@ -1,10 +1,10 @@
 ---
 title: Ruby
-top_image: /assets/images/cover/ruby.png
+top_image: /assets/images/language/ruby.png
 layout: single
 permalink: /ruby/
 header:
-  overlay_image: /assets/images/cover/header.png
+  overlay_image: /assets/images/header/default.png
 ---
 ## Rubyについて
 

@@ -1,10 +1,10 @@
 ---
 title: Hour of Code
-top_image: /assets/images/cover/hourofcode.png
+top_image: /assets/images/language/hourofcode.png
 layout: single
 permalink: /hourofcode/
 header:
-  overlay_image: /assets/images/cover/header.png
+  overlay_image: /assets/images/header/default.png
 ---
 Hour of Codeは、世界中の180ヵ国以上で1億人が利用しているプログラミング学習サイトです。プログラミング学習を推進しているアメリカの非営利団体・Code.orgが運営しています。Microsoftの創業者であるビル・ゲイツ氏、Facebook創業者であるマーク・ザッカーバーグ氏などがHour of Codeの発起人となっています。
 Hour of Codeでは、「すべての人々がプログラミングをできるようにする」という目的のもと、誰でも無料（一部、有料のアクティビティもあり）で学習可能な様々なプログラミングツールを公開しています。各学習ツールは、パソコンやタブレットなどを使って、自宅でも学校でも利用可能です。

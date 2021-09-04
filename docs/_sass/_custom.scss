@@ -49,7 +49,7 @@
       display: block;
       color: black;
       font-size: 0.8rem;
-      padding: 3px 1.6rem;
+      padding: 3px 0.5rem;
       margin-top: 5px;
       overflow: hidden;
     }
@@ -66,6 +66,8 @@
       margin-top: 3px;
       text-align: center;
       height: 30px;
+      padding: 0.2rem 1rem;
+      
 
       &:hover {
         background: -webkit-gradient(linear, left bottom, left top, from(#fdfbfb), to(#ebedee));
@@ -136,9 +138,25 @@
 }
 
 #languages {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; 
-  justify-content: flex-start;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  gap: 20px;
+  // display: flex;
+  // flex-direction: row;
+  // flex-wrap: wrap;
+  // justify-content: flex-start;
+  // align-items: flex-start;
+  a {
+    display: block;
+    margin-bottom: 4rem;
+    // min-width: 250px;
+    // width: 23%;
+    // margin-right: 2%;
+  }
+}
+
+.page__hero--overlay .page__title {
+  font-size: 2rem;
+  color: rgba(0,0,0,0.8);
+  // color: #F997AE;
 }

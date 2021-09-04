@@ -1,10 +1,10 @@
 ---
 title: Scratch
-top_image: /assets/images/cover/scratch.png
+top_image: /assets/images/language/scratch.png
 layout: single
 permalink: /scratch/
 header:
-  overlay_image: /assets/images/cover/header.png
+  overlay_image: /assets/images/header/default.png
 ---
 # Scratch
 ## Scratchについて

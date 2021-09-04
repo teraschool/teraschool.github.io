@@ -5,6 +5,7 @@ permalink: /
 header:
   overlay_image: /assets/images/header/top.png
   filter: 0.5
+  excerpt: プログラミングをはじめてみようという方のための情報サイトです
 feature_row:
 - image_path: /assets/images/feature/1.png
   alt: "はじめよう"

@@ -15,4 +15,5 @@ header:
 {% include language.html content="python" %}
 {% include language.html content="ruby" %}
 {% include language.html content="javascript" %}
+{% include language.html content="html" %}
 </div>
