@@ -1,8 +1,11 @@
 ---
-sort: 0
 title: プログラミングをはじめよう
+descirption: Lets' start programming
+layout: splash
+permalink: /introduction/
+header:
+  overlay_image: /assets/images/header/default.png
 ---
-# プログラミングをはじめよう
 今このページを見ているあなたは、きっとプログラミングに興味があり「プログラミングをやってみたいけど、どうしたらいいだろう？」と考えてここにたどりついたのでしょう。
 
 学校の授業でやるわけでもないプログラミング。でも周りではやってる人もいる、みんなどうやってプログラミングを学んでいるのだろう？そんなあなたのためにプログラミングをはじめるための3つの方法をご紹介します。
@@ -12,13 +15,14 @@ title: プログラミングをはじめよう
 
 プログラミング教室にも大人向けと子ども向けがあり、今街中で増えているのは子どもむけの教室です。大人むけの教室は、職業としてプログラマーを目指す方むけの実践的なものが多いです。
 
-いずれも実際の教室に通うもの、オンラインで開講しているものがあります。オンライン教室だと住んでいる地域に関係なく通えるのメリットがあります。
+いずれも実際の教室に通うもの、オンラインで開講しているものがあります。オンライン教室だと住んでいる地域に関係なく通えるメリットがあります。
 
 教室に通う場合は、多くの教室で用意されている体験クラスに参加したり、すでに通っている人の話を聴くと良いでしょう。
 
-{% include google.liquid content="プログラミング教室 大人向け" %}
+{% include google.html content="プログラミング教室 大人向け" %}
 
-{% include google.liquid content="プログラミング教室 子ども向け" %}
+
+{% include google.html content="プログラミング教室 子ども向け" %}
 
 ## 本ではじめる
 いきなり教室に通うのは難しい、もっとプログラミングのことを知ってからにしたいという方には本ではじめることをおすすめします。
@@ -46,9 +50,10 @@ title: プログラミングをはじめよう
 - [paizaラーニング](https://paiza.jp/works){:target="_blank"}
 - [Codecademy（英語）](https://www.codecademy.com){:target="_blank"}
 
-{% include google.liquid content="プログラミング学習 動画" %}
+{% include google.html content="プログラミング学習 動画" %}
 
-{% include google.liquid content="プログラミング学習 YouTube" %}
+
+{% include google.html content="プログラミング学習 YouTube" %}
 
 ## 一緒に楽しむ仲間を見つける
 プログラミング教室でも書きましたが、どんなことでも一緒に楽しめる仲間がいることは長続きする秘訣です。
