@@ -2,7 +2,7 @@
 title: ScratchJr
 top_image: /assets/images/language/scratchjr.png
 layout: single
-permalink: /scratchjr/
+permalink: /languages/scratchjr/
 header:
   overlay_image: /assets/images/header/default.png
 ---

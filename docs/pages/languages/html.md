@@ -2,7 +2,7 @@
 title: HTML
 top_image: /assets/images/language/html.png
 layout: single
-permalink: /html/
+permalink: /languages/html/
 header:
   overlay_image: /assets/images/header/default.png
 ---

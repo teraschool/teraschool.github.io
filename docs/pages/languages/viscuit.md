@@ -2,7 +2,7 @@
 title: Viscuit（ビスケット）
 top_image: /assets/images/language/viscuit.png
 layout: single
-permalink: /viscuit/
+permalink: /languages/viscuit/
 header:
   overlay_image: /assets/images/header/default.png
 ---

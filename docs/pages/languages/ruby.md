@@ -2,7 +2,7 @@
 title: Ruby
 top_image: /assets/images/language/ruby.png
 layout: single
-permalink: /ruby/
+permalink: /languages/ruby/
 header:
   overlay_image: /assets/images/header/default.png
 ---

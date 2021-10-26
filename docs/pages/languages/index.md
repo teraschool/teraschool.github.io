@@ -1,7 +1,7 @@
 ---
 title: プログラミング言語でさがそう
 layout: single
-permalink: /find_by_language/
+permalink: /languages/
 author_profile: false
 header:
   overlay_image: /assets/images/header/default.png

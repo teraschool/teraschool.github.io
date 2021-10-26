@@ -2,7 +2,7 @@
 title: JavaScript
 top_image: /assets/images/language/javascript.png
 layout: single
-permalink: /javascript/
+permalink: /languages/javascript/
 header:
   overlay_image: /assets/images/header/default.png
 ---

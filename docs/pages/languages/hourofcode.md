@@ -2,7 +2,7 @@
 title: Hour of Code
 top_image: /assets/images/language/hourofcode.png
 layout: single
-permalink: /hourofcode/
+permalink: /languages/hourofcode/
 header:
   overlay_image: /assets/images/header/default.png
 ---

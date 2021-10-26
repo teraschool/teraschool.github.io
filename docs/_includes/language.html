@@ -1,4 +1,3 @@
-
 {% capture target_url %}/{{include.content}}/{% endcapture %}
 {%- assign page_langs = site.html_pages
     | where_exp: "item", "item.url contains target_url" -%}
