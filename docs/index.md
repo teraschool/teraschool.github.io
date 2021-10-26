@@ -18,14 +18,14 @@ feature_row:
   alt: "言語でさがす"
   title: "言語でさがす"
   excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  url: "/find_by_language/"
+  url: "/languages/"
   btn_label: "続きを読む"
   btn_class: "btn--inverse"
 - image_path: /assets/images/feature/3.png
-  alt: "３つめ"
-  title: "３つめ"
+  alt: "やってみよう"
+  title: "やってみよう"
   excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  url: "#test-link"
+  url: "try"
   btn_label: "続きを読む"
   btn_class: "btn--inverse"
 ---
