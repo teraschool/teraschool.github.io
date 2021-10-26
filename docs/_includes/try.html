@@ -1,0 +1,10 @@
+{% capture target_url %}/{{include.content}}/{% endcapture %}
+{%- assign pages_try = site.html_pages
+  | where_exp: "item", "item.url contains target_url" -%}
+
+  {%- for try_page in pages_try -%}
+  <li>
+    <a href="{{ try_page.url | relative_url }}" alt="{{ try_page.title }}" title="{{ try_page.title }}">{{ try_page.title }}
+    </a>
+  </li>
+  {%- endfor -%}
