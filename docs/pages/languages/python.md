@@ -2,7 +2,7 @@
 title: Python
 top_image: /assets/images/language/python.png
 layout: single
-permalink: /python/
+permalink: /languages/python/
 header:
   overlay_image: /assets/images/header/default.png
 ---

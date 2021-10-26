@@ -2,7 +2,7 @@
 title: Scratch
 top_image: /assets/images/language/scratch.png
 layout: single
-permalink: /scratch/
+permalink: /languages/scratch/
 header:
   overlay_image: /assets/images/header/default.png
 ---
