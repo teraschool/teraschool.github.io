@@ -1,10 +1,12 @@
 # main links
 main:
-  - title: "About"
+  - title: "やってみよう"
+    url: /try/
+  - title: "さがしてみよう"
     url: /about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "言語でさがす"
+    url: /languages/
+  - title: "保護者の方へ"
+    url: /parents/
+  - title: "教職員の方へ"
+    url: /teachers/
