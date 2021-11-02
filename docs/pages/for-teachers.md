@@ -1,7 +1,7 @@
 ---
-title: このサイトについて
+title: 教職員の方へ
 layout: single
-permalink: /about/
+permalink: /teachers/
 author_profile: false
 header:
   overlay_image: /assets/images/header/default.png
