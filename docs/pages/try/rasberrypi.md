@@ -6,3 +6,5 @@ header:
   overlay_image: /assets/images/header/default.png
 ---
 # ラズベリーパイを使ってみよう
+
+ありがとうございます！
