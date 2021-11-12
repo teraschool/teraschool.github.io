@@ -7,7 +7,5 @@ header:
 ---
 # ラズベリーパイを使ってみよう
 
-ありがとうございます！
-
-{% include slide.html content="ここを更新してください" %}
+{% include slide.html content="2PACX-1vQbqABYF-jO10MSBjcph25VAS8Y0jzAPeV6I_TLc3X45QQq16JWWS0qiOvCO8FnEJseBW7y3yKMTCZm" %}
 
