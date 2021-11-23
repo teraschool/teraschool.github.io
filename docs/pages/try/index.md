@@ -10,5 +10,6 @@ header:
 <div id="try">
   <ul>
 {% include try.html content="shooting-game" %}
+{% include try.html content="action-game" %}
   </ul>
 </div>
