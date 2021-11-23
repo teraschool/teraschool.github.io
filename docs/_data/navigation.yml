@@ -2,7 +2,7 @@
 main:
   - title: "やってみよう"
     url: /try/
-  - title: "さがしてみよう"
+  - title: "このサイトについて"
     url: /about/
   - title: "言語でさがす"
     url: /languages/
