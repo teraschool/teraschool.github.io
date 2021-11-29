@@ -11,6 +11,7 @@ header:
 {% include language.html content="scratch" %}
 {% include language.html content="scratchjr" %}
 {% include language.html content="viscuit" %}
+{% include language.html content="hackforplay" %}
 {% include language.html content="hourofcode" %}
 {% include language.html content="python" %}
 {% include language.html content="ruby" %}
