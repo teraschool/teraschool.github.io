@@ -18,3 +18,20 @@ header:
 ##スライドで手順を解説します
 {% include slide.html content="2PACX-1vQbqABYF-jO10MSBjcph25VAS8Y0jzAPeV6I_TLc3X45QQq16JWWS0qiOvCO8FnEJseBW7y3yKMTCZm" %}
 
+##ラズベリーパイの選び方
+<p>目的によって選ぶモデルを選択する。</p>
+###IoT（Internet of things)を学びたい
+<ul><li>Raspberryi Pi Zero WH (価格が安く、小さくて組み込みやすい）約660円
+</li>
+ <img src="/path/to/img.jpg" alt="Alt text"/>
+<li>Raspberryi Pi 3 モデルB　2GB 　約4400円</li>
+<li>Raspberryi Pi 4 モデルB　2GB 　約4950円</li>
+</ul>
+###コンピュータやITを学びたい
+<ul><li>Raspberryi Pi 4 モデルB　8GB 　約10230円
+</li>
+<li>Raspberry Pi 400（キーボード一体型）約9790円
+
+</li>
+</ul>
+
