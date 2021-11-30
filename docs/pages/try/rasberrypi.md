@@ -33,3 +33,4 @@ header:
 - Raspberryi Pi 4 モデルB　8GB 　約10230円
 - Raspberry Pi 400（キーボード一体型）約9790円
 
+あ
