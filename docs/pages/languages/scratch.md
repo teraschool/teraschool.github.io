@@ -10,7 +10,7 @@ header:
 ## Scratchについて
 Scratchは[MITメディアラボ](https://www.media.mit.edu)の[Lifelong Kindergarten Group](https://www.media.mit.edu/groups/lifelong-kindergarten/overview/)が開発したビジュアルプログラミング言語で、[Scratch財団](https://www.scratchfoundation.org/)により無償で提供されています。
 
-Scratchのアカウント登録ユーザーは全世界で約8,100万人にのぼり、うち日本人ユーザーは1.3%の約100万人（数値はいずれも2021年11月時点）。登録していいないユーザーを含めるとそれ以上の人がScratchを使っている。[Scratchの統計（英語）](https://scratch.mit.edu/statistics/)
+Scratchのアカウント登録ユーザーは全世界で約8,100万人にのぼり、うち日本人ユーザーは1.3%の約100万人（数値はいずれも2021年11月時点）。登録していないユーザーを含めるとそれ以上の人がScratchを使っている。[Scratchの統計（英語）](https://scratch.mit.edu/statistics/)
 
 ![Scratch画面](/assets/images/screen/scratch.png)
 
