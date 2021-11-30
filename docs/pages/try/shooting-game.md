@@ -1,5 +1,5 @@
 ---
-title: シューティングゲームを作りをやってみよう
+title: シューティングゲームを作ってみよう
 layout: single
 permalink: /try/shooting-game/
 header:
