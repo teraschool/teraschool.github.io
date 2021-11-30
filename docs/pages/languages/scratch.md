@@ -9,27 +9,15 @@ header:
 # Scratch
 ## Scratchについて
 Scratchは[MITメディアラボ](https://www.media.mit.edu)の[Lifelong Kindergarten Group](https://www.media.mit.edu/groups/lifelong-kindergarten/overview/)が開発したビジュアルプログラミング言語で、[Scratch財団](https://www.scratchfoundation.org/)により無償で提供されています。
-
 Scratchのアカウント登録ユーザーは全世界で約8,100万人にのぼり、うち日本人ユーザーは1.3%の約100万人（数値はいずれも2021年11月時点）。登録していないユーザーを含めるとそれ以上の人がScratchを使っている。[Scratchの統計（英語）](https://scratch.mit.edu/statistics/)
 
 ![Scratch画面](/assets/images/screen/scratch.png)
 
 ### 特徴
-- プログラムを作るための「命令」がブロック型になっており、データ入力などを除いてプログラム作成のほとんどの作業をドラッグ＆ドロップだけでできるのが特徴。
+- 対象年齢は8歳以上。ただし、マウスの操作が可能でひらがなが読めればそれ以下の子どもでも使えます。
+- プログラムを作るための「命令」がブロック型になっており、データ入力などを除いてプログラム作成のほとんどの作業をドラッグ＆ドロップだけでできる。
 - 作成したプログラムを公開したり、公開されたプログラムを他のユーザーが見たり中身を改造できる。Scratchアカウント（後述）を持つユーザーであれば、プログラムをコピーして改造できる「リミックス」と呼ばれる仕組みが利用できる。
 - Scratchアカウントを持っているユーザー同士が相互にやりとりできる「ディスカッションフォーラム」や公開したプロジェクトへのコメントなどで他のScratchユーザーと交流できる。
-
-## 作品例
-- [FirstMission](https://scratch.mit.edu/projects/68155398/){:target="_blank"}
-- [Scratchサンプルプログラム](https://scratch.mit.edu/projects/264543197/){:target="_blank"}
-- [風船割りゲーム](https://scratch.mit.edu/projects/335964929/){:target="_blank"}
-- [インベーダー](https://scratch.mit.edu/projects/240742062/){:target="_blank"}
-- [棒人間](https://scratch.mit.edu/projects/335965017/){:target="_blank"}
-    - [棒人間モーション素材（パンチ&キック）](https://scratch.mit.edu/projects/343607140/){:target="_blank"}
-- [リズムゲーム](https://scratch.mit.edu/projects/335965068/){:target="_blank"}
-    - [解説資料](https://drive.google.com/file/d/1FHda8CV1BfjV05ZOC2R-Z2Lvj8vCOHGA/view){:target="_blank"}
-    - [参考プログラム](https://scratch.mit.edu/projects/351385971/editor){:target="_blank"}
-- [タイマー](https://scratch.mit.edu/projects/321676224/){:target="_blank"}
 
 ## 使い方
 Scratchにはwebブラウザで利用できる「オンライン版」とPCにインストールして利用する「インストール版」があり、いずれも無償で利用できます。
@@ -70,14 +58,14 @@ Scratchを利用するにあたっては、まず以下のページをご一読�
 ## 参考情報
 
 ### 動画
-- [わくわくプログラミング](https://www.youtube.com/playlist?list=PLfEbT0fPTpBt0RaNMY5mEGdOZiHZoMo0Y)  
+- [わくわくプログラミング / YouTube](https://www.youtube.com/playlist?list=PLfEbT0fPTpBt0RaNMY5mEGdOZiHZoMo0Y)  
 こちらは以前Udemyで公開されていたものが公式に転載されたものです。使われているScratchは1.4と古いものですが、基本的な使い方は最新の3.0でも大きくは変わっていませんので参考になると思います。
 
 {% include youtube.html content="https://www.youtube.com/embed/videoseries?list=PLfEbT0fPTpBt0RaNMY5mEGdOZiHZoMo0Y" %}
 
 ### webサイト
 - [メクルン](https://mekurun.com){:target="_blank"}  
-プログラミングや作品の作り方をスライドをめくるようにして解説しているwebサイトです。無償で利用可能です。
+プログラミングや作品の作り方をスライドをめくるようにして解説しているwebサイトです。どなたでも無償で利用できます。
 
 ### 書籍
 <div class="bookshelf">
@@ -136,6 +124,18 @@ Scratchを利用するにあたっては、まず以下のページをご一読�
 		<p class="title">Scratchで学ぶ プログラミングとアルゴリズムの基本　改訂第２版</p>
 	</div>
 </div>
+
+## 作品例
+- [FirstMission](https://scratch.mit.edu/projects/68155398/){:target="_blank"}
+- [Scratchサンプルプログラム](https://scratch.mit.edu/projects/264543197/){:target="_blank"}
+- [風船割りゲーム](https://scratch.mit.edu/projects/335964929/){:target="_blank"}
+- [インベーダー](https://scratch.mit.edu/projects/240742062/){:target="_blank"}
+- [棒人間](https://scratch.mit.edu/projects/335965017/){:target="_blank"}
+    - [棒人間モーション素材（パンチ&キック）](https://scratch.mit.edu/projects/343607140/){:target="_blank"}
+- [リズムゲーム](https://scratch.mit.edu/projects/335965068/){:target="_blank"}
+    - [解説資料](https://drive.google.com/file/d/1FHda8CV1BfjV05ZOC2R-Z2Lvj8vCOHGA/view){:target="_blank"}
+    - [参考プログラム](https://scratch.mit.edu/projects/351385971/editor){:target="_blank"}
+- [タイマー](https://scratch.mit.edu/projects/321676224/){:target="_blank"}
 
 ### 資料
 - [Scratch 補足資料](https://docs.google.com/document/d/1BD5fTRX7ihLNrUrq-fiuGtyQgzIq2qxuXb02o6LKadw/edit){:target="_blank"}
