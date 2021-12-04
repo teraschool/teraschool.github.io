@@ -8,12 +8,29 @@ header:
 # ラズベリーパイを使ってみよう
 
 ## ラズベリーパイとは
-<p>GPIOピンという端子がついている名刺サイズの小型のパソコンです</p>
-<p>マウスやキーボード、HDMI入力端子のついている液晶画面やテレビがあれば、検索や書類作成など多くの人がパソコンに求める機能をもったパソコンとして使うことができます。</p>
-<p>OSのインストールなど、通常購入したパソコンではしなくてもよい操作もありますが、その分パソコンそのものを理解することもできます。また、GPIOピンがあることで、自分で作ったミニカーを動かしたり、監視カメラを作ったりと自分で工夫しながら電子工作ができます。</p>
+GPIOピンという端子がついている名刺サイズの小型のパソコンです
+マウスやキーボード、HDMI入力端子のついている液晶画面やテレビがあれば、検索や書類作成など多くの人がパソコンに求める機能をもったパソコンとして使うことができます。
+OSのインストールなど、通常購入したパソコンではしなくてもよい操作もありますが、その分パソコンの仕組みを理解することもできます。また、GPIOピンがあることで、自分で作ったミニカーを動かしたり、監視カメラを作ったりと自分で工夫しながら電子工作ができます。
+
+##パソコンとして使ってみよう
+###必要なもの
+- Rasberryi Pi 4 モデルB　
+- HDMIケーブル（USBタイプC）
+- HDMI対応ディスプレイ（対応テレビ）
+- USB ACアダプター
+- USBマウス
+- USBキーボード
+- microSDカード
+
+![Alt text](/path/to/img.jpg)
+
+全部つなぐと上の写真のようになります。
+自分の好きなOS（WindowやMacなど）をSDカードにダウンロードしてラズベリーパイにさせば、検索やメールを送信したり通常のパソコンのように使えます。
+HDMI対応テレビがあれば、2万円ほどで自分のパソコンができます。
+また、壊れた時も、ラズベリーパイやキーボードだけというように各部品を交換すればよいので費用を安く抑えることができます。
 
 ## 電子工作をしてみよう
-[ラズベリーパイを使ってレゴカーを動かしてみる](https://youtu.be/zYIEAvhli7k)
+[ラズベリーパイを使ってレゴカーを動かしてみる]{% include youtube.html content="https://www.youtube.com/embed/_TH95_mIJEI" %}
 
 ## スライドで手順を解説します
 {% include slide.html content="2PACX-1vQbqABYF-jO10MSBjcph25VAS8Y0jzAPeV6I_TLc3X45QQq16JWWS0qiOvCO8FnEJseBW7y3yKMTCZm" %}
@@ -24,13 +41,14 @@ header:
 ### IoT（Internet of things)を学びたい
 - Raspberryi Pi Zero WH (価格が安く、小さくて組み込みやすい）約660円
 
-![Alt text](/path/to/img.jpg)
+![Alt text](/raspberry-pi_img/rasberrypizero.jpg)
 
 - Raspberryi Pi 3 モデルB　2GB 　約4400円
 - Raspberryi Pi 4 モデルB　2GB 　約4950円  
+![Alt text](/raspberry-pi_img/rasberrypi4modelb.jpg)
 
 ### コンピュータやITを学びたい
 - Raspberryi Pi 4 モデルB　8GB 　約10230円
 - Raspberry Pi 400（キーボード一体型）約9790円
+![Alt text](/raspberry-pi_img/rasberrypi400.jpg)
 
-あ
