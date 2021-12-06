@@ -9,7 +9,9 @@
 ### 貢献者
 このサイトの更新に協力してくださっているのは、[こちらの方々](https://github.com/teraschool/teraschool.github.io/graphs/contributors)です。
 
-## サイトの更新方法
-- [YouTube動画の埋め込みについて](how/YouTube.md)
-- [Google検索リンクの埋め込みについて](how/Google.md)
-- [Googleスライドの埋め込みについて](how/GoogleSlide.md)
+## 専用タグについて
+こちらのサイトでは以下のタグが利用できます、それぞれリンク先の説明を読んで利用してください。
+
+1. [YouTube動画の埋め込みについて](how/YouTube.md)
+1. [Google検索リンクの埋め込みについて](how/Google.md)
+1. [Googleスライドの埋め込みについて](how/GoogleSlide.md)
