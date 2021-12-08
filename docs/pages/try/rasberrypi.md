@@ -33,7 +33,7 @@ GPIOピンという端子がついている名刺サイズの小型のパソコ�
 ## ラズベリーパイの選び方
 目的によって選ぶモデルを選択する。
 
-### IoT（Internet of things)を学びたい
+### IoT（Internet of things)に触れたい
 - Raspberryi Pi Zero WH (価格が安く、小さくて組み込みやすい）約2000円
 
 ![Alt text](/raspberry-pi_img/rasberrypizero.jpg)
@@ -42,9 +42,10 @@ GPIOピンという端子がついている名刺サイズの小型のパソコ�
 - Raspberryi Pi 4 モデルB　2GB 　約6000円  
 ![Alt text](/raspberry-pi_img/rasberrypi4modelb.jpg)
 
-### コンピュータやITを学びたい
+### 子供の専用パソコンとして持ちたい
 - Raspberryi Pi 4 モデルB　8GB 　約10000円
 - Raspberry Pi 400（キーボード一体型）4GB 約10000円
 ![Alt text](/raspberry-pi_img/rasberrypi400.jpg)
 
-価格は、かなり変動があります。大型家電量販店では、あまり販売されていません。raspberry pi の正規特約店[ケイエスワイ]（https://raspberry-pi.ksyic.com/）などで購入できます。
+
+*ロボットプログラミングに触れたい場合は、Raspberryi Pi 4 モデルB　8GB をお勧めします。  価格は、かなり変動があります。大型家電量販店では、あまり販売されていません。raspberry pi の正規特約店[ケイエスワイ]（https://raspberry-pi.ksyic.com/）などで購入できます。
