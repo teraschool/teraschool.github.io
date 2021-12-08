@@ -7,10 +7,15 @@ header:
   overlay_image: /assets/images/header/default.png
 ---
 ## ScratchJrについて
-ScratchJrは、[タフツ大学](https://www.tufts.edu)の[DevTech Research Group](https://sites.tufts.edu/devtech/)、[MITメディアラボ](https://www.media.mit.edu)の[Lifelong Kindergarten Group](https://www.media.mit.edu/groups/lifelong-kindergarten/overview/)、[Playful Invention Company](https://www.playfulinvention.com)の共同により開発された5歳〜7歳向けのビジュアルプログラミング言語です。
+ScratchJrは、[タフツ大学](https://www.tufts.edu)の[DevTech Research Group](https://sites.tufts.edu/devtech/)、[MITメディアラボ](https://www.media.mit.edu)の[Lifelong Kindergarten Group](https://www.media.mit.edu/groups/lifelong-kindergarten/overview/)、[Playful Invention Company](https://www.playfulinvention.com)の共同により開発されたビジュアルプログラミング言語です。
 
 ![ScratchJr画面](/assets/images/screen/scratchjr.png)
 
+### 特徴
+- 対象年齢は5歳〜7歳。
+- プログラムを作るための「命令」がブロック型になっており、データ入力などを除いてプログラム作成のほとんどの作業をドラッグ＆ドロップだけでできる。
+- Scratchと違って、ScratchJrは横（水平）方向にブロックを並べる。
+- タブレット用に特化していて、ブロックの種類が少ないので、小さなお子さんにもわかりやすい。
 
 ## 使い方
 ScratchJrは、タブレット用のアプリとして提供されておりiPadもしくはAndroidタブレットで利用できます。いずれも無償です。
