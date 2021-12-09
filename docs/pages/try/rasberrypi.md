@@ -3,7 +3,7 @@ title: ラズベリーパイを使ってみよう
 layout: single
 permalink: /try/raspberry-pi/
 header:
-  overlay_image: /assets/images/header/default.png
+overlay_image: /assets/images/header/default.png
 ---
 # ラズベリーパイを使ってみよう
 
@@ -12,7 +12,7 @@ GPIOピンという端子がついている名刺サイズの小型のパソコ�
 
 ## パソコンとして使ってみよう
 ### 必要なもの
-- Rasberryi Pi 4 モデルB　
+- Rasberryi Pi 4 モデルB
 - HDMIケーブル（USBタイプC）
 - HDMI対応ディスプレイ（対応テレビ）
 - USB ACアダプター
@@ -27,6 +27,10 @@ GPIOピンという端子がついている名刺サイズの小型のパソコ�
 ## OSをインストールしてみよう
 
 OSは、Operating Sysemの頭文字をとったものです。OSはハードウェアとソフトウェアをつないでいるもので、OSがないとパソコンでしたいと思っている大概のことができません。文字を入力したり、動画を見たりパソコンを使ってしたいと思っている大概のことは、OSがないとできません。OSがないと電源ボタンすら表示されません。OSは私たちが当たり前だと思っていることを提供してくれるものだという認識でいいでしょう。<br>ラズベリーパイを初めて使う場合は、Raspberry財団が公式にリリースしている「Raspberry Pi OS」をマイクロSDカードにダウンロードして使うのがお勧めです。これは、GPIOピンなどラズベリーパイを使う際に必要な機能が入っています。
+
+OSのインストールは下記のスライドを参考にしてみて下さい。
+
+{% include slide.html content="2PACX-1vTkcBUUCsTJHpsksSj009TGVYLlnTyplcH7-GGkVSKh6d2-l61sWcKRS6D9XhllG6VI90FrRS7jN3MC" %}
 
 ## 電子工作をしてみよう
 [ラズベリーパイを使ってレゴカーを動かしてみる]{% include youtube.html content="https://www.youtube.com/embed/_TH95_mIJEI" %}
@@ -55,4 +59,10 @@ OSは、Operating Sysemの頭文字をとったものです。OSはハードウ�
 ![Alt text](/raspberry-pi_img/rasberrypi400.jpg)
 
 
-*ロボットプログラミングに触れたい場合は、Raspberryi Pi 4 モデルB　8GB をお勧めします。  価格は、かなり変動があります。大型家電量販店では、あまり販売されていません。raspberry pi の正規特約店[ケイエスワイ]（https://raspberry-pi.ksyic.com/）などで購入できます。
+*ロボットプログラミングに触れたい場合は、Raspberryi Pi 4 モデルB　8GB をお勧めします。<br>価格は、かなり変動があります。大型家電量販店では、あまり販売されていません。raspberry pi の正規特約店[ケイエスワイ]（https://raspberry-pi.ksyic.com/）などで購入できます。
+
+## ラズベリーパイピコについて
+
+ラズベリーパイを購入しようと探していたら、ラズベリーパイピコという製品を目にすることがあると思います。価格も安いので、これで自分専用パソコンができたらラッキーと思って購入される方もいるかもしれません<br>ラズベリーパイピコは、OSを持たないのでこれを購入されても自分専用パソコンはできません。くれぐれもご注意下さい。<br>では、何ができるのかというと電子工作です。マイクロパイソンという言語を使えば、ラズベリーパイのGPIOピンを使ってできたレゴの車を動かす、電気を点灯するなど同じようなことができます。<br>なので、パソコンとしてのラズベリーパイは必要ないけど、今持っている自分のWindowsのパソコンで電子工作をしてみたいなという人にはお勧めです。
+
+![Alt text](/raspberry-pi_img/pico.jpg)
