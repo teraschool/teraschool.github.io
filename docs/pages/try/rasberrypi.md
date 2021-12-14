@@ -37,8 +37,12 @@ OSのインストールは下記のスライドを参考にしてみて下さい
 ## スライドで手順を解説します
 {% include slide.html content="2PACX-1vQbqABYF-jO10MSBjcph25VAS8Y0jzAPeV6I_TLc3X45QQq16JWWS0qiOvCO8FnEJseBW7y3yKMTCZm" %}
 
-スライドに記載しているコードは、<https://gist.github.com/ryoko-saito/59d3e13b732de61d24c645064dacb92>からコピーして下さい。
+スライドに記載しているコードは、<https://gist.github.com/ryoko-saito/59d3e13b732de61d24c645064dacb92>からコピーして下さい。Raspberry Piクックブック286ページより引用。
 ここで使っているサーボモーターは、[スイッチサイエンス](https://www.switch-science.com/catalog/6813/)で購入できます。
+
+[ラズベリーパイでLチカをしてみる]{% include youtube.html content="https://www.youtube.com/embed/1DdA-yEFzAw" %}
+
+## スライドで手順を解説します
 
 ## ラズベリーパイの選び方
 目的によって選ぶモデルを選択する。
@@ -63,6 +67,12 @@ OSのインストールは下記のスライドを参考にしてみて下さい
 *ロボットプログラミングに触れたい場合は、Raspberryi Pi 4 モデルB　8GB をお勧めします。
 
 <br>ラズベリーパイの価格は、かなり変動があります。大型家電量販店では、あまり販売されていません。raspberry pi の正規特約店[ケイエスワイ]（https://raspberry-pi.ksyic.com/）などで購入できます。
+
+###GBについて
+
+現在推奨されているraspberry pi OSは32ビットで、OSが利用できるメモリは3GBになっているため、4GBあれば十分です。<br>
+カスタムOSで64ビット版があり、詳しくなってからインストールすることをお勧めします。<br>子供専用で8GBを購入する場合は64ビット版のOSのインストールに挑戦しても良いでしょう。ちなみに、64ビット版を利用する利点は、YouTube等のデータ量の多いサイトの閲覧がスムーズになることです。<br>
+デメリットは対応していないソフトウェアがあり、例えばマインクラフト Piエディション等が使えないことです。
 
 ## ラズベリーパイピコについて
 
