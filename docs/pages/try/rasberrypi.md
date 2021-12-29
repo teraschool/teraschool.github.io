@@ -11,7 +11,7 @@ GPIOピンという端子がついている名刺サイズの小型のパソコ�
 
 ## パソコンとして使ってみよう
 ### 必要なもの
-- Rasberryi Pi 4 モデルB
+- Raspberry Pi 4 モデルB
 - HDMIケーブル（USBタイプC）
 - HDMI対応ディスプレイ（対応テレビ）
 - USB ACアダプター
@@ -50,29 +50,29 @@ OSのインストールは下記のスライドを参考にしてみて下さい
 目的によって選ぶモデルを選択する。
 
 ### IoT（Internet of things)に触れたい
-- Raspberryi Pi Zero WH (価格が安く、小さくて組み込みやすい）約2000円
+- Raspberry Pi Zero WH (価格が安く、小さくて組み込みやすい）約2000円
 
 ![Alt text](/raspberry-pi_img/rasberrypizero.jpg)
 
-- Raspberryi Pi 3 モデルB　1GB 　約5000円
-- Raspberryi Pi 4 モデルB　2GB 　約6000円  
+- Raspberry Pi 3 モデルB　1GB 　約5000円
+- Raspberry Pi 4 モデルB　2GB 　約6000円  
 ![Alt text](/raspberry-pi_img/rasberrypi4modelb.jpg)
 
 ### 子供の専用パソコンとして持ちたい
-- Raspberryi Pi 4 モデルB　8GB 　約10000円
+- Raspberry Pi 4 モデルB　8GB 　約10000円
 - Raspberry Pi 400（キーボード一体型）4GB 約10000円
 
 ![Alt text](/raspberry-pi_img/rasberrypi400.jpg)
 
 写真は[ラズベリーパイ財団の公式ページ](https://www.raspberrypi.org/)より引用しています。
 
-*ロボットプログラミングに触れたい場合は、Raspberryi Pi 4 モデルB　8GB をお勧めします。
+*ロボットプログラミングに触れたい場合は、Raspberry Pi 4 モデルB　8GB をお勧めします。
 
-<br>ラズベリーパイの価格は、かなり変動があります。大型家電量販店では、あまり販売されていません。raspberry pi の正規特約店[ケイエスワイ]（https://raspberry-pi.ksyic.com/）などで購入できます。
+<br>ラズベリーパイの価格は、かなり変動があります。大型家電量販店では、あまり販売されていません。Raspberry Pi の正規特約店[ケイエスワイ]（https://raspberry-pi.ksyic.com/）などで購入できます。
 
 ### GBについて
 
-現在推奨されているraspberry pi OSは32ビットで、OSが利用できるメモリは3GBになっているため、4GBあれば十分です。<br>
+現在推奨されているRaspberry Pi OSは32ビットで、OSが利用できるメモリは3GBになっているため、4GBあれば十分です。<br>
 カスタムOSで64ビット版があり、詳しくなってからインストールすることをお勧めします。<br>子供専用で8GBを購入する場合は64ビット版のOSのインストールに挑戦しても良いでしょう。ちなみに、64ビット版を利用する利点は、YouTube等のデータ量の多いサイトの閲覧がスムーズになることです。<br>
 デメリットは対応していないソフトウェアがあり、例えばマインクラフト Piエディション等が使えないことです。
 
