@@ -15,3 +15,4 @@
 1. [YouTube動画の埋め込みについて](how/YouTube.md)
 1. [Google検索リンクの埋め込みについて](how/Google.md)
 1. [Googleスライドの埋め込みについて](how/GoogleSlide.md)
+1. [書籍リストの作り方について](how/Books.md)
