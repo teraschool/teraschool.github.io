@@ -95,6 +95,8 @@ Google Colaboratoryを使うと、自分でPythonをインストールしなく�
 
 [MakeCode for micro:bit](https://makecode.microbit.org/){:target="_blank"}」にアクセスして、新しいプロジェクトを選択し、画面右上のメニュー（画像参照）からPythonを選択してください。
 
+![](/assets/images/languages/python/makecode.png)
+
 [micro:bit](microbit.org/){:target="_blank"}で動作するPythonは[MicroPython](https://micropython.org/){:target="_blank"}と呼ばれるもので、機能的にもPCで動作するものに比べて機能は少ないですが、電子工作での利用に便利です。
 
 ## 5. 参考情報
