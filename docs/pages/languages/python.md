@@ -90,12 +90,21 @@ Google Colaboratoryを使うと、自分でPythonをインストールしなく�
 
 [Google Colaboratory](http://colab.research.google.com){:target="_blank"}
 
+### 4-3. micro:bitを利用する
+イギリス製の教育用シングルボードコンピュータ「[micro:bit](microbit.org/){:target="_blank"}」のプログラミングツール「[MakeCode for micro:bit](https://makecode.microbit.org/){:target="_blank"}」でもPythonを使ったプログラミングができます。
+
+[MakeCode for micro:bit](https://makecode.microbit.org/){:target="_blank"}」にアクセスして、新しいプロジェクトを選択し、画面右上のメニュー（画像参照）からPythonを選択してください。
+
+[micro:bit](microbit.org/){:target="_blank"}で動作するPythonは[MicroPython](https://micropython.org/){:target="_blank"}と呼ばれるもので、機能的にもPCで動作するものに比べて機能は少ないですが、電子工作での利用に便利です。
+
 ## 5. 参考情報
 ### 公式ドキュメント
 プログラミング言語は日本以外の国で開発されたものが多く、公式ドキュメントも英語で書かれたものが多いのが難点ですが、公式ドキュメントはもっとも更新が早く正確です。Google翻訳などの翻訳サービスを使って、公式ドキュメントを活用しましょう。
 
 - [Python公式（英語）](https://www.python.org){:target="_blank"}
 - [Python公式ドキュメント（英語）](https://docs.python.org/){:target="_blank"}
+- [MicroPython](https://micropython.org/){:target="_blank"}  
+MicroPythonとはpyboardと呼ばれる小さなコンピュータで動かすためのPython言語の一種です。
 
 ### 関連ドキュメント
 _こちらのドキュメント（webサイト）は公式のものではありません。最新の情報ではない可能性がありますので、ご注意ください。_
