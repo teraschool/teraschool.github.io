@@ -37,7 +37,7 @@ OSのインストールは下記のスライドを参考にしてみて下さい
 ## スライドで手順を解説します
 {% include slide.html content="2PACX-1vQbqABYF-jO10MSBjcph25VAS8Y0jzAPeV6I_TLc3X45QQq16JWWS0qiOvCO8FnEJseBW7y3yKMTCZm" %}
 
-スライドに記載しているコードは、<https://gist.github.com/ryoko-saito/59d3e13b732de61d24c645064dacb92>からコピーして下さい。Raspberry Piクックブック286ページより引用。
+スライドに記載しているコードは、<https://gist.github.com/ryoko-saito/59d3e13b732de61d24c645064dacb923>からコピーして下さい。Raspberry Piクックブック286ページより引用。
 ここで使っているサーボモーターは、[スイッチサイエンス](https://www.switch-science.com/catalog/6813/)で購入できます。
 
 [ラズベリーパイでLチカをしてみる]{% include youtube.html content="https://www.youtube.com/embed/1DdA-yEFzAw" %}
