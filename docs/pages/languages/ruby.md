@@ -6,74 +6,84 @@ permalink: /languages/ruby/
 header:
   overlay_image: /assets/images/header/default.png
 ---
-## 1. Rubyについて
-Ruby（ルビー）は、[まつもとゆきひろ氏](https://ja.wikipedia.org/wiki/%E3%81%BE%E3%81%A4%E3%82%82%E3%81%A8%E3%82%86%E3%81%8D%E3%81%B2%E3%82%8D)によって開発された
+## Rubyとは？
+Ruby（ルビー）は、[まつもとゆきひろ氏](https://ja.wikipedia.org/wiki/%E3%81%BE%E3%81%A4%E3%82%82%E3%81%A8%E3%82%86%E3%81%8D%E3%81%B2%E3%82%8D)によって開発された日本生まれのプログラミング言語です。まるで、話しかけたら答えてくれるかのような「楽しい」書き方ができるのが特徴です。名前の由来も面白いので、気になる方は調べてみてくださいね。
 
+## 環境を整えよう
+自分のレベルに合わせて環境を整えてみましょう。
 
-## 2. 歴史
+### クラウド上の環境を利用する
+ページを開くとすぐにRubyを書き始めることができます。
+- [Try Ruby](https://try.ruby-lang.org/playground/)
 
-## 3. 特徴
-Rubyは、Python（パイソン）やJavaScript (ジャバスクリプト) のように、英数字や記号をキーボードでタイピングしてプログラムするテキストプログラミング言語ですが、Scratchと同じブロックを使ってプログラミングできる[Smalruby（スモウルビー）](https://smalruby.jp/smalruby3-gui/)){:target="_blank"}もあります。
+### 自分のPCにインストールして使う
+コンピュータに慣れている方は自分のPCでチャレンジしてみましょう。
 
-一般的なRubyは、プログラムの内容を順番に解釈しながら実行するインタープリタで処理されますが、コンパイラー（ソースコードから実行形式を生成するツール）を使って実行形式を作ってから実行する方式もあります。インタープリタ型の場合、プログラムの作成（変更）と実行の繰り返しが素早くできるため、プログラミングに不慣れな方でもどんどん試せます。
+- [Rubyの開発環境を用意しよう！（Windows用）](https://prog-8.com/docs/ruby-env-win){:target="_blank"}
+- [Rubyの開発環境を用意しよう！（Mac用）](https://prog-8.com/docs/ruby-env){:target="_blank"}
 
-また、次のような特徴もあります。
+## Rubyと遊んでみよう
+Rubyのメソッド名は直感的でわかりやすく、クラス全体で統一されているのでとても覚えやすいです。数字もオブジェクトであるため、以下のように数字に対してもメソッドを呼び出すことができます。どう返ってくるか予想して、実行してみましょう。
 
-### 独特な構文
-Rubyでは「文字列、数値を含め、全てがオブジェクトである」と定義されており、その構文も独特なものになっています。
-
+ヒント: nextは「次」という意味
 ```
-// 書き方の例1（Python）
-for i in range(10):
-  print('hello ')
-
+99.next
 ```
-これに対して、Rubyでは数字もオブジェクトであるため、以下のように数字に対してメソッドを呼び出すという他の言語ではみられない書き方ができます。
+ヒント: oddは「奇数」という意味
 ```
-3.times do
-  print 'hello '
-end
+99.odd?
 ```
 
-### 日本語のドキュメントが豊富
-Rubyの開発者が日本人で日本でのコミュニティ活動も活発なことから、公式ドキュメントを含め日本語の情報が豊富にあります。
-
-## 4. 利用方法
-
-### 4-1. 自分のPCにインストールして使う
-
-
-### 4-2. クラウド上の環境を利用する
-Rubyの公式サイトにすぐにRubyプログラミングを始められる「Playground（プレイグラインド）」と呼ばれるページと、チュートリアル（ひとりで学べる教材）があります。
-どちらも自分のPCにRubyをインストールすることなくすぐに始められます。
-
-- [Try Ruby（30分ありますか? 今すぐRubyを試しましょう!）](https://try.ruby-lang.org/){:target="_blank"}
-- [Try Ruby(Playground)（英語）](https://try.ruby-lang.org/playground/){:target="_blank"}
+[Try Ruby（30分ありますか? 今すぐRubyを試しましょう!）](https://try.ruby-lang.org/){:target="_blank"}を進めてみるのも楽しいですよ。
 
 ### ブロックプログラミングから始める
-[NPO法人Rubyプログラミング少年団](https://smalruby.jp/)が開発・公開している[Smalruby（スモウルビー）](https://smalruby.jp/smalruby3-gui/){:target="_blank"}はScratchをベースにしたブロック型のプログラミングツールですが、画面の中の「ルビー」タブを開くとブロックで作ったプログラムがルビーで表示されるようになっています。もちろん、ルビーで作ったプログラムをブロックに変換することもできます。
+Scratchに慣れている方は、[Smalruby（スモウルビー）](https://smalruby.jp/smalruby3-gui/){:target="_blank"}というScratchをベースにしたブロック型のプログラミングツールもおすすめです。
+
+画面の中の「ルビー」タブを開くと、ブロックで作ったプログラムがルビーで表示されるようになっています。もちろん、ルビーで作ったプログラムをブロックに変換することもできます。
 
 ![](/assets/images/languages/ruby/smalruby.png)
 
-Scratchとルビーのプログラムを見比べられるので、Scratchでプログラミングをしたことがある方におすすめです。
-
 - [NPO法人Rubyプログラミング少年団](https://smalruby.jp/){:target="_blank"}
-- [Smalruby（スモウルビー）](https://smalruby.jp/smalruby3-gui/){:target="_blank"}
 
-## 5. 参考情報
+## ドキュメント
+Rubyは、日本でのコミュニティ活動も活発！調べものをするときに、日本語の情報がたくさん出てくるので、英語が苦手でも学習しやすいですよ。
+
 ### 公式ドキュメント
 - [Ruby公式（日本語）](https://www.ruby-lang.org/ja/){:target="_blank"}
 - [Ruby公式ドキュメント（日本語）](https://docs.ruby-lang.org/ja/){:target="_blank"}
 
-### 関連ドキュメント
-_こちらのドキュメント（webサイト）は公式のものではありません。最新の情報ではない可能性がありますので、ご注意ください。_
+## Rubyを使ったフレームワークと学習サイトの紹介
+Rubyを使ってできることはたくさんありますが「フレームワーク」を使うことで、より便利に強固なシステムを構築することができます。それぞれ特徴があるので、作りたいサービスの用途によって使い分けると良いでしょう。有名なものをいくつかご紹介します。
+### [Ruby on Rails](https://rubyonrails.org/){:target="_blank"}
+Rubyを使った有名なフレームワークです。文字通り「レール」の上に乗る（さまざまな規約に従う）ことで、すばやく開発することができます。小規模から大規模なものまで、Ruby on Railsが使われているサービスはたくさんあります。ぜひ探してみましょう！
 
-- [Ruby on Railsチュートリアル](https://railstutorial.jp/){:target="_blank"}  
-Ruby on RailsとはRubyのwebアプリケーションのフレームワーク（アプリケーションを開発するのに必要な仕組み）
+- [Ruby on Railsチュートリアル](https://railstutorial.jp/){:target="_blank"}
 
-### コミュニティ・イベント
+Ruby on Railsを使ってログイン機能やフォロー機能付きのWebアプリケーションが作れるチュートリアルです。
 
-### 書籍
+- [Railsガイド](https://railsguides.jp/){:target="_blank"}
+
+Ruby on Railsについて詳しく知りたい時に使うガイドです。
+
+### [Sinatra](http://sinatrarb.com){:target="_blank"}
+最小構成でできたフレームワーク。規約に縛られず自由にカスタマイズできるので、小さめのWebアプリケーションを自由に開発したい時に最適です。
+
+- [README (Japanese) - Sinatra](http://sinatrarb.com/intro-ja.html){:target="_blank"}
+
+Ruby on Railsを学ぶ前の知識としても役に立ちます。
+
+### [Padrino](http://padrinorb.com/){:target="_blank"}
+前述のSinatraに、ライブラリやヘルパーなどの機能がついたものです。メール配信用のテンプレートもあります。ちょうどRailsとSinatraの中間くらいのイメージです。
+
+- [Blog Tutorial - Padrino（英語）](https://padrinorb.com/guides/getting-started/blog-tutorial/){:target="_blank"}
+
+Padrinoを使ってブログを作るチュートリアルです。
+
+## コミュニティ・イベント
+公式サイトにまとめられているので、下記ページをご覧ください。Slackの[ruby-jp](https://ruby-jp.github.io/){:target="_blank"}コミュニティも有名です。
+- [コミュニティ - Ruby](https://www.ruby-lang.org/ja/community/){:target="_blank"}
+
+## 書籍
 <div class="bookshelf">
 	<div class="book">
 		<img class="cover" src="https://cover.openbd.jp/9784873113944.jpg">
@@ -87,14 +97,13 @@ Ruby on RailsとはRubyのwebアプリケーションのフレームワーク（
 		<a class="btn library" href="https://calil.jp/book/4797399848" target="blank">図書館で探す</a>
 		<p class="title">たのしいRuby 第6版</p>
 	</div>
+	<div class="book">
+		<img class="cover" src="https://cover.openbd.jp/9784297124373.jpg">
+		<a class="btn amazon" href="https://amazon.jp/dp/4297124378" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4297124378" target="blank">図書館で探す</a>
+		<p class="title">プロを目指す人のためのRuby入門［改訂2版］　言語仕様からテスト駆動開発・デバッグ技法まで</p>
+	</div>
 </div>
 
-## よくあるご質問
-### Q. 質問
-答え
-
-### Q. 質問
-答え
-
 ## スタッフからのコメント
-世界中で使われているメジャーな言語では珍しい日本製プログラミング言語のRuby。公式ドキュメントが日本語なので、そういった点で他の言語よりもとっつきやすいと思います。
+Rubyには知っていると自慢したくなるような便利なメソッドがたくさんあります。面白いので、ぜひ探してみてくださいね。それではみなさん、Rubyを使って楽しくプログラミングしましょう！
