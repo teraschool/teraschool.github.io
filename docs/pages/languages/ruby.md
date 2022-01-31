@@ -17,13 +17,12 @@ Ruby（ルビー）は、[まつもとゆきひろ氏](https://ja.wikipedia.org/
 - [Try Ruby](https://try.ruby-lang.org/playground/)
 
 ### 自分のPCにインストールして使う
-コンピュータに慣れている方は自分のPCでチャレンジしてみましょう。
+コンピュータに慣れている方は自分のPCでチャレンジしてみましょう。インストール方法は、公式サイトを参考にしてみてください。
 
-- [Rubyの開発環境を用意しよう！（Windows用）](https://prog-8.com/docs/ruby-env-win){:target="_blank"}
-- [Rubyの開発環境を用意しよう！（Mac用）](https://prog-8.com/docs/ruby-env){:target="_blank"}
+- [Rubyのインストール](https://www.ruby-lang.org/ja/documentation/installation/){:target="_blank"}
 
 ## Rubyと遊んでみよう
-Rubyのメソッド名は直感的でわかりやすく、クラス全体で統一されているのでとても覚えやすいです。数字もオブジェクトであるため、以下のように数字に対してもメソッドを呼び出すことができます。どう返ってくるか予想して、実行してみましょう。
+Rubyでは、文字列、数値を含め、すべてが「操作や処理の対象（オブジェクト）」です。また、そのオブジェクトに対する操作を定義した手続き（メソッド）についている名前は、直感的でわかりやすいものが多いです。以下の例では何が返ってくるでしょうか？予想しながら実行してみましょう。
 
 ヒント: nextは「次」という意味
 ```
@@ -43,7 +42,7 @@ Scratchに慣れている方は、[Smalruby（スモウルビー）](https://sma
 
 ![](/assets/images/languages/ruby/smalruby.png)
 
-- [NPO法人Rubyプログラミング少年団](https://smalruby.jp/){:target="_blank"}
+開発元: [NPO法人Rubyプログラミング少年団](https://smalruby.jp/){:target="_blank"}
 
 ## ドキュメント
 Rubyは、日本でのコミュニティ活動も活発！調べものをするときに、日本語の情報がたくさん出てくるので、英語が苦手でも学習しやすいですよ。
@@ -53,20 +52,19 @@ Rubyは、日本でのコミュニティ活動も活発！調べものをする�
 - [Ruby公式ドキュメント（日本語）](https://docs.ruby-lang.org/ja/){:target="_blank"}
 
 ## Rubyを使ったフレームワークと学習サイトの紹介
-Rubyを使ってできることはたくさんありますが「フレームワーク」を使うことで、より便利に強固なシステムを構築することができます。それぞれ特徴があるので、作りたいサービスの用途によって使い分けると良いでしょう。有名なものをいくつかご紹介します。
+Rubyは、アプリケーションの土台となる枠組み（フレームワーク）を使うことで、より便利にWebアプリケーションをつくることができます。それぞれに特徴があるので、作りたいサービスの用途によって使い分けると良いでしょう。いくつかご紹介します。
 ### [Ruby on Rails](https://rubyonrails.org/){:target="_blank"}
 Rubyを使った有名なフレームワークです。文字通り「レール」の上に乗る（さまざまな規約に従う）ことで、すばやく開発することができます。小規模から大規模なものまで、Ruby on Railsが使われているサービスはたくさんあります。ぜひ探してみましょう！
+- [Rails をはじめよう - Railsガイド](https://railsguides.jp/getting_started.html){:target="_blank"}
+
+Railsを使ってシンプルなブログを作成する方法が学べます。
 
 - [Ruby on Railsチュートリアル](https://railstutorial.jp/){:target="_blank"}
 
-Ruby on Railsを使ってログイン機能やフォロー機能付きのWebアプリケーションが作れるチュートリアルです。
-
-- [Railsガイド](https://railsguides.jp/){:target="_blank"}
-
-Ruby on Railsについて詳しく知りたい時に使うガイドです。
+Ruby on Railsを使ってログイン機能やフォロー機能付きの本格的なWebアプリケーションの作り方が学べます。
 
 ### [Sinatra](http://sinatrarb.com){:target="_blank"}
-最小構成でできたフレームワーク。規約に縛られず自由にカスタマイズできるので、小さめのWebアプリケーションを自由に開発したい時に最適です。
+最小構成でできているので、規約に縛られず自由にカスタマイズしながら開発するのに向いています。
 
 - [README (Japanese) - Sinatra](http://sinatrarb.com/intro-ja.html){:target="_blank"}
 
@@ -77,7 +75,7 @@ Ruby on Railsを学ぶ前の知識としても役に立ちます。
 
 - [Blog Tutorial - Padrino（英語）](https://padrinorb.com/guides/getting-started/blog-tutorial/){:target="_blank"}
 
-Padrinoを使ってブログを作るチュートリアルです。
+Padrinoを使ってブログを作る方法が学べます。
 
 ## コミュニティ・イベント
 公式サイトにまとめられているので、下記ページをご覧ください。Slackの[ruby-jp](https://ruby-jp.github.io/){:target="_blank"}コミュニティも有名です。
@@ -102,6 +100,18 @@ Padrinoを使ってブログを作るチュートリアルです。
 		<a class="btn amazon" href="https://amazon.jp/dp/4297124378" target="blank">Amazonで購入</a>
 		<a class="btn library" href="https://calil.jp/book/4297124378" target="blank">図書館で探す</a>
 		<p class="title">プロを目指す人のためのRuby入門［改訂2版］　言語仕様からテスト駆動開発・デバッグ技法まで</p>
+	</div>
+	<div class="book">
+		<img class="cover" src="/assets/images/no_image.png">
+		<a class="btn amazon" href="https://amazon.jp/dp/4774195022" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4774195022" target="blank">図書館で探す</a>
+		<p class="title">3ステップでしっかり学ぶRuby入門</p>
+	</div>
+	<div class="book">
+		<img class="cover" src="https://cover.openbd.jp/9784274227417.jpg">
+		<a class="btn amazon" href="https://amazon.jp/dp/4274227413" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4274227413" target="blank">図書館で探す</a>
+		<p class="title">RubyではじめるWebアプリの作り方</p>
 	</div>
 </div>
 
