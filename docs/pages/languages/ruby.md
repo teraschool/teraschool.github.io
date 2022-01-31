@@ -79,7 +79,6 @@ Ruby on Railsを学ぶ前の知識としても役に立ちます。
 
 Padrinoを使ってブログを作るチュートリアルです。
 
-
 ## コミュニティ・イベント
 公式サイトにまとめられているので、下記ページをご覧ください。Slackの[ruby-jp](https://ruby-jp.github.io/){:target="_blank"}コミュニティも有名です。
 - [コミュニティ - Ruby](https://www.ruby-lang.org/ja/community/){:target="_blank"}
@@ -97,6 +96,12 @@ Padrinoを使ってブログを作るチュートリアルです。
 		<a class="btn amazon" href="https://amazon.jp/dp/4797399848" target="blank">Amazonで購入</a>
 		<a class="btn library" href="https://calil.jp/book/4797399848" target="blank">図書館で探す</a>
 		<p class="title">たのしいRuby 第6版</p>
+	</div>
+	<div class="book">
+		<img class="cover" src="https://cover.openbd.jp/9784297124373.jpg">
+		<a class="btn amazon" href="https://amazon.jp/dp/4297124378" target="blank">Amazonで購入</a>
+		<a class="btn library" href="https://calil.jp/book/4297124378" target="blank">図書館で探す</a>
+		<p class="title">プロを目指す人のためのRuby入門［改訂2版］　言語仕様からテスト駆動開発・デバッグ技法まで</p>
 	</div>
 </div>
 
