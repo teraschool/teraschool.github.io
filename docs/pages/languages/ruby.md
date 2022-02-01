@@ -11,7 +11,9 @@ Ruby（ルビー）は、[まつもとゆきひろ氏](https://ja.wikipedia.org/
 
 ## 2. 歴史
 
+
 ## 3. 特徴
+
 
 ## 4. 利用方法
 自分のレベルに合わせて環境を整えてみましょう。
@@ -84,8 +86,9 @@ Ruby on Railsを学ぶ前の知識としても役に立ちます。
 Padrinoを使ってブログを作る方法が学べます。
 
 ## コミュニティ・イベント
-公式サイトにまとめられているので、下記ページをご覧ください。Slackの[ruby-jp](https://ruby-jp.github.io/){:target="_blank"}コミュニティも有名です。
-- [コミュニティ - Ruby](https://www.ruby-lang.org/ja/community/){:target="_blank"}
+国内、海外ともに多くのコミュニティがあり、オンラインで参加できるものもあります。公式サイトにまとめられていますので、下記のリンク先をご覧ください。- [コミュニティ - Ruby](https://www.ruby-lang.org/ja/community/){:target="_blank"}
+
+Slackの[ruby-jp](https://ruby-jp.github.io/){:target="_blank"}コミュニティも有名です。
 
 ### 書籍
 <div class="bookshelf">
