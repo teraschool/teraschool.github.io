@@ -18,16 +18,17 @@ Rubyは日本で開発された日本で開発されたプログラミング言�
 ## 4. 利用方法
 自分のレベルに合わせて環境を整えてみましょう。
 
-### クラウド上の環境を利用する
-ページを開くとすぐにRubyを書き始めることができます。
-- [Try Ruby](https://try.ruby-lang.org/playground/)
-
 ### 4-1. 自分のPCにインストールして使う
 コンピュータに慣れている方は自分のPCでチャレンジしてみましょう。インストール方法は、公式サイトを参考にしてみてください。
 
 - [Rubyのインストール](https://www.ruby-lang.org/ja/documentation/installation/){:target="_blank"}
 
 ### 4-2. クラウド上の環境を利用する
+
+### 公式のクラウドRuby環境で始める
+ページを開くとすぐにRubyを書き始めることができます。
+- [Try Ruby](https://try.ruby-lang.org/playground/)
+
 ### ブロックプログラミングから始める
 Scratchに慣れている方は、[Smalruby（スモウルビー）](https://smalruby.jp/smalruby3-gui/){:target="_blank"}というScratchをベースにしたブロック型のプログラミングツールもおすすめです。
 
