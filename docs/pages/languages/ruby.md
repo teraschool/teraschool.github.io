@@ -25,7 +25,17 @@ Ruby（ルビー）は、[まつもとゆきひろ氏](https://ja.wikipedia.org/
 
 - [Rubyのインストール](https://www.ruby-lang.org/ja/documentation/installation/){:target="_blank"}
 
-## Rubyと遊んでみよう
+### 4-2. クラウド上の環境を利用する
+### ブロックプログラミングから始める
+Scratchに慣れている方は、[Smalruby（スモウルビー）](https://smalruby.jp/smalruby3-gui/){:target="_blank"}というScratchをベースにしたブロック型のプログラミングツールもおすすめです。
+
+画面の中の「ルビー」タブを開くと、ブロックで作ったプログラムがルビーで表示されるようになっています。もちろん、ルビーで作ったプログラムをブロックに変換することもできます。
+
+![](/assets/images/languages/ruby/smalruby.png)
+
+開発元: [NPO法人Rubyプログラミング少年団](https://smalruby.jp/){:target="_blank"}
+
+### 4-3. Rubyと遊んでみよう
 Rubyでは、文字列、数値を含め、すべてが「操作や処理の対象（オブジェクト）」です。また、そのオブジェクトに対する操作を定義した手続き（メソッド）についている名前は、直感的でわかりやすいものが多いです。以下の例では何が返ってくるでしょうか？予想しながら実行してみましょう。
 
 ヒント: nextは「次」という意味
@@ -38,16 +48,6 @@ Rubyでは、文字列、数値を含め、すべてが「操作や処理の対�
 ```
 
 [Try Ruby（30分ありますか? 今すぐRubyを試しましょう!）](https://try.ruby-lang.org/){:target="_blank"}を進めてみるのも楽しいですよ。
-
-### 4-2. クラウド上の環境を利用する
-### ブロックプログラミングから始める
-Scratchに慣れている方は、[Smalruby（スモウルビー）](https://smalruby.jp/smalruby3-gui/){:target="_blank"}というScratchをベースにしたブロック型のプログラミングツールもおすすめです。
-
-画面の中の「ルビー」タブを開くと、ブロックで作ったプログラムがルビーで表示されるようになっています。もちろん、ルビーで作ったプログラムをブロックに変換することもできます。
-
-![](/assets/images/languages/ruby/smalruby.png)
-
-開発元: [NPO法人Rubyプログラミング少年団](https://smalruby.jp/){:target="_blank"}
 
 ## 5. 参考情報
 Rubyは、日本でのコミュニティ活動も活発！調べものをするときに、日本語の情報がたくさん出てくるので、英語が苦手でも学習しやすいですよ。
