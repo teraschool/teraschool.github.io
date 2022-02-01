@@ -115,5 +115,16 @@ Padrinoを使ってブログを作る方法が学べます。
 	</div>
 </div>
 
+## Rubyが使われてるサービス
+みなさんも一度は目にしたことがあるのではないでしょうか？有名なものを一部ご紹介します。
+
+- [クックパッド](https://cookpad.com/){:target="_blank"}（料理レシピのコミュニティウェブサイト）
+- [価格.com](https://kakaku.com/){:target="_blank"}（価格比較ウェブサイト）
+- [Gunosy](https://gunosy.com/){:target="_blank"}（情報配信サービス）
+- [hulu](https://www.hulu.com/welcome){:target="_blank"}（動画配信サービス）
+
+また、世界中のプログラムが公開されているサービス「[GitHub](https://github.com/){:target="_blank"}」でもRubyが採用されています。世の中のさまざまなサービスを陰で支えている、と思うとすごいですね。
+
+
 ## スタッフからのコメント
 Rubyには知っていると自慢したくなるような便利なメソッドがたくさんあります。面白いので、ぜひ探してみてくださいね。それではみなさん、Rubyを使って楽しくプログラミングしましょう！
