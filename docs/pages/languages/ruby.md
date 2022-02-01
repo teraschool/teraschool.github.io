@@ -56,7 +56,7 @@ Rubyは、日本でのコミュニティ活動も活発！調べものをする�
 - [Ruby公式（日本語）](https://www.ruby-lang.org/ja/){:target="_blank"}
 - [Ruby公式ドキュメント（日本語）](https://docs.ruby-lang.org/ja/){:target="_blank"}
 
-### Rubyを使ったフレームワークと学習サイトの紹介
+### Rubyを使ったフレームワークと学習サイト
 Rubyは、アプリケーションの土台となる枠組み（フレームワーク）を使うことで、より便利にWebアプリケーションをつくることができます。それぞれに特徴があるので、作りたいサービスの用途によって使い分けると良いでしょう。いくつかご紹介します。
 
 #### [Ruby on Rails](https://rubyonrails.org/){:target="_blank"}
