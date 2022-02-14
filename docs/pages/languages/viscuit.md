@@ -34,7 +34,7 @@ Viscuitをタブレットで利用する場合は、iPadもしくはAndroidタ�
 
 公式サイトはタブレットでもアクセスできますが、「やってみる」にアクセスするとアプリに切り替わります、アプリが入っていないとエラーになりますのでタブレットでの利用にはアプリが必要となります。
 
-- [ビスケットであそぶ | やってみる](https://develop.viscuit.com/env/publicarea.html){:target="_blank"}
+- [ビスケットをPCで遊んでみる](https://develop.viscuit.com/env/publicarea.html){:target="_blank"}
 
 ## 5. 参考情報
 ### 公式ドキュメント
