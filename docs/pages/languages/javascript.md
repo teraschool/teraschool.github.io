@@ -6,37 +6,76 @@ permalink: /languages/javascript/
 header:
   overlay_image: /assets/images/header/default.png
 ---
-- [JavaScript　ガイド](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide){:target="_blank"}
-- [JavaScript　リファレンス](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference){:target="_blank"}
-- [Canvas　API](https://developer.mozilla.org/ja/docs/Web/API/CanvasRenderingContext2D){:target="_blank"}
+## 1. JavaScript（ジャバスクリプト）について
+JavaScript（ジャバスクリプト）は、元々webブラウザに搭載されたプログラミング言語で、webサイトの表示を動的に動かすために作られたスクリプト言語です。
 
-## エディタ
-- [Brackets](http://brackets.io/){:target="_blank"}
-- [HTML5　preview](http://tsprograming.html.xdomain.jp/prokyoto/preview/){:target="_blank"}
-- [Visual Studio Code](https://azure.microsoft.com/ja-jp/products/visual-studio-code/){:target="_blank"}
+現在では、ブラウザ上以外にもサーバー上やPCの上でJavaScriptで作ったプログラムを動かせるようにするものもあり、幅広く使われている言語のひとつです。
 
-## サンプルコード
-- [HTML Canvas サンプルコード集](https://docs.google.com/document/d/10H4SVx6BeKx4pHy1JHoDa9socV3gCJVAKBzZOoytJwg/edit?usp=sharing){:target="_blank"}
-- [機能なし電卓](http://tsprograming.html.xdomain.jp/prokyoto/sample/calc.html){:target="_blank"}
-- [テトリスを作ろう1](https://drive.google.com/file/d/0Bx0yKSTUfq7LM3dBMDFSRnVadGM/view?usp=sharing){:target="_blank"}
-- [テトリスを作ろう2](https://drive.google.com/file/d/0Bx0yKSTUfq7LMWJoQ21tOGl5YUE/view?usp=sharing){:target="_blank"}
+## 2. 歴史
+JavaScriptは1995年に「Netscape Navigator 2.0」と呼ばれるwebブラウザで初めて使えるようになりました。Netscape Navigatorは現在の多くのwebブラウザの先祖とも言えるブラウザで、当時の開発コード"Mozilla"は現在も[Firefoxブラウザ](https://www.mozilla.org/ja/firefox/){:target="_blank"}を開発している組織の名前として残っています。
 
-## 練習問題（問題編）
-Tera school が作成したオリジナル教材です。ご自由にお使いください。
-- [JavaScript問題_01](https://docs.google.com/document/d/1Emz5PEGGJQk-PzQhq60PLr4O0SCmw-IUQD-W4eKNE5I/edit?usp=sharing){:target="_blank"}
-- [JavaScript問題_02](https://docs.google.com/document/d/1TSvg9eveGl6srDI24EEGfFqUAIu67BoKuCuNdzkUfls/edit?usp=sharing){:target="_blank"}
-- [JavaScript問題_03](https://docs.google.com/document/d/1fP3bvBHEzXsCouTXoXThSZKzPXRvXMgENpgadID48YA/edit?usp=sharing){:target="_blank"}
-- [JavaScript問題_04](https://docs.google.com/document/d/18D0xDYZBEsvPSzTG_o64dhQp-HjFs48Is_3tYM_AZ-Q/edit?usp=sharing){:target="_blank"}
-- [JavaScript問題_05](https://docs.google.com/document/d/1JB_RHbGxoOzbYSiuHCJY-BV5jjoBSuVRNdqe_ogHipk/edit?usp=sharing){:target="_blank"}
-- [JavaScript問題_06](https://docs.google.com/document/d/1kVD0KQDuGP30g5xbjyJ8ywRo9BDOOBgOkD7-AthUTDg/edit?usp=sharing){:target="_blank"}
-- [JavaScript問題_07](https://docs.google.com/document/d/1lBfvw7D4fbUAiXMDtn7hE91ToMXv7F74gNvaqohM3Jk/edit?usp=sharing){:target="_blank"}
-- [JavaScript問題_08](https://docs.google.com/document/d/1TJ7H08Bhq7nX_3M9eqhvI_BvoXaQwBcprlLocK5zyRs/edit?usp=sharing){:target="_blank"}
-- [JavaScript問題_09](https://docs.google.com/document/d/1_7cq98vHjvFD0Oe9MhCXQDAYtVrgCh_nYmXA5P5bbIE/edit?usp=sharing){:target="_blank"}
-- [JavaScript問題_10](https://docs.google.com/document/d/1BPjkvndIIdWnHHwpNuEj32EJEsW2jod3jJT0Oezh5uw/edit?usp=sharing){:target="_blank"}
-- [JavaScript問題_11](https://docs.google.com/document/d/1G6pyefXDSPxg-TzCr--MavjyTvbYAVV5-Rx64LM0nCY/edit?usp=sharing){:target="_blank"}
-- [JavaScript問題_12](https://docs.google.com/document/d/1CUXeb8xHV7dNG9p18Krf9UFW5EXIfqzYFr6Hj7UiCaQ/edit?usp=sharing){:target="_blank"}
-- [JavaScript問題_13](https://docs.google.com/document/d/1MFIgxhWBCp14KNjJmCeBj-WJ5642ZQN72u2swXn3o8w/edit?usp=sharing){:target="_blank"}
-- [JavaScript問題_14](https://docs.google.com/document/d/1zL0V_3gRAWrNxOwrpbEQtbRx2LdCYfzGAz5kIzeLUF8/edit?usp=sharing){:target="_blank"}
+ネット上では、よく似ているけれど別のものの例えに「JavaとJavaScript」が用いられます。JavaとJavaScriptは全く別の言語ですが、リリース当初はJavaScriptはJavaを補完する技術として考えられていたようです。当時の[リリースの記事をインターネットアーカイブ](https://web.archive.org/web/20070916144913/http://wp.netscape.com/newsref/pr/newsrelease67.html){:target="_blank"}上で読むことができます。
+
+その後、JavaScriptは多くの企業に採用され、中心となる仕様が「ECMAScript」として標準化され多くのブラウザに採用されるようになりました。
+
+## 3. 特徴
+当初は、ブラウザの中（ユーザーのPC側）でのみ動作するJavaScriptでしたが、現在はサーバー上で動作する環境や開発環境にも利用されており、webアプリケーションや各種ツールの開発にも用いられています。
+
+### TypeScript
+プログラミング言語には、型（データの種類を表す情報。たとえば"2"という情報があった時にそれが文字列なのか数値なのかによって取り扱い方が変わる）というものがありますが、JavaScriptは動的型付けを採用していてデータの型変換（文字列の"2"を数字の2として扱う）が自動的に行われる仕組みを採用しています。
+
+この仕組みは便利な反面、ハグを見つけにくい（実行してみるまでわからない）というデメリットがありました。
+
+これを解消するためにMicrosoft社によって開発されたのが「TypeScript」です。TypeScriptは、JavaScriptを拡張した言語で「コンパイル」と呼ばれるプログラムを生成する処理でJavaScriptに変換されます。
+
+TypeScriptはJavaScriptとことなり静的型付けを採用していますので、コンパイルの時点で異なる型のデータを受け渡しなどがあるとエラーが出力されるので、バグをみつけやすいというメリットがあります。
+
+TypeScriptは、ReactやNode.jsなどのメジャーな開発フレームワーク（ソフトウェアの開発に必要なソフトウェアやルールを決めたもの）でも利用されており、現在ではJavaScriptよりもTypeScriptを利用するケースが増えているかもしれません。
+
+## 4. 利用方法　
+
+### 4-1. 自分のPCにインストールして使う
+JavaScirptで作ったプログラムを動かす一番簡単な方法のひとつが「webブラウザで動かす」ことです。この場合、JavaScriptを動かす環境をインストールする必要はありません。多くのPCには最初からwebブラウザが入っているからです。
+
+JavaScriptで作ったプログラムを「ファイル名.js」のように拡張子を.jsにして保存しwebブラウザにドラッグ＆ドロップするだけで動かすことができます。その後は、プログラムを更新した後ブラウザの再読み込みボタンを押すと新しいプログラムが読み込まれ再起動します。
+
+### 4-2. クラウド上の環境を利用する
+以下のオンライン環境であれば、特別なソフトウェアをインストールすることなく、JavaScriptで機械を動かしたり、グラフィックを描いたりできます。
+
+
+#### 4-2-1. micro:bitを動かす
+イギリス発の小さな教育用シングルボードコンピュータ（[micro:bit](https://microbit.org/ja/){:target="_blank"}）も、JavaScriptでプログラムを作って動かすことができます。
+
+micro:bitのプログラミングツール[MakeCode for micro::bit](https://makecode.microbit.org/){:target="_blank"}は、Scratch3.0と同じブロックを使ったブロックプログラミングが標準ですが、画面上のメニューを切り替えることでJavaScriptでもプログラムを作成できるようになっています。
+
+![](/assets/images/languages/javascript/microbit01.png)
+
+![](/assets/images/languages/javascript/microbit02.png)
+
+#### 4-2-2. Glitchで動かす
+webサイトの構築やwebアプリケーションを開発環境の[Glitch](https://glitch.com/){:target="_blank"}を使うと、webサイトの制作だけではなく、Node.jsやReactといった本格的にアプリケーション開発に用いられているツールを手軽に利用できます。
+
+日本語表示のないので英語が苦手な方にはハードルが高いと感じられるかもしれませんが、難しい英語は使われていませんので翻訳サイトやツールを使いながらやってみても良いでしょう。
+
+#### 4-2-3. p5.jsで動かす
+プログラミング初学者向けのツールとして古くからある[Processing](https://processing.org/){:target="_blank"}をJavaScriptでプログラミングできるようにしta
+[p5.js](https://p5js.org/){:target="_blank"}もおすすめです。
+
+p5.jsには[日本語版のサイト](https://p5js.jp/){:target="_blank"}もありますが、リンク先はほぼ英語のままとなっていますので、基本的にはすべて英語と考えていただいた方が良いでしょう。
+
+## 5. 参考情報
+### 公式ドキュメント
+JavaScriptの言語としての公式なサイトはありませんが、JavaScriptの生みの親でもあるMozillaの情報がもっともまとまっていてわかりやすいです。
+
+- [JavaScriptガイド](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide){:target="_blank"}
+- [JavaScriptリファレンス](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference){:target="_blank"}
+
+### 関連ドキュメント
+_こちらのドキュメント（webサイト）は公式のものではありません。最新の情報ではない可能性がありますので、ご注意ください。_
+
+とほほの〇〇入門は、[とほほのWWW入門](https://www.tohoho-web.com/www.html){:target="_blank"}からスタートした入門者向けweb関連技術のリファレンスサイトです。古くからあり、多くの方に愛用されているので知っている方も多くいらっしゃいます。
+
+- [とほほのJavaScript入門](https://www.tohoho-web.com/js/index.htm){:target="_blank"}
 
 ## 書籍
 <div class="bookshelf">
@@ -77,3 +116,10 @@ Tera school が作成したオリジナル教材です。ご自由にお使い�
 		<p class="title">スラスラ読めるJavaScriptふりがなプログラミング</p>
 	</div>
 </div>
+
+## 6. よくあるご質問
+### Q. JavaScriptでスマートフォンをアプリを作ることはできますか？
+A.　HTML/CSSなどのwebの技術も一緒に学ぶことでスマートフォンアプリを作ることもできます。ただし、HTML/CSSとJavaScript以外にも関連技術（webアプリケーションをスマートフォンアプリにするための技術など）も理解しておかなければなりませんし、iPhone/iPad向けのアプリを開発する場合にはリリース時にMacが必要となりますので、この点について留意しておいてください。
+
+## 7. スタッフからのコメント
+現在はwebの技術を使って多くのwebアプリケーションはもちろん、スマートフォンアプリケーションなども開発されています。それらはいわゆるJavaScriptというよりもJavaScriptの派生言語やフレームワークを使っているものですが、その基礎としてのJavaScriptの知識は有用です。現在は開発対象だけではなく、開発ツールとしても利用することが多いJavaScriptは本格的にプログラミングをやっていこうという方には必須の技術と言えます。
