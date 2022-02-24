@@ -1,10 +1,13 @@
 ---
 title: JavaScript
-top_image: /assets/images/language/javascript.png
+excerpt: 
+card_image: /assets/images/card/language/javascript.png
 layout: single
 permalink: /languages/javascript/
 header:
   overlay_image: /assets/images/header/default.png
+tags:
+  - JavaScript
 ---
 ## 1. JavaScript（ジャバスクリプト）について
 JavaScript（ジャバスクリプト）は、元々webブラウザに搭載されたプログラミング言語で、webサイトの表示を動的に動かすために作られたスクリプト言語です。

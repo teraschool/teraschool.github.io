@@ -1,10 +1,13 @@
 ---
 title: ScratchJr
-top_image: /assets/images/language/scratchjr.png
+excerpt: 
+card_image: /assets/images/card/language/scratchjr.png
 layout: single
 permalink: /languages/scratchjr/
 header:
   overlay_image: /assets/images/header/default.png
+tags:
+  - ScratchJr
 ---
 ## 1. ScratchJrについて
 ScratchJr（スクラッチジュニア）は、5歳〜7歳の子どもたちを対象に開発されたビジュアルプログラミング環境で、iPadもしくはAndroidタブレットでのみ利用可能になっています。

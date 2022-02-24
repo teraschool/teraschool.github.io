@@ -1,10 +1,13 @@
 ---
 title: Viscuit（ビスケット）
-top_image: /assets/images/language/viscuit.png
+excerpt: 
+card_image: /assets/images/card/language/viscuit.png
 layout: single
 permalink: /languages/viscuit/
 header:
   overlay_image: /assets/images/header/default.png
+tags:
+  - Viscuit
 ---
 ## 1. Viscuitについて
 Viscuit（ビスケット）は、メガネ型の部品の上に２つの絵を置いて動かすタイプのプログラミングツールです。多くの命令を組み合わせて作る他のプログラミングツールとは、考え方が大きく異なっています。

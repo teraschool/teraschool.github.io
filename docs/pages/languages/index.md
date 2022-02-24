@@ -8,13 +8,14 @@ header:
 ---
 
 <div id="languages">
-{% include language.html content="scratch" %}
-{% include language.html content="scratchjr" %}
-{% include language.html content="viscuit" %}
-{% include language.html content="hackforplay" %}
-{% include language.html content="hourofcode" %}
-{% include language.html content="python" %}
-{% include language.html content="ruby" %}
-{% include language.html content="javascript" %}
-{% include language.html content="html" %}
+{% include card.html content="/languages/cpp" %}
+{% include card.html content="/languages/scratch" %}
+{% include card.html content="/languages/scratchjr" %}
+{% include card.html content="/languages/viscuit" %}
+{% include card.html content="/languages/hackforplay" %}
+{% include card.html content="/languages/hourofcode" %}
+{% include card.html content="/languages/python" %}
+{% include card.html content="/languages/ruby" %}
+{% include card.html content="/languages/javascript" %}
+{% include card.html content="/languages/html" %}
 </div>

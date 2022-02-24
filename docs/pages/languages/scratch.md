@@ -1,10 +1,13 @@
 ---
 title: Scratch
-top_image: /assets/images/language/scratch.png
+excerpt: 
+card_image: /assets/images/card/language/scratch.png
 layout: single
 permalink: /languages/scratch/
 header:
   overlay_image: /assets/images/header/default.png
+tags:
+  - Scratch
 ---
 ## 1. Scratch について
 Scratch（スクラッチ）は[MITメディアラボ](https://www.media.mit.edu)の[Lifelong Kindergarten Group](https://www.media.mit.edu/groups/lifelong-kindergarten/overview/)が開発したビジュアルプログラミング言語で、[Scratch財団](https://www.scratchfoundation.org/)により無償で提供されています。

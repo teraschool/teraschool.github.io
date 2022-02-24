@@ -1,0 +1,22 @@
+{% capture target_url %}{{include.content}}{% endcapture %}
+{%- assign pages = site.html_pages
+    | where_exp: "item", "item.url contains target_url" -%}
+
+{%- for page in pages -%}
+<a href="{{ page.url | relative_url }}" alt="{{ page.title }}" title="{{ page.title }}">
+  <div>
+    <img src="{{ page.card_image }}" alt="{{ page.title }}">
+    <div class="title">{{ page.title }}</div>
+    <div class="excerpt">{{ page.excerpt }}</div>
+    {% assign tags = page.tags %}
+    {%- if tags -%}
+      <ul class="tags">
+      {%- for tag in tags -%}
+        <li>{{ tag }}</li>
+      {%- endfor -%}
+      </ul>
+    {%- endif -%}
+  </div>
+</a>
+
+{%- endfor -%}

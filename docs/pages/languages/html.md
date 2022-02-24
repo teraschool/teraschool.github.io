@@ -1,10 +1,13 @@
 ---
 title: HTML
-top_image: /assets/images/language/html.png
+excerpt: 
+card_image: /assets/images/card/language/html.png
 layout: single
 permalink: /languages/html/
 header:
   overlay_image: /assets/images/header/default.png
+tags:
+  - HTML/CSS
 ---
 ## 教材
 Tera school オリジナルの教材です。

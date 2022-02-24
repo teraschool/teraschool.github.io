@@ -1,10 +1,13 @@
 ---
 title: Ruby
-top_image: /assets/images/language/ruby.png
+excerpt: 
+card_image: /assets/images/card/language/ruby.png
 layout: single
 permalink: /languages/ruby/
 header:
   overlay_image: /assets/images/header/default.png
+tags:
+  - Ruby
 ---
 ## 1. Ruby について
 Ruby（ルビー）は、[まつもとゆきひろ氏](https://ja.wikipedia.org/wiki/%E3%81%BE%E3%81%A4%E3%82%82%E3%81%A8%E3%82%86%E3%81%8D%E3%81%B2%E3%82%8D)によって開発された日本生まれのプログラミング言語です。日本で開発されたプログラミング言語として初めて国際電気標準会議（IEC）で国際規格に認証されています（[Wikipedia](https://ja.wikipedia.org/wiki/Ruby){:target="_blank"}より）。これは、日本発のプログラミング言語が世界的に認められたことを意味しています。「Ruby」という名前の由来も面白いので、気になる方は調べてみてくださいね。
