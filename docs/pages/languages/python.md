@@ -1,10 +1,13 @@
 ---
 title: Python
-top_image: /assets/images/language/python.png
+excerpt: 
+card_image: /assets/images/card/language/python.png
 layout: single
 permalink: /languages/python/
 header:
   overlay_image: /assets/images/header/default.png
+tags:
+  - Python
 ---
 ## 1. Python について
 Python（パイソン）は、ビッグデータの処理や人工知能、webアプリケーションの開発まで幅広く利用されているプログラミング言語です。

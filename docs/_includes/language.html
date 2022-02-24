@@ -1,9 +1,0 @@
-{% capture target_url %}/{{include.content}}/{% endcapture %}
-{%- assign page_langs = site.html_pages
-    | where_exp: "item", "item.url contains target_url" -%}
-
-{%- for page_lang in page_langs -%}
-<a href="{{ page_lang.url | relative_url }}" alt="{{ page_lang.title }}" title="{{ page_lang.title }}">
-  <img src="{{ page_lang.top_image }}">
-</a>
-{%- endfor -%}
