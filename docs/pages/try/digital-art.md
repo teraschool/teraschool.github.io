@@ -274,12 +274,12 @@ function draw() {
 
 物理演算エンジンというものと組み合わせると、重力で落ちる・丸と床がぶつかる・丸同士がぶつかる、という動きを作ったりできます。
 
-●Matter.js と Handtrack.js と p5.js を組み合わせてみる （物理演算＋手の認識＋描画） - YouTube
+●Matter.js と Handtrack.js と p5.js を組み合わせてみる （物理演算＋手の認識＋描画） - YouTube  
 　https://www.youtube.com/watch?v=-nn6uFr5hi4
 
 ### 機械学習・AIの仕組みと3Dの表示を組み合わせる
 また、カメラでうつった手を認識する機械学習・AIの仕組みを使ってます（こういうのが好きでよく作ってます）。  
 p5.jsでは、3Dを扱う仕組みを使っているので、縦横の方向だけでなく、手前から奥などにも動くような表現ができます。
 
-●p5.js の 3D空間内でのカメラ操作と ml5.js の Handpose を組み合わせてみた - YouTube
+●p5.js の 3D空間内でのカメラ操作と ml5.js の Handpose を組み合わせてみた - YouTube  
 　https://www.youtube.com/watch?v=ZqcstBhC0Lk
