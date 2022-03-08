@@ -1,0 +1,25 @@
+$color-base-1: #053f51;
+$color-base-2: #01607d;
+$color-base-3: #d2f4ff;
+$color-base-4: #f2fcff;
+$color-base-5: #fff;
+
+$color-accent-blue-1: #93e5ff;
+$color-accent-yellow-1: #fff27a;
+
+$page-min-width: 320px;
+$page-max-width: 1080px;
+$container-max-width: 800px;
+
+$breakpoint-min-width-1: round(
+  ($container-max-width - $page-min-width) / 3 * 1 + $page-min-width
+);
+$breakpoint-min-width-2: round(
+  ($container-max-width - $page-min-width) / 3 * 2 + $page-min-width
+);
+$breakpoint-min-width-3: $container-max-width;
+$breakpoint-min-width-4: $page-max-width;
+
+$z-index-floating: 2000000;
+$z-index-sticky: 4000000;
+$z-index-overlay: 6000000;
