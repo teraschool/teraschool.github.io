@@ -1,0 +1,209 @@
+---
+---
+
+@import "_library";
+
+.top {
+  // background-color: #ddd;
+  height: 5000px;
+}
+
+.keyVisual {
+  $backgroundIcons-width: 1344px;
+
+  position: relative;
+
+  .keyVisual__background {
+    position: absolute;
+    $accent-opacity: 0.5;
+    $accent-blue: rgba($color-accent-blue-1, $accent-opacity);
+    $accent-yellow: rgba($color-accent-yellow-1, $accent-opacity);
+    width: 100%;
+    height: 100%;
+    background-color: $color-base-3;
+    background-image: radial-gradient(
+        at 20% -30%,
+        $accent-blue 0%,
+        transparent 60%
+      ),
+      radial-gradient(at 0% 110%, $accent-yellow 0%, transparent 40%),
+      radial-gradient(at 120% -20%, $accent-yellow 0%, transparent 40%),
+      radial-gradient(at 130% 110%, $accent-blue 0%, transparent 60%);
+  }
+
+  .keyVisual__backgroundIcons {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background: 0 50% repeat;
+    background-size: $backgroundIcons-width auto;
+    animation: linear infinite;
+    will-change: background-position-x;
+
+    &.keyVisual__backgroundIcons--1,
+    &.keyVisual__backgroundIcons--3 {
+      animation-name: top-keyVisual-left-animation;
+    }
+
+    &.keyVisual__backgroundIcons--2,
+    &.keyVisual__backgroundIcons--4 {
+      animation-name: top-keyVisual-right-animation;
+    }
+
+    &.keyVisual__backgroundIcons--1 {
+      animation-duration: 120s;
+    }
+
+    &.keyVisual__backgroundIcons--2 {
+      animation-duration: 60s;
+    }
+
+    &.keyVisual__backgroundIcons--3 {
+      animation-duration: 100s;
+    }
+
+    &.keyVisual__backgroundIcons--4 {
+      animation-duration: 80s;
+    }
+
+    &.keyVisual__backgroundIcons--1 {
+      background-image: url("/assets/images/top/bg-keyVisual-icons-1.png");
+    }
+    &.keyVisual__backgroundIcons--2 {
+      background-image: url("/assets/images/top/bg-keyVisual-icons-2.png");
+    }
+    &.keyVisual__backgroundIcons--3 {
+      background-image: url("/assets/images/top/bg-keyVisual-icons-3.png");
+    }
+    &.keyVisual__backgroundIcons--4 {
+      background-image: url("/assets/images/top/bg-keyVisual-icons-4.png");
+    }
+  }
+
+  .keyVisual__main {
+    padding: 56px 16px 64px;
+    position: relative;
+
+    @media (min-width: $breakpoint-min-width-1) {
+      padding: 72px 16px 80px;
+    }
+  }
+
+  .keyVisual__mainInner {
+    margin: 0 auto;
+    max-width: $container-max-width;
+  }
+
+  .keyVisual__logo {
+    margin: 0 auto;
+
+    @media (min-width: $breakpoint-min-width-1) {
+      width: 90%;
+    }
+
+    @media (min-width: $breakpoint-min-width-2) {
+      width: #{(1 - ($container-max-width - 694px) / $container-max-width) * 100}#{"%"};
+    }
+  }
+
+  .keyVisual__leads {
+    margin-top: 32px;
+
+    @media (min-width: $breakpoint-min-width-1) {
+      margin-top: 48px;
+    }
+  }
+
+  .keyVisual__lead {
+    color: $color-base-2;
+    font-weight: bold;
+    text-align: center;
+
+    @media (min-width: $breakpoint-min-width-1) {
+      font-size: 18px;
+    }
+
+    @media (min-width: $breakpoint-min-width-2) {
+      font-size: 20px;
+    }
+
+    @media (min-width: $breakpoint-min-width-3) {
+      font-size: 24px;
+    }
+  }
+
+  .keyVisual__leadInner {
+    display: inline-block;
+  }
+
+  .keyVisual__links {
+    display: flex;
+    margin-top: 32px;
+    margin-left: -8px;
+
+    @media (min-width: $breakpoint-min-width-1) {
+      margin-left: -16px;
+    }
+
+    @media (min-width: $breakpoint-min-width-2) {
+      margin-top: 48px;
+      margin-left: -24px;
+    }
+
+    @media (min-width: $breakpoint-min-width-3) {
+      margin-left: -40px;
+    }
+  }
+
+  .keyVisual__link {
+    flex-grow: 1;
+    width: 50%;
+  }
+
+  .keyVisual__linkInner {
+    margin-left: 8px;
+
+    @media (min-width: $breakpoint-min-width-1) {
+      margin-left: 16px;
+    }
+
+    @media (min-width: $breakpoint-min-width-2) {
+      margin-left: 24px;
+    }
+
+    @media (min-width: $breakpoint-min-width-3) {
+      margin-left: 40px;
+    }
+  }
+
+  .keyVisual__linkButton {
+    padding: 16px;
+    font-size: 14px;
+
+    @media (min-width: $breakpoint-min-width-1) {
+      font-size: 16px;
+    }
+
+    @media (min-width: $breakpoint-min-width-3) {
+      font-size: 18px;
+    }
+  }
+
+  @keyframes top-keyVisual-left-animation {
+    0% {
+      background-position-x: 0;
+    }
+    100% {
+      background-position: $backgroundIcons-width;
+    }
+  }
+
+  @keyframes top-keyVisual-right-animation {
+    0% {
+      background-position-x: 0;
+    }
+    100% {
+      background-position: -$backgroundIcons-width;
+    }
+  }
+}
