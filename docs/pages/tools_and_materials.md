@@ -16,7 +16,7 @@ header:
 - [micro:bit](https://microbit.org){:target="_blank"}
 - [IchigoJam](http://ichigojam.net/){:target="_blank"}
 - [Arduino](http://www.arduino.cc/){:target="_blank"}
-- [M5Stack]
+- [M5Stack](https://m5stack.com/){:target="_blank"}
 
 ## テキストエディタ
 テキストエディタとは、プログラムやwebサイトなどを作成するためのアプリで単に「エディタ」とも呼ばれます。
