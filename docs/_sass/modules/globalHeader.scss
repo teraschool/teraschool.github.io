@@ -10,6 +10,7 @@
   width: 100%;
   height: 48px;
   background-color: $color-base-2;
+  box-shadow: $box-shadow-sticky;
   z-index: $z-index-sticky;
 
   .globalHeader__logo {
@@ -127,6 +128,7 @@
     max-width: $page-min-width;
     height: inherit;
     background-color: $color-base-2;
+    box-shadow: $box-shadow-floating;
     transform: translateX(100%);
     transition: transform $hamburger-duration ease-in-out;
   }
@@ -229,6 +231,7 @@
       max-width: none;
       height: auto;
       background-color: transparent;
+      box-shadow: none;
       transform: none;
       transition: none;
     }
