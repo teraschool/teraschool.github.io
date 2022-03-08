@@ -14,10 +14,11 @@
   position: relative;
 
   .keyVisual__background {
-    position: absolute;
-    $accent-opacity: 0.5;
+    $accent-opacity: 0.8;
     $accent-blue: rgba($color-accent-blue-1, $accent-opacity);
     $accent-yellow: rgba($color-accent-yellow-1, $accent-opacity);
+
+    position: absolute;
     width: 100%;
     height: 100%;
     background-color: $color-base-3;
@@ -26,7 +27,7 @@
         $accent-blue 0%,
         transparent 60%
       ),
-      radial-gradient(at 0% 110%, $accent-yellow 0%, transparent 40%),
+      radial-gradient(at -10% 110%, $accent-yellow 0%, transparent 40%),
       radial-gradient(at 120% -20%, $accent-yellow 0%, transparent 40%),
       radial-gradient(at 130% 110%, $accent-blue 0%, transparent 60%);
   }
