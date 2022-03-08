@@ -1,0 +1,12 @@
+{% if include.tagname != "button" %}
+<a href="{{ include.href }}"
+  class="button{%if include.type%} button--{{include.type}}{%endif%}{% if include.class %} {{ include.class }}{% endif %}">
+  <span class="button__inner">{{ include.content }}</span>
+</a>
+{% else %}
+<button type="{{ include.htmltype }}"
+  class="button{%if include.type%} button--{{include.type}}{%endif%}{% if include.class %} {{ include.class }}{% endif %}"
+  {% if include.dataattr %}{{ include.dataattr }}{% endif %}>
+  <span class="button__inner">{{ include.content }}</span>
+</button>
+{% endif %}
