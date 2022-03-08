@@ -1,6 +1,33 @@
 ---
 ---
-
+{% if page.url == "/" %}
+{% comment %}
+<!-- 新UI -->
+{% endcomment %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@2.0.2/destyle.css">
+  {% if page.url == "/" %}
+  <link rel="stylesheet" href="/assets/css/top.css">
+  {% endif %}
+</head>
+<body>
+  <!-- {% include modules/globalHeader.html %} -->
+  <main>
+    {{ content }}
+  </main>
+  <!-- {% include modules/globalFooter.html %} -->
+</body>
+</html>
+{% else %}
+{% comment %}
+<!-- 旧UI -->
+{% endcomment %}
 <!doctype html>
 <!--
   Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
@@ -8,35 +35,36 @@
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+<html lang="{{ site.locale | slice: 0,2 | default: " en" }}" class="no-js">
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+</head>
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-    {% include_cached skip-links.html %}
-    {% include_cached browser-upgrade.html %}
-    {% include_cached masthead.html %}
+<body
+  class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+  {% include_cached skip-links.html %}
+  {% include_cached browser-upgrade.html %}
+  {% include_cached masthead.html %}
+  <div class="initial-content">
+    {{ content }}
+  </div>
 
-    <div class="initial-content">
-      {{ content }}
-    </div>
+  {% if site.search == true %}
+  <div class="search-content">
+    {% include_cached search/search_form.html %}
+  </div>
+  {% endif %}
 
-    {% if site.search == true %}
-      <div class="search-content">
-        {% include_cached search/search_form.html %}
-      </div>
-    {% endif %}
+  <div id="footer" class="page__footer">
+    <footer>
+      {% include footer/custom.html %}
+      {% include_cached footer.html %}
+    </footer>
+  </div>
 
-    <div id="footer" class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include_cached footer.html %}
-      </footer>
-    </div>
+  {% include scripts.html %}
 
-    {% include scripts.html %}
-
-  </body>
+</body>
 </html>
+{% endif %}
