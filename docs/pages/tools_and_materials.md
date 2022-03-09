@@ -100,6 +100,7 @@ UI（ユーザーインターフェース）とはwebサイトだったりアプ
 - [Loose Drawing](https://loosedrawing.com)
 - [ちょうどいいイラスト](https://tyoudoii-illust.com/)
 - [画像衆](https://www.t-web.co.jp/gazousyu/html/){:target="_blank"}（写真もあります）
+- [オイシソ](https://oishiso.jp/){:target="_blank"}
 
 ### アイコン
 - [ICOON MONO](https://icooon-mono.com/){:target="_blank"}
