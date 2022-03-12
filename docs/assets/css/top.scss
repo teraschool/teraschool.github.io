@@ -3,11 +3,6 @@
 
 @import "_library";
 
-.top {
-  // background-color: #ddd;
-  height: 5000px;
-}
-
 .keyVisual {
   $backgroundIcons-width: 1344px;
 
@@ -21,7 +16,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: $color-base-3;
+    background-color: $color-keyVisual-background;
     background-image: radial-gradient(
         at 20% -30%,
         $accent-blue 0%,
@@ -206,5 +201,21 @@
     100% {
       background-position: -$backgroundIcons-width;
     }
+  }
+}
+
+.firstMessage {
+  .firstMessage__paragraph + .firstMessage__paragraph {
+    margin-top: 8px;
+  }
+
+  .firstMessage__more {
+    margin-top: 24px;
+    text-align: center;
+  }
+
+  .firstMessage__moreItem {
+    display: inline-block;
+    vertical-align: top;
   }
 }
