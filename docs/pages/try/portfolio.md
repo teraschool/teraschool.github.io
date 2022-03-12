@@ -4,6 +4,10 @@ layout: single
 permalink: /try/portfolio/
 header:
   overlay_image: /assets/images/header/default.png
+tags:
+  - HTML5
+  - CSS3
+  - Web
 ---
 
 # ポートフォリオサイトを作ってみよう
