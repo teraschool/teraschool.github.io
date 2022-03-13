@@ -35,13 +35,13 @@ micro:bitには[いくつかのセンサー](https://microbit.org/ja/get-started
 micro:bitには、2つのボタンの間に25個のLEDがついています。  
 プログラムで、この25個あるLEDのどれを点けるか／消すかを変えることで、数字やアイコンなどの絵のようなものを表示することができます。
 
-【★画像：LED（??_microbit.jpg）】
+【★画像：LED（03_microbit.jpg）】
 
 ### ボタン
 micro:bitには、プログラムで使える2個のボタン（AボタンとBボタン）がついています。  
 指でボタンを押す、というのは使いやすくて分かりやすいので、使われることが多いです。
 
-【★画像：ボタン（??_microbit.jpg）】
+【★画像：ボタン（04_microbit.jpg）】
 
 ### その他のしくみ
 micro:bitを使うと、「センサー、LED、ボタン」を使ったものの他にも、明るさや温度のセンサー、つうしんをするしくみなどを使ったものなど、いろいろなことができます。  
@@ -52,6 +52,8 @@ micro:bitを使うと、「センサー、LED、ボタン」を使ったもの�
 ●はじめに | micro:bit  
 　https://microbit.org/ja/get-started/first-steps/introduction/
 
+![Micro:bit教育財団のはじめにのページ](/assets/images/try/microbit/05_microbit.jpg)
+
 いきなりたくさん書いてあることを読むのはたいへんかもしれない、と思ったら、むりはせずに少しずつ見ていくのもよいと思います。  
 自分が気になるものを少しずつためしていくのもオススメです。
 
@@ -61,7 +63,7 @@ micro:bitを使うと、「センサー、LED、ボタン」を使ったもの�
 ### プログラムを作るじゅんびをする（MakeCode のじゅんび）
 プログラムを作ってみる前に、micro:bit を動かすプログラムを作る時に使う[「MakeCode（メイクコード）」](https://makecode.microbit.org/?lang=ja)のじゅんびをしましょう。
 
-【★画像：MakeCodeのページの画像（??_microbit.jpg）】
+![MakeCodeのページ](/assets/images/try/microbit/06_microbit.jpg)
 
 はじめて使うばあいは、このページを見ながらやってみましょう！
 
@@ -75,13 +77,13 @@ LEDを光らせることはできたでしょうか？
 MakeCodeを少し使ってみたところで、次はMicro:bitきょういくざいだんのページを見ながら、サイコロを作ってみましょう。  
 LEDを光らせるプログラムを作ったときのように、やってみてください。
 
-【★画像：サイコロの作例のページの画像（??_microbit.jpg）】
-
 まずは、どんなブロックを使うかを見てみて、それとおなじプログラムを作ってみてください。  
 作るプログラムは、このページの中の「ステップ2: プログラムする」という部分に出てきています。
 
 ●サイコロ | micro:bit  
 　https://microbit.org/ja/projects/make-it-code-it/dice/
+
+![サイコロの作例のページ](/assets/images/try/microbit/07_microbit.jpg)
 
 このプログラムをmicro:bitに書きこんだあとに、micro:bitを手でゆさぶってみましょう。
 
@@ -110,7 +112,7 @@ LEDを光らせるプログラムを作ったときのように、やってみ�
 
 どんなプログラムになるかは、こちらを見てみてください。
 
-【★画像：おみくじのプログラム1（XY_microbit.jpg）】
+![おみくじのプログラム1](/assets/images/try/microbit/08_microbit.png)
 
 おみくじの当たりかはずれかは、LEDで出すアイコンのを使うようにしてみました（当たりはえがおのアイコン、はずれはバツのアイコンにします）。  
 また、そのアイコンは、少ししたら消えるようなプログラムにしてみました。
@@ -126,7 +128,7 @@ micro:bitのセンサーだけでなく、ボタンも使ってみます。
 
 「ゆさぶられた とき」のブロックを、「○○」のブロックと入れかえてみます。
 
-【★画像：おみくじを動かすのに使うブロック（XY_microbit.jpg）】
+![おみくじを動かすのに使うブロック](/assets/images/try/microbit/09_microbit.png)
 
 ボタンを使ったおみくじは動いたでしょうか？
 
@@ -150,6 +152,8 @@ micro:bitは、みのまわりにあるアルミホイルやダンボールな�
 ●反応ゲーム | micro:bit  
 　https://microbit.org/ja/projects/make-it-code-it/reaction-game/
 
+![反応ゲーム（Micro:bit教育財団のページ）](/assets/images/try/microbit/10_microbit.jpg)
+
 2人でたいせんができるゲームを作ることができます！
 
 ### 2つのmicro:bitをくみあわせる
@@ -158,6 +162,8 @@ micro:bitのつうしんのしくみを使って、メッセージをおくる�
 
 ●スマイルを送ろう | micro:bit  
 　https://microbit.org/ja/projects/make-it-code-it/send-a-smile/
+
+![スマイルを送ろう（Micro:bit教育財団のページ）](/assets/images/try/microbit/11_microbit.jpg)
 
 ## micro:bitでできることをさがしてみる
 micro:bitでできることは、まだまだしょうかいできてないものがたくさんあります。
