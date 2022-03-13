@@ -35,13 +35,13 @@ micro:bitには[いくつかのセンサー](https://microbit.org/ja/get-started
 micro:bitには、2つのボタンの間に25個のLEDがついています。  
 プログラムで、この25個あるLEDのどれを点けるか／消すかを変えることで、数字やアイコンなどの絵のようなものを表示することができます。
 
-【★画像：LED（03_microbit.jpg）】
+![micro:bitのLED](/assets/images/try/microbit/03_microbit.png)
 
 ### ボタン
 micro:bitには、プログラムで使える2個のボタン（AボタンとBボタン）がついています。  
 指でボタンを押す、というのは使いやすくて分かりやすいので、使われることが多いです。
 
-【★画像：ボタン（04_microbit.jpg）】
+![micro:bitのボタン](/assets/images/try/microbit/04_microbit.png)
 
 ### その他のしくみ
 micro:bitを使うと、「センサー、LED、ボタン」を使ったものの他にも、明るさや温度のセンサー、つうしんをするしくみなどを使ったものなど、いろいろなことができます。  
