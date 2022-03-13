@@ -37,7 +37,7 @@ header:
 それでは、p5.js Web Editorをブラウザで開いてみましょう。  
 https://editor.p5js.org/ というページを開くと、以下のような画面が表示されると思います。
 
-【★画像：p5.js Web Editorの画面の画像（01_digital-art.png）】
+![](/assets/images/try/digital-art/00_digital-art.png)
 
 おおまかにこの画面の説明をすると、画面左側がプログラムを書くところで、右側は作ったプログラムが動いた結果を表示する部分になります。
 
@@ -45,7 +45,7 @@ https://editor.p5js.org/ というページを開くと、以下のような画�
 ページを開くと、説明が英語になっていると思いますので、まずは表示を日本語に変えてしまいましょう。  
 この下にある画像の中で、赤い矢印で示した「English」と書かれた部分を押します。  そうすると、メニューが開くので、その中の「日本語」を選びましょう。
 
-【★画像：言語を変える（01_digital-art.png）】
+![](/assets/images/try/digital-art/01_digital-art.png)
 
 画面の中のメニューの表示が、日本語に変わったのではないでしょうか。
 
@@ -85,11 +85,11 @@ function draw() {
 
 そして、プログラムを書きかえたら、画面左上にあるこの部分を押してください。
 
-【★画像：実行ボタン（02_digital-art.png）】
+![](/assets/images/try/digital-art/02_digital-art.png)
 
 そうすると、画面の右のほうに灰色の背景と青っぽい丸が表示されたのではないかと思います。
 
-【★画像：実行結果（03_digital-art.png）】
+![](/assets/images/try/digital-art/03_digital-art.png)
 
 先ほどのプログラムの数字の意味などは後で説明するので、もう少しプログラムの書きかえと動かしてみるのを試していきます。
 
@@ -112,13 +112,13 @@ function draw() {
 そして、プログラムを動かすボタンを押した後に、マウス・タッチパッドを操作して、画面の右側の部分でカーソルを動かしてみましょう！  
 どのようになったでしょうか？
 
-【★画像：実行結果（04_digital-art.png）】
+![](/assets/images/try/digital-art/04_digital-art.png)
 
 このように、カーソルを動かしたところに、どんどん丸が描かれたのではないかと思います。  
 
 ちなみに、一度描いた内容を消したい時は、画面左上にあるこの部分を押しましょう。
 
-【★画像：止めるボタン（05_digital-art.png）】
+![](/assets/images/try/digital-art/05_digital-art.png)
 
 このボタンを押すことで、動かしていたプログラムを止めることができます。
 
