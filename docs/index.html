@@ -111,29 +111,15 @@ layout: default
     </div>
     <div class="top__mainItem">
       {% capture trySection %}
-      {% assign pages = site.html_pages | where_exp: "item", "item.url contains '/try/'"%}
-      {% for page in pages %}
-      {% assign paths = page.url | split: "/" %}
-      {% if paths.size > 2 %}
-      <p>{{ page.url }}</p>
-      <p>{{ page.title }}</p>
-      <p>{{ page.tags }}</p>
-      {% endif %}
-      {% endfor %}
+      {% comment %}{% include modules/cardList.html path="/try/" display_indexes="1,2,3" %}{% endcomment %}
+      {% include modules/cardList.html path="/try/" %}
       {% endcapture %}
       {% include modules/basicSection.html title="やってみよう" content=trySection %}
     </div>
     <div class="top__mainItem">
       {% capture languageSection %}
-      {% assign pages = site.html_pages | where_exp: "item", "item.url contains '/languages'"%}
-      {% for page in pages %}
-      {% assign paths = page.url | split: "/" %}
-      {% if paths.size > 2 %}
-      <p>{{ page.url }}</p>
-      <p>{{ page.title }}</p>
-      <p>{{ page.tags }}</p>
-      {% endif %}
-      {% endfor %}
+      {% comment %}{% include modules/cardList.html path="/languages/" display_indexes="1,2,3" %}{% endcomment %}
+      {% include modules/cardList.html path="/languages/" %}
       {% endcapture %}
       {% include modules/basicSection.html title="いろいろな言語" content=languageSection %}
     </div>

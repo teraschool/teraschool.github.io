@@ -3,10 +3,13 @@
 @import "./utils/reset.scss";
 
 @import "./parts/button.scss";
+@import "./parts/card.scss";
+@import "./parts/tag.scss";
 
+@import "./modules/basicSection.scss";
+@import "./modules/cardList.scss";
 @import "./modules/globalHeader.scss";
 @import "./modules/globalFooter.scss";
-@import "./modules/basicSection.scss";
 
 .basicPage {
   padding-bottom: 56px;

@@ -1,0 +1,41 @@
+{% assign items = site.html_pages | where_exp: "page", "page.url contains include.path"%}
+{% assign urls = items | map: "url" %}
+{% assign url_path_lengths = "" | split: "," %}
+{% for url in urls %}
+{% assign url_paths = url | split: '/' %}
+{% assign url_path_lengths = url_path_lengths | push: url_paths.size %}
+{% endfor %}
+{% assign children = "" | split: "," %}
+{% for item in items %}
+{% if url_path_lengths[forloop.index0] > 2 %}
+{% assign children = children | push: item %}
+{% endif %}
+{% endfor %}
+
+<div class="cardList">
+  <div class="cardList__main">
+    <ul class="cardList__items">
+      {% assign display_indexes = "-1" | split: "," %}
+      {% if include.display_indexes %}
+      {% assign display_indexes = include.display_indexes | split: "," %}
+      {% endif %}
+      {% for display_index in display_indexes %}
+      {% for child in children %}
+      {% assign url_path = child.url | split: "/" %}
+      {% assign current_index = forloop.index | downcase %}
+      {% if display_index == '-1' or display_index == current_index %}
+      <li class="cardList__item">
+        {% include parts/card.html url=child.url thumbnail=child.thumbnail title=child.title
+        tags=child.tags class="cardList__itemLink" %}
+      </li>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% if include.display_indexes %}
+  <div class="cardList__more">
+    <span class="cardList__moreInner">{% include parts/button.html href=include.path content="もっと見る" %}</span>
+  </div>
+  {% endif %}
+</div>
