@@ -33,7 +33,7 @@
     height: inherit;
     background: 0 50% repeat;
     background-size: $backgroundIcons-width auto;
-    animation: linear infinite;
+    animation: 80s linear infinite;
     will-change: background-position-x;
 
     &.keyVisual__backgroundIcons--1,
@@ -44,22 +44,6 @@
     &.keyVisual__backgroundIcons--2,
     &.keyVisual__backgroundIcons--4 {
       animation-name: top-keyVisual-right-animation;
-    }
-
-    &.keyVisual__backgroundIcons--1 {
-      animation-duration: 120s;
-    }
-
-    &.keyVisual__backgroundIcons--2 {
-      animation-duration: 60s;
-    }
-
-    &.keyVisual__backgroundIcons--3 {
-      animation-duration: 100s;
-    }
-
-    &.keyVisual__backgroundIcons--4 {
-      animation-duration: 80s;
     }
 
     &.keyVisual__backgroundIcons--1 {
