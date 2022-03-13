@@ -1,0 +1,37 @@
+.cardList {
+  .cardList__items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -16px 0 0 -16px;
+  }
+
+  .cardList__item {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+
+    @media (min-width: $breakpoint-min-width-1) {
+      min-width: 50%;
+      max-width: 50%;
+    }
+
+    @media (min-width: $breakpoint-min-width-2) {
+      min-width: 33.33%;
+      max-width: 33.33%;
+    }
+  }
+
+  .cardList__itemLink {
+    margin: 16px 0 0 16px;
+  }
+
+  .cardList__more {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+  }
+
+  .cardList__moreInner {
+    display: inline-block;
+  }
+}
