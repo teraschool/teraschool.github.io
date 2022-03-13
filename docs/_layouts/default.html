@@ -4,13 +4,34 @@
 {% comment %}
 <!-- 新UI -->
 {% endcomment %}
+
+{% assign title = site.title %}
+{% if page.title %}
+{% assign title = title | append: " - " %}
+{% assign title = title | append: page.title %}
+{% endif %}
+
+{% if page.canonical_url %}
+{% assign canonical_url = page.canonical_url %}
+{% else %}
+{% assign canonical_url = page.url | replace: "index.html", "" | absolute_url %}
+{% endif %}
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="utf-8">
   <meta name="viewport"
     content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-  <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  <meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:url" content="{{ canonical_url }}">
+  <meta property="og:image" content="{{ page.header.overlay_image | default: site.og_image | absolute_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{title}}">
+  <title>{{ title }}</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@2.0.2/destyle.css">
   {% if page.url == "/" %}
   <link rel="stylesheet" href="/assets/css/top.css">
