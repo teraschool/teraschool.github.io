@@ -8,6 +8,7 @@
   .cardList__item {
     display: flex;
     flex-grow: 1;
+    width: 100%;
 
     @media (min-width: $breakpoint-min-width-1) {
       min-width: 50%;
