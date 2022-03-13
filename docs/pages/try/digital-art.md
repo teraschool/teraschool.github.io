@@ -11,7 +11,7 @@ header:
 
 この後の説明を見ながら進めていくと、例えば、とても短いプログラムでこのようなデジタルアートを作ることができます。
 
-[p5.js でマウスカーソルの軌跡に円を描画するシンプルなプログラム]{% include youtube.html content="https://www.youtube.com/watch?v=OjOs4rieF98" %}
+[p5.js でマウスカーソルの軌跡に円を描画するシンプルなプログラム]{% include youtube.html content="https://www.youtube.com/embed/OjOs4rieF98" %}
 
 これは、カーソルが動いた部分に丸を描いていく、という仕組みになっているものです。  
 これを作るための準備として、まずは図形を描くやり方を試すことから始めて、その後にパソコンのマウス・タッチパッドの操作に反応するアートを作ってみましょう！
@@ -280,7 +280,7 @@ function draw() {
 
 この物理演算エンジンは、重力や摩擦・衝突した物体にかかる力といった、リアルな物体の動きを作るのに必要な難しい計算が必要な仕組みを、簡単に使えるように助けてくれます。物理演算エンジンの仕組みを理解するのも少し大変になる部分ですが、使いこなせると、楽しくて複雑な動きを含む作品を作ることができます。
 
-[Matter.js と Handtrack.js と p5.js を組み合わせてみる （物理演算＋手の認識＋描画）]{% include youtube.html content="https://www.youtube.com/watch?v=-nn6uFr5hi4" %}
+[Matter.js と Handtrack.js と p5.js を組み合わせてみる （物理演算＋手の認識＋描画）]{% include youtube.html content="https://www.youtube.com/embed/-nn6uFr5hi4" %}
 
 
 ### 機械学習・AIの仕組みと3Dの表示を組み合わせる
@@ -289,7 +289,7 @@ function draw() {
 この仕組みについて、「カメラでうつった手を認識する部分は、機械学習・AIを使ったもの」です（こういう自分の動きに合わせて何かする、というものが好きでよく作ってます）。  
 そして、箱のようなものの場所が動いたり、見た目の大きさが変わるところはp5.jsを使った描画です。p5.jsは3Dを扱う仕組みがあるため、p5.js以外の別の仕組みを用意しなくても、このような3D表現を扱うこともできます。
 
-[p5.js の 3D空間内でのカメラ操作と ml5.js の Handpose を組み合わせてみた]{% include youtube.html content="https://www.youtube.com/watch?v=ZqcstBhC0Lk" %}
+[p5.js の 3D空間内でのカメラ操作と ml5.js の Handpose を組み合わせてみた]{% include youtube.html content="https://www.youtube.com/embed/ZqcstBhC0Lk" %}
 
 ### アニメーションを扱う仕組みを組み合わせる
 最後に紹介するのは、丸が跳びはねるアニメーションです。5つの丸が上から下に落ちてきて、一番下にぶつかった時につぶれたような形になったりもしながら、下から上に跳ね返るような動きをします。
@@ -297,4 +297,4 @@ function draw() {
 先ほどの物理演算エンジンを使った話でも、動きを扱う話をしていましたが、こちらは「モーショントゥイーン」や「トゥイーンアニメーション」と言われる別の仕組みを使っています。丸が上下に動く動きや、つぶれるような見た目を作る部分ははp5.jsだけで作ることもできる部分ではあるのですが、この「モーショントゥイーン」を使うとそれをより簡単に作ることができます。  
 ここでは詳しい説明は省略しますが、アニメーションを作るのに興味がある方は、「モーショントゥイーン・トゥイーンアニメーション」について調べてみてください。
 
-[p5.js でイージングを使った 5つのボールがバウンドするアニメーション（p5.tween を利用）]{% include youtube.html content="https://www.youtube.com/watch?v=eQHuEgAHecc" %}
+[p5.js でイージングを使った 5つのボールがバウンドするアニメーション（p5.tween を利用）]{% include youtube.html content="https://www.youtube.com/embed/eQHuEgAHecc" %}
