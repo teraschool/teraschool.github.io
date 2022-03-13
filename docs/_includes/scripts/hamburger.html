@@ -1,0 +1,28 @@
+<script>
+  (function () {
+    const initHamburger = () => {
+      const hamburgerDOM = document.querySelector('[data-hamburger]');
+      const hamburgerOpenDOM = document.querySelectorAll('[data-hamburger-open]');
+      const hamburgerCloseDOM = document.querySelectorAll('[data-hamburger-close]');
+      const showClassName = `${hamburgerDOM.classList[0]}--show`;
+
+      const openHamburger = () => {
+        hamburgerDOM.classList.add(showClassName);
+      }
+
+      const closeHamburger = () => {
+        hamburgerDOM.classList.remove(showClassName);
+      }
+
+      hamburgerOpenDOM.forEach((element) => {
+        element.addEventListener('click', openHamburger);
+      })
+
+      hamburgerCloseDOM.forEach((element) => {
+        element.addEventListener('click', closeHamburger);
+      })
+    }
+
+    initHamburger();
+  })();
+</script>

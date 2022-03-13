@@ -1,6 +1,55 @@
 ---
 ---
+{% if page.url == "/" %}
+{% comment %}
+<!-- 新UI -->
+{% endcomment %}
 
+{% assign title = site.title %}
+{% if page.title %}
+{% assign title = title | append: " - " %}
+{% assign title = title | append: page.title %}
+{% endif %}
+
+{% if page.canonical_url %}
+{% assign canonical_url = page.canonical_url %}
+{% else %}
+{% assign canonical_url = page.url | replace: "index.html", "" | absolute_url %}
+{% endif %}
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:url" content="{{ canonical_url }}">
+  <meta property="og:image" content="{{ page.header.overlay_image | default: site.og_image | absolute_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{title}}">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@2.0.2/destyle.css">
+  {% if page.url == "/" %}
+  <link rel="stylesheet" href="/assets/css/top.css">
+  {% endif %}
+</head>
+<body>
+  {% include modules/globalHeader.html %}
+  <main>
+    {{ content }}
+  </main>
+  {% include modules/globalFooter.html %}
+  {% include scripts/hamburger.html %}
+</body>
+</html>
+{% else %}
+{% comment %}
+<!-- 旧UI -->
+{% endcomment %}
 <!doctype html>
 <!--
   Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
@@ -8,35 +57,36 @@
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+<html lang="{{ site.locale | slice: 0,2 | default: " en" }}" class="no-js">
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+</head>
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-    {% include_cached skip-links.html %}
-    {% include_cached browser-upgrade.html %}
-    {% include_cached masthead.html %}
+<body
+  class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+  {% include_cached skip-links.html %}
+  {% include_cached browser-upgrade.html %}
+  {% include_cached masthead.html %}
+  <div class="initial-content">
+    {{ content }}
+  </div>
 
-    <div class="initial-content">
-      {{ content }}
-    </div>
+  {% if site.search == true %}
+  <div class="search-content">
+    {% include_cached search/search_form.html %}
+  </div>
+  {% endif %}
 
-    {% if site.search == true %}
-      <div class="search-content">
-        {% include_cached search/search_form.html %}
-      </div>
-    {% endif %}
+  <div id="footer" class="page__footer">
+    <footer>
+      {% include footer/custom.html %}
+      {% include_cached footer.html %}
+    </footer>
+  </div>
 
-    <div id="footer" class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include_cached footer.html %}
-      </footer>
-    </div>
+  {% include scripts.html %}
 
-    {% include scripts.html %}
-
-  </body>
+</body>
 </html>
+{% endif %}
