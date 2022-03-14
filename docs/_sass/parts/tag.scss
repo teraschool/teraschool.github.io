@@ -1,0 +1,26 @@
+.tag {
+  $font-size: 12px;
+  $line-height: 1.2;
+  $padding-top-bottom: 4px;
+
+  display: inline-flex;
+  border: solid 1px $color-base-2;
+  // 2行分の高さを考慮して2をかける
+  border-radius: $font-size * $line-height * 2 + $padding-top-bottom * 2;
+  padding: $padding-top-bottom 8px;
+  max-width: 100%;
+  background-color: $color-base-5;
+  color: $color-base-2;
+  font-size: $font-size;
+  line-height: $line-height;
+  vertical-align: top;
+
+  &::before {
+    content: "#";
+  }
+
+  .tag__inner {
+    margin-left: 4px;
+    min-width: 1px;
+  }
+}
