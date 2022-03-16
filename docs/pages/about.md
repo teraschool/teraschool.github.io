@@ -42,7 +42,7 @@ header:
 当サイトへの修正依頼・情報提供については、以下の方法にてお願いいたします。
 
 ### 1. 掲載内容の修正、変更の場合  
-既に掲載されている内容の修正、変更については、[GitHubのIssue（問題を報告するためのページ）](https://github.com/teraschool/teraschool.github.io/issues){:target="_blank"}か[メール](mailto:support@teraschool.org)にてご連絡ください。
+既に掲載されている内容の修正、変更については、[GitHubのIssue（問題を報告するためのページ）](https://github.com/teraschool/teraschool.github.io/issues){:target="_blank"}か[メール](mailto:lets@teraschool.org)にてご連絡ください。
 
 ### 2. 掲載内容の追加の場合  
 掲載内容の追加（未掲載の言語ややってみようなどのページ追加）については、GitHubのPull Requestにてお受けしています。
