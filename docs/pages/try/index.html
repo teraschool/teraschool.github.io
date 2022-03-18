@@ -1,0 +1,14 @@
+---
+title: やってみよう
+layout: single
+permalink: /try/
+---
+
+<div class="languages">
+  <div class="languages__item">
+    {% capture cardListElements %}
+    {% include modules/cardList.html path="/try/" %}
+    {% endcapture %}
+    {% include modules/basicSection.html content=cardListElements %}
+  </div>
+</div>

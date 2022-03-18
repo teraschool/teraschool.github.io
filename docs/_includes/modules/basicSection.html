@@ -1,5 +1,6 @@
 <div class="basicSection{% if include.type %} basicSection--{{include.type}}{% endif %}">
   <div class="basicSection__inner">
+    {% if include.title %}
     <div class="basicSection__header">
       <h2 class="basicSection__headerTitle">
         <span class="basicSection__headerTitleInner">
@@ -13,6 +14,7 @@
       <p class="basicSection__lead">{{ include.lead }}</p>
       {% endif %}
     </div>
+    {% endif %}
     <div class="basicSection__main">
       {{ include.content }}
     </div>

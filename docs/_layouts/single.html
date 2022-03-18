@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="basicPage single">
+  <div class="single__header">
+    <h1 class="single__headerTitle">
+      <span class="single__headerTitleItem">
+        <span class="single__headerTitleInner">{{ page.title }}</span>
+      </span>
+    </h1>
+    {% if page.description %}
+    <div class="single__headerLead">
+      <p class="single__headerLeadDescription">{{ page.description }}</p>
+    </div>
+    {% endif %}
+  </div>
+  <div class="single__main">
+    {{ content }}
+  </div>
+</div>
