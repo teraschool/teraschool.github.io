@@ -1,4 +1,4 @@
-<div class="basicSection{% if include.type %} basicSection--{{include.type}}{% endif %}">
+<div class="basicSection{% if include.type %} basicSection--{{include.type}}{% endif %}{% if include.mode %} basicSection--{{include.mode}}{% endif %}">
   <div class="basicSection__inner">
     {% if include.title %}
     <div class="basicSection__header">

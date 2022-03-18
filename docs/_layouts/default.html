@@ -1,6 +1,6 @@
 ---
 ---
-{% if page.url == "/" or page.url == "/try/" or page.url == "/languages/" %}
+{% if page.url == "/" or page.url == "/try/" or page.url == "/languages/" or page.url == "/about/" %}
 {% comment %}
 <!-- 新UI -->
 {% endcomment %}
@@ -37,7 +37,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@2.0.2/destyle.css">
   {% if page.url == "/" %}
   <link rel="stylesheet" href="/assets/css/top.css">
-  {% else if page.url == "/try/" or page.url == "/languages/" %}
+  {% else if page.url == "/try/" or page.url == "/languages/" or page.url == "/about/" %}
   <link rel="stylesheet" href="/assets/css/layouts/single.css">
   {% endif %}
 </head>

@@ -1,0 +1,5 @@
+<div class="buttonBlock{% if include.position %} buttonBlock--{{ include.position }}{% endif %}{% if include.fill_mode %} buttonBlock--{{ include.fill_mode }}{% endif %}{% if include.class %} {{ include.class }}{% endif %}">
+  <div class="buttonBlock__inner">
+    {% include parts/button.html tag_name=include.tag_name href=include.href target=include.target type=include.type htmltype=include.htmltype data_attribute=include.data_attribute content=include.content %}
+  </div>
+</div>

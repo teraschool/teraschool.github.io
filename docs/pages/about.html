@@ -1,0 +1,50 @@
+---
+title: このサイトについて
+layout: single
+permalink: /about/
+---
+
+{% capture sectionItem %}
+<p>本サイト「やってみよう！プログラミング＋」は、プログラミング学習をはじめとした、コンピュータを使った学びに関するさまざまな情報をまとめたサイトです。</p>
+<p>子どもと大人が学び合う寺子屋を運営しているNPO法人寺子屋プロジェクト（Tera school）が企画・運営し、プログラマやエンジニアの皆さんのご協力のもとで内容を更新しています。</p>
+<p>主な対象として想定しているのは、小学生前後のお子さんとその保護者の方、プログラミング教育やICT教育を実践される小学校の先生方、子どもたちの居場所づくりや学習支援などを行う子育て・教育関連団体の方です。</p>
+{% endcapture %}
+{% include modules/basicSection.html mode="article" content=sectionItem %}
+{% capture sectionItem %}
+<p>プログラミング学習をはじめとした、コンピュータを使った学びは、大きな可能性を持っており、これからの時代を生きる子どもたちにとってますます重要になってきています。日本でも2020年度に小学校でのプログラミング教育が必修化されましたが、ほとんどの学校の授業では、子どもたちがふれる内容はかなり限定的です。</p>
+<p>プログラミングの楽しさを知ってもっと学びたいと思う子どもたちや、将来のためにプログラミングを学ばせてあげたいと思う保護者の方にとっては、民間のプログラミング教室に通うことが有力な選択肢ですが、一般的には月1〜2万円程度の授業料がかかります。</p>
+<p>このため、教育熱心で経済的にもある程度ゆとりがある家庭の子どもたちでないと、せっかく小学校などでプログラミングに興味を持っても「＋α」の学びを体験しにくいのが現状です。</p>
+<p>私たち Tera school も、2014年の団体設立当初からプログラミング教室を開催している一方で、こうした現状に課題意識を持ち、プログラミング学習を子どもたちにとってもっと身近なものにしたいと考えてきました。</p>
+<p>そこで私たちは、入門的な内容であればプログラミング教室などに通わなくても体験できるように、断片的に散らばっている「無料または安価でプログラミングなどを学べる情報」を整理したサイトをつくることにしました。</p>
+<p>また、そうした学びを体験してもっとやってみたいという方向けに、おすすめの本や他のサイト、プログラミング言語の情報などもまとめています。</p>
+<p>パーソナルコンピュータやインターネット、そしてプログラミングは、「誰もがアクセスすることができ、手にしたすべての人をエンパワー（力強く）するツール」として発展してきたものです。私たちもこうした流れに沿って、すべての子どもたちがコンピュータを使った学びに気軽にふれられる環境づくりに貢献していきます。</p>
+{% endcapture %}
+{% include modules/basicSection.html mode="article" title="制作意図" content=sectionItem %}
+{% capture sectionItem %}
+<p>当サイトは、<a href="#" target="_blank">NPO法人寺子屋プロジェクト</a>が<a href="https://www.hankyu-hanshin.co.jp/yume-machi/kikin.html" target="_blank">阪急阪神 未来のゆめ・まち基金</a>の助成とボランティアの協力によって企画・制作しました。管理・運営については<a href="#" target="_blank">NPO法人寺子屋プロジェクト</a>が行っています。</p>
+<p>当サイトの制作にどのような方が関わっておられるかについては<a href="https://github.com/teraschool/teraschool.github.io/graphs/contributors" target="_blank">GitHubのContributions（貢献した人という意味です）のページ</a>をご覧ください。</p>
+{% endcapture %}
+{% include modules/basicSection.html mode="article" title="当サイトの制作・運営、管理について" content=sectionItem %}
+{% capture sectionItem %}
+<p>当サイトに掲載されている情報については、営利・非営利のいずれの目的においても自由に利用できます。</p>
+<p>ただし、当サイトの内容を複写し、そのままもしくは改変して新たなサイトを制作・公開することはご遠慮ください。</p>
+<h3>当サイトへの修正依頼・情報提供について</h3>
+<p>掲載内容の修正の指摘や、新たな言語ややってみよう追加の提案については以下の方法でご協力いただけると嬉しいです。</p>
+<h3>1. 掲載内容の修正、変更の場合</h3>
+<p>既に掲載されている内容の修正、変更については、<a href="https://github.com/teraschool/teraschool.github.io/issues" target="_blank">GitHubのIssue（問題を報告するためのページ）</a>か<a href="mailto:lets@teraschool.org">メール</a>にてご連絡ください。</p>
+<h3>2. 掲載内容の追加の場合</h3>  
+<p>掲載内容の追加（未掲載の言語ややってみようなどのページ追加）については、GitHubのPull Requestにてお受けしています。</p>
+<p>まず、掲載したい内容を<a href="https://github.com/teraschool/teraschool.github.io/issues" target="_blank">GitHubのIssue</a>にてご連絡ください。そこでどのような内容を掲載するのかを簡単に情報交換させていただきます。</p>
+<p>その後、<a href="https://github.com/teraschool/teraschool.github.io" target="_blank">こちらのリポジトリ</a>をフォークして掲載内容を追加したのち、Pull Requestをお送りください。内容を確認の上、マージ（提案内容を取り込むこと）を行います。マージされますと、提案してくださった方のGitHubアカウントが<a href="https://github.com/teraschool/teraschool.github.io/graphs/contributors" target="_blank">GitHubのContributionsのページ</a>に表示されます。</p>
+<p class="notice--danger">当サイトの掲載内容についてはNPO法人寺子屋プロジェクトが管理しており、提案いただきます内容についてもNPO法人寺子屋プロジェクトが判断し、当サイトにふさわしくないと思われる場合は反映をお断りするか、修正をお願い場合があります。この点、ご了承ください。</p>
+{% endcapture %}
+{% include modules/basicSection.html mode="article" title="当サイトに掲載されている情報の利用について" content=sectionItem %}
+{% capture sectionItem %}
+<p>NPO法人寺子屋プロジェクトは、より良い学びの場のモデルづくりと展開に取り組むNPOです。現在、京都市内と東京都内の計4ヶ所のお寺で学びの場（寺子屋）を継続的に運営しているほか、学びの場づくりを行うお寺や地域団体を応援する開設支援活動を全国で行っています。 この「やってみようプログラミング＋（プラス）」も、その取り組みのひとつで学びの機会作り、きっかけづくりを支援する目的で企画・制作しています。</p>
+<p>NPO法人寺子屋プロジェクトでは、このような活動を応援してくださるマンスリーサポーターの方を募集しています。 個人の方には月500円から、法人の方には月5,000円から、継続的なご寄付をいただき、子どもたちに学習機会を提供するために活用させていただいています。</p>
+<p>たとえば、皆さんからの寄付金をもとに、就学援助を受けている家庭の子どもたちが無料でプログラムに参加できる団体独自の奨学生制度を実現しています。</p>
+<p>首都圏や関西圏では年数回、ワークショップや公開勉強会など、サポーターの方が子どもたちやスタッフとともに楽しく学べる機会も設けています。</p>
+<p>ぜひ、この機会に「学び」をテーマに一人ひとりがつながるコミュニティに参加をお願いします。</p>
+{% include modules/buttonBlock.html position="center" href="https://teraschool.org/support" target="_blank" content="サポーターとして参加する" %}
+{% endcapture %}
+{% include modules/basicSection.html mode="article" title="当サイトの制作・運営、管理について" content=sectionItem %}

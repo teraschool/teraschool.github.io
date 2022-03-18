@@ -1,0 +1,22 @@
+@import "../utils/variables.scss";
+
+.buttonBlock {
+  display: flex;
+
+  .buttonBlock__inner {
+    flex-shrink: 1;
+  }
+
+  &.buttonBlock--center {
+    justify-content: center;
+  }
+
+  &.buttonBlock--right {
+    justify-content: right;
+  }
+
+  &.buttonBlock--stretch .buttonBlock__inner {
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+}

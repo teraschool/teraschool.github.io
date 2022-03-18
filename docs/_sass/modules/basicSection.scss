@@ -72,4 +72,34 @@
       color: inherit;
     }
   }
+
+  &.basicSection--article {
+    .basicSection__main {
+      line-height: 2;
+      
+      h3 {
+        margin-top: 24px;
+        color: $color-base-2;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: bold;
+      }
+
+      h3,
+      div,
+      p {
+        + p {
+          margin-top: 8px;
+        }
+
+        + div {
+          margin-top: 16px;
+        }
+      }
+
+      a:not([class]) {
+        padding: 0 0.25em;
+      }
+    }
+  }
 }
