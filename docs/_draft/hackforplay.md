@@ -2,7 +2,7 @@
 title: HackforPlay
 excerpt:
 thumbnail: /assets/images/card/language/hackforplay.png
-layout: single
+layout: deprecated-single
 permalink: /languages/hackforplay/
 header:
   overlay_image: /assets/images/header/default.png

@@ -1,6 +1,6 @@
 ---
 title: このサイトについて
-layout: single
+layout: deprecated-single
 permalink: /about/
 author_profile: false
 header:

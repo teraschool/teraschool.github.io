@@ -2,7 +2,7 @@
 title: Python
 excerpt:
 thumbnail: /assets/images/card/language/python.png
-layout: single
+layout: deprecated-single
 permalink: /languages/python/
 header:
   overlay_image: /assets/images/header/default.png

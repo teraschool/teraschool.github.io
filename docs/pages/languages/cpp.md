@@ -2,7 +2,7 @@
 title: C++
 excerpt: C++ (シー・プラス・プラス) は、コンピュータの性能を最大限に引き出すソフトウェアの開発が得意なプログラミング言語です。
 thumbnail: /assets/images/card/language/cpp.png
-layout: single
+layout: deprecated-single
 permalink: /languages/cpp
 header:
   overlay_image: /assets/images/header/default.png

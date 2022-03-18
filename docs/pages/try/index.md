@@ -1,6 +1,6 @@
 ---
 title: プログラミング言語をやってみよう
-layout: single
+layout: deprecated-single
 permalink: /try/
 author_profile: false
 header:

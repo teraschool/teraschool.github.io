@@ -1,6 +1,6 @@
 ---
 title: プログラミング言語でさがそう
-layout: single
+layout: deprecated-single
 permalink: /languages/
 author_profile: false
 header:

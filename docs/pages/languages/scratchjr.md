@@ -2,7 +2,7 @@
 title: ScratchJr
 excerpt:
 thumbnail: /assets/images/card/language/scratchjr.png
-layout: single
+layout: deprecated-single
 permalink: /languages/scratchjr/
 header:
   overlay_image: /assets/images/header/default.png
