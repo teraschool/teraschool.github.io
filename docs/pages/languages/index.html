@@ -4,11 +4,7 @@ layout: single
 permalink: /languages/
 ---
 
-<div class="languages">
-  <div class="languages__item">
-    {% capture cardListElements %}
-    {% include modules/cardList.html path="/languages/" %}
-    {% endcapture %}
-    {% include modules/basicSection.html content=cardListElements %}
-  </div>
-</div>
+{% capture cardListElements %}
+{% include modules/cardList.html path="/languages/" %}
+{% endcapture %}
+{% include modules/basicSection.html content=cardListElements %}
