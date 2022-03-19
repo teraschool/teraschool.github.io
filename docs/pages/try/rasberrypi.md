@@ -1,6 +1,6 @@
 ---
 title: ラズベリーパイを使ってみよう
-layout: single
+layout: deprecated-single
 permalink: /try/raspberry-pi/
 header:
 overlay_image: /assets/images/header/default.png

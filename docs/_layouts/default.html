@@ -1,15 +1,16 @@
 ---
 ---
-{% if page.url == "/" %}
+{% if page.url == "/" or page.url == "/try/" or page.url == "/languages/" or page.url == "/about/" %}
 {% comment %}
 <!-- 新UI -->
 {% endcomment %}
 
-{% assign title = site.title %}
+{% assign title = "" %}
 {% if page.title %}
-{% assign title = title | append: " - " %}
 {% assign title = title | append: page.title %}
+{% assign title = title | append: " - " %}
 {% endif %}
+{% assign title = title | append: site.title %}
 
 {% if page.canonical_url %}
 {% assign canonical_url = page.canonical_url %}
@@ -36,6 +37,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@2.0.2/destyle.css">
   {% if page.url == "/" %}
   <link rel="stylesheet" href="/assets/css/top.css">
+  {% else if page.url == "/try/" or page.url == "/languages/" or page.url == "/about/" %}
+  <link rel="stylesheet" href="/assets/css/layouts/single.css">
   {% endif %}
 </head>
 <body>

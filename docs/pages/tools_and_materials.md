@@ -1,7 +1,7 @@
 ---
 title: ツールと素材
 descirption: 
-layout: single
+layout: deprecated-single
 permalink: /tools_and_materials/
 header:
   overlay_image: /assets/images/header/default.png

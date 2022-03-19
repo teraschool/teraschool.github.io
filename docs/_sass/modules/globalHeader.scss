@@ -173,6 +173,25 @@
     }
   }
 
+  .globalHeader__listLink.globalHeader__listLink--current {
+    font-weight: bold;
+
+    .globalHeader__listLinkInner {
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background-color: $color-accent-yellow-1;
+        z-index: -1;
+      }
+    }
+  }
+
   .globalHeader__menu.globalHeader__menu--show {
     .globalHeader__menuMain {
       visibility: visible;
@@ -196,10 +215,9 @@
     }
   }
 
-  @media (min-width: $breakpoint-min-width-3) {
+  @media (min-width: $breakpoint-min-width-4) {
     padding: 0 24px;
     height: 56px;
-    font-size: 14px;
 
     .globalHeader__menu {
       color: $color-base-5;
@@ -289,14 +307,6 @@
       .globalHeader__menuMainContent {
         transform: none;
       }
-    }
-  }
-
-  @media (min-width: $breakpoint-min-width-4) {
-    font-size: 16px;
-
-    .globalHeader__logo {
-      height: 32px;
     }
   }
 }

@@ -1,0 +1,64 @@
+.single {
+  .single__headerTitle {
+    position: relative;
+    padding: 43px 16px;
+    background: $color-base-3 url("/assets/images/bg_single_header.png") repeat
+      50% 50%;
+    background-size: 1344px / 3 * 2 auto;
+    color: $color-base-5;
+    text-align: center;
+    font-size: 28px;
+    line-height: 1;
+    font-weight: bold;
+
+    @media (min-width: $breakpoint-min-width-3) {
+      background-size: 1344px auto;
+      padding: 64px 16px;
+      font-size: 32px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba($color-base-2, 0.9);
+    }
+  }
+
+  .single__headerTitleItem {
+    display: inline-block;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 6px;
+      background-color: $color-accent-yellow-1;
+    }
+  }
+
+  .single__headerTitleInner {
+    position: relative;
+  }
+
+  .single__headerLead {
+    padding: 24px 16px;
+    background-color: $color-base-2;
+    color: $color-base-5;
+  }
+
+  .single__headerLeadDescription {
+    margin: 0 auto;
+    max-width: $container-max-width;
+  }
+
+  .single__main {
+    padding-top: 24px;
+  }
+}

@@ -1,7 +1,7 @@
 ---
 title: このサイトについて
-layout: single
-permalink: /about/
+layout: deprecated-single
+permalink: /deprecated-about/
 author_profile: false
 header:
   overlay_image: /assets/images/header/default.png

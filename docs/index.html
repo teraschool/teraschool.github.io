@@ -91,37 +91,27 @@ layout: default
   </div>
   <div class="top__main">
     <div class="top__mainItem">
-      {% capture firstMessageElements %}
-      <div class="firstMessage">
-        <div class="firstMessage__main">
-          <p class="firstMessage__paragraph">
-            今このページを見ているあなたは、きっとプログラミングに興味があり「プログラミングをやってみたいけど、どうしたらいいだろう？」と考えてここにたどりついたのでしょう。</p>
-          <p class="firstMessage__paragraph">
-            学校の授業でやるわけでもないプログラミング。でも周りではやってる人もいる、みんなどうやってプログラミングを学んでいるのだろう？そんなあなたのためにプログラミングをはじめるための3つの方法をご紹介します。</p>
-        </div>
-        <div class="firstMessage__more">
-          <div class="firstMessage__moreItem">
-            {% include parts/button.html type="border" href="/introduction/" content="続きを読む" %}
-          </div>
-        </div>
-      </div>
+      {% capture sectionMain %}
+      <p>今このページを見ているあなたは、きっとプログラミングに興味があり「プログラミングをやってみたいけど、どうしたらいいだろう？」と考えてここにたどりついたのでしょう。</p>
+      <p>学校の授業でやるわけでもないプログラミング。でも周りではやってる人もいる、みんなどうやってプログラミングを学んでいるのだろう？そんなあなたのためにプログラミングをはじめるための3つの方法をご紹介します。</p>
+      {% include modules/buttonBlock.html position="center" type="border" href="/introduction/" content="続きを読む" %}
       {% endcapture %}
-      {% include modules/basicSection.html type="emphasis" title="Hello World" subtitle="はじめての方へ"
-      content=firstMessageElements %}
+      {% include modules/basicSection.html mode="article" type="emphasis" title="Hello World" subtitle="はじめての方へ"
+      content=sectionMain %}
     </div>
     <div class="top__mainItem">
-      {% capture trySection %}
+      {% capture sectionMain %}
       {% comment %}{% include modules/cardList.html path="/try/" display_indexes="1,2,3" %}{% endcomment %}
       {% include modules/cardList.html path="/try/" %}
       {% endcapture %}
-      {% include modules/basicSection.html title="やってみよう" content=trySection %}
+      {% include modules/basicSection.html title="やってみよう" content=sectionMain %}
     </div>
     <div class="top__mainItem">
-      {% capture languageSection %}
+      {% capture sectionMain %}
       {% comment %}{% include modules/cardList.html path="/languages/" display_indexes="1,2,3" %}{% endcomment %}
       {% include modules/cardList.html path="/languages/" %}
       {% endcapture %}
-      {% include modules/basicSection.html title="いろいろな言語" content=languageSection %}
+      {% include modules/basicSection.html title="いろいろな言語" content=sectionMain %}
     </div>
   </div>
 </div>

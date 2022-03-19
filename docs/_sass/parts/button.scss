@@ -23,6 +23,7 @@
 
   @media (min-width: $breakpoint-min-width-3) {
     &:hover {
+      border-color: $color-base-1;
       background-color: $color-base-1;
       text-decoration: none;
     }

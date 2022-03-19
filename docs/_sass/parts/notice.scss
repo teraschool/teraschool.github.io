@@ -1,0 +1,16 @@
+.notice {
+  padding: 16px;
+  background-color: $color-notice-info-background;
+  color: $color-notice-info-text;
+  font-size: 0.875em;
+
+  &.notice--warning {
+    background-color: $color-notice-warning-background;
+    color: $color-notice-warning-text;
+  }
+
+  &.notice--error {
+    background-color: $color-notice-error-background;
+    color: $color-notice-error-text;
+  }
+}

@@ -2,7 +2,7 @@
 title: HTML
 excerpt:
 thumbnail: /assets/images/card/language/html.png
-layout: single
+layout: deprecated-single
 permalink: /languages/html/
 header:
   overlay_image: /assets/images/header/default.png

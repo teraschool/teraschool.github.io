@@ -1,6 +1,6 @@
 ---
 title: 保護者の方へ
-layout: single
+layout: deprecated-single
 permalink: /parents/
 author_profile: false
 header:

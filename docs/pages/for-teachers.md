@@ -1,6 +1,6 @@
 ---
 title: 教職員の方へ
-layout: single
+layout: deprecated-single
 permalink: /teachers/
 author_profile: false
 header:

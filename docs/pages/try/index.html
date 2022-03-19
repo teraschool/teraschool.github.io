@@ -1,0 +1,10 @@
+---
+title: やってみよう
+layout: single
+permalink: /try/
+---
+
+{% capture cardListElements %}
+{% include modules/cardList.html path="/try/" %}
+{% endcapture %}
+{% include modules/basicSection.html content=cardListElements %}

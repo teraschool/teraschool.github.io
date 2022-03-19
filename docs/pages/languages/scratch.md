@@ -2,7 +2,7 @@
 title: Scratch
 excerpt:
 thumbnail: /assets/images/card/language/scratch.png
-layout: single
+layout: deprecated-single
 permalink: /languages/scratch/
 header:
   overlay_image: /assets/images/header/default.png

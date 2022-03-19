@@ -23,18 +23,31 @@
           <div class="globalHeader__menuMainItem">
             <ul class="globalHeader__list">
               <li class="globalHeader__listItem">
-                <a href="/try/" class="globalHeader__listLink">
-                  <span class="globalHeader__listLinkLabel">やってみよう</span>
+                <a href="/try/" class="globalHeader__listLink{% if page.url contains "/try/"%} globalHeader__listLink--current{% endif %}">
+                  <span class="globalHeader__listLinkLabel">
+                    <span class="globalHeader__listLinkInner">やってみよう</span>
+                  </span>
                 </a>
               </li>
               <li class="globalHeader__listItem">
-                <a href="/languages/" class="globalHeader__listLink">
-                  <span class="globalHeader__listLinkLabel">いろいろな言語</span>
+                <a href="/languages/" class="globalHeader__listLink{% if page.url contains "/languages/"%} globalHeader__listLink--current{% endif %}">
+                  <span class="globalHeader__listLinkLabel">
+                    <span class="globalHeader__listLinkInner">いろいろな言語</span>
+                  </span>
                 </a>
               </li>
               <li class="globalHeader__listItem">
-                <a href="/about/" class="globalHeader__listLink">
-                  <span class="globalHeader__listLinkLabel">このサイトについて</span>
+                <a href="/about/" class="globalHeader__listLink{% if page.url contains "/about/"%} globalHeader__listLink--current{% endif %}">
+                  <span class="globalHeader__listLinkLabel">
+                    <span class="globalHeader__listLinkInner">このサイトについて</span>
+                  </span>
+                </a>
+              </li>
+              <li class="globalHeader__listItem">
+                <a href="/tools_and_materials/" class="globalHeader__listLink{% if page.url contains "/tools_and_materials/"%} globalHeader__listLink--current{% endif %}">
+                  <span class="globalHeader__listLinkLabel">
+                    <span class="globalHeader__listLinkInner">ツールと素材</span>
+                  </span>
                 </a>
               </li>
             </ul>
@@ -42,13 +55,17 @@
           <div class="globalHeader__menuMainItem">
             <ul class="globalHeader__list">
               <li class="globalHeader__listItem">
-                <a href="/parent/" class="globalHeader__listLink">
-                  <span class="globalHeader__listLinkLabel">保護者の方へ</span>
+                <a href="/parents/" class="globalHeader__listLink{% if page.url contains "/parents/"%} globalHeader__listLink--current{% endif %}">
+                  <span class="globalHeader__listLinkLabel">
+                    <span class="globalHeader__listLinkInner">保護者の方へ</span>
+                  </span>
                 </a>
               </li>
               <li class="globalHeader__listItem">
-                <a href="/teachers/" class="globalHeader__listLink">
-                  <span class="globalHeader__listLinkLabel">教職員の方へ</span>
+                <a href="/teachers/" class="globalHeader__listLink{% if page.url contains "/teachers/"%} globalHeader__listLink--current{% endif %}">
+                  <span class="globalHeader__listLinkLabel">
+                    <span class="globalHeader__listLinkInner">教職員の方へ</span>
+                  </span>
                 </a>
               </li>
             </ul>

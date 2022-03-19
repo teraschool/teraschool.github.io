@@ -2,7 +2,7 @@
 title: JavaScript
 excerpt:
 thumbnail: /assets/images/card/language/javascript.png
-layout: single
+layout: deprecated-single
 permalink: /languages/javascript/
 header:
   overlay_image: /assets/images/header/default.png

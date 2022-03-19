@@ -187,19 +187,3 @@
     }
   }
 }
-
-.firstMessage {
-  .firstMessage__paragraph + .firstMessage__paragraph {
-    margin-top: 8px;
-  }
-
-  .firstMessage__more {
-    margin-top: 24px;
-    text-align: center;
-  }
-
-  .firstMessage__moreItem {
-    display: inline-block;
-    vertical-align: top;
-  }
-}
