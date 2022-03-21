@@ -4,6 +4,8 @@ layout: deprecated-single
 permalink: /try/digital-art/
 header:
   overlay_image: /assets/images/header/default.png
+tags:
+  - p5.js
 ---
 # デジタルアートをやってみよう！
 皆さんが、スマートフォンやパソコンでインターネットにあるページを見たりするときに使う「ブラウザ」。  
