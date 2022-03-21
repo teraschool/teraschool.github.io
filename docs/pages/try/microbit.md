@@ -4,6 +4,9 @@ layout: deprecated-single
 permalink: /try/microbit/
 header:
   overlay_image: /assets/images/header/default.png
+tags:
+  - micro:bit
+  - ブロックプログラミング
 ---
 # micro:bitを使ってみよう
 みなさんは、micro:bitを見かけたり使ったりしたことはあるでしょうか？  

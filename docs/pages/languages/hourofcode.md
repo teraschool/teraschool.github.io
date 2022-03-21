@@ -7,7 +7,8 @@ permalink: /languages/hourofcode/
 header:
   overlay_image: /assets/images/header/default.png
 tags:
-  - Hour of Code
+  - ブロックプログラミング
+  - オンラインで始める
 ---
 
 Hour of Code は、世界中の 180 ヵ国以上で 1 億人が利用しているプログラミング学習サイトです。プログラミング学習を推進しているアメリカの非営利団体・Code.org が運営しています。Microsoft の創業者であるビル・ゲイツ氏、Facebook 創業者であるマーク・ザッカーバーグ氏などが Hour of Code の発起人となっています。

@@ -4,6 +4,8 @@ layout: deprecated-single
 permalink: /try/shooting-game/
 header:
   overlay_image: /assets/images/header/default.png
+tags:
+  - Scratch
 ---
 # シューティングゲームを作りをやってみよう
 

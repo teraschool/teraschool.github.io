@@ -7,7 +7,8 @@ permalink: /languages/javascript/
 header:
   overlay_image: /assets/images/header/default.png
 tags:
-  - JavaScript
+  - テキストプログラミング
+  - オンラインで始める
 ---
 
 ## 1. JavaScript（ジャバスクリプト）について

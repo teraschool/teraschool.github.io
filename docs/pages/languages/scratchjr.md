@@ -7,7 +7,7 @@ permalink: /languages/scratchjr/
 header:
   overlay_image: /assets/images/header/default.png
 tags:
-  - ScratchJr
+  - ブロックプログラミング
 ---
 
 ## 1. ScratchJr について
