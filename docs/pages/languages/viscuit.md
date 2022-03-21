@@ -7,7 +7,8 @@ permalink: /languages/viscuit/
 header:
   overlay_image: /assets/images/header/default.png
 tags:
-  - Viscuit
+  - ビジュアルプログラミング
+  - オンラインで始める
 ---
 
 ## 1. Viscuit について

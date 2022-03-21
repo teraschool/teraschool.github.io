@@ -7,7 +7,8 @@ permalink: /languages/scratch/
 header:
   overlay_image: /assets/images/header/default.png
 tags:
-  - Scratch
+  - ブロックプログラミング
+  - オンラインで始める
 ---
 
 ## 1. Scratch について

@@ -7,7 +7,8 @@ permalink: /languages/ruby/
 header:
   overlay_image: /assets/images/header/default.png
 tags:
-  - Ruby
+  - テキストプログラミング
+  - オンラインで始める
 ---
 
 ## 1. Ruby について

@@ -7,7 +7,8 @@ permalink: /languages/cpp
 header:
   overlay_image: /assets/images/header/default.png
 tags:
-  - C++
+  - テキストプログラミング
+  - オンラインで始める
 ---
 
 # C++

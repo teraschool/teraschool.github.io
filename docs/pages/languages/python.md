@@ -7,7 +7,8 @@ permalink: /languages/python/
 header:
   overlay_image: /assets/images/header/default.png
 tags:
-  - Python
+  - テキストプログラミング
+  - オンラインで始める
 ---
 
 ## 1. Python について
