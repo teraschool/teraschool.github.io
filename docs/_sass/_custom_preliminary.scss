@@ -1,0 +1,45 @@
+@import "library";
+
+ul.globalFooter__menu {
+  li {
+    list-style-type: none;
+  }
+}
+
+.masthead__inner-wrap nav,
+.masthead{
+  background-color: #01607d;
+}
+
+.page__hero--overlay {
+  background-color: rgba(1, 96, 125,0.8) !important;
+  background-image: none !important;
+  h1 {
+    color: #fff !important;
+    text-align: center !important;
+  }
+}
+.greedy-nav {
+  a.site-title,
+  .visible-links a {
+    color: #fff !important;
+  }
+}
+
+.initial-content {
+  background-color: #f2fcff;;
+  color: #053f51;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+#page-title .page-title h1{
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff !important;
+  text-align: center !important;
+}
+
+.page__content .e-content {
+  padding: 48px 16px;
+}
