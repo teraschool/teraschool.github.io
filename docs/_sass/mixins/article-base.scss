@@ -42,6 +42,8 @@
 
   ul,
   ol {
+    line-height: 1.6;
+
     li {
       position: relative;
       padding-left: 1.25em;
@@ -50,14 +52,20 @@
         position: absolute;
         left: 0;
       }
+
+      + li,
+      ul,
+      ol {
+        margin-top: 8px;
+      }
     }
   }
   
-  ul li {
+  ul > li {
     &::before {
       $size: 6px;
       content: "";
-      top: calc(#{1em * $line-height / 2} - #{$size / 2});
+      top: calc(#{1em * 1.6 / 2} - #{$size / 2});
       border-radius: $size;
       background-color: $color-base-1;
       width: $size;
@@ -68,7 +76,7 @@
   ol {
     counter-reset: item;
 
-    li {
+    > li {
       counter-increment: item;
 
       &::before {
