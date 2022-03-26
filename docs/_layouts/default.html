@@ -1,22 +1,21 @@
 ---
 ---
-{% if page.url == "/" or page.url contains "/try/" or page.url contains "/languages/" or page.url == "/about/" %}
+{%- if page.url == "/" or page.url contains "/try/" or page.url contains "/languages/" or page.url == "/about/" -%}
 {% comment %}
 <!-- 新UI -->
 {% endcomment %}
+{%- assign title = "" -%}
+{%- if page.title -%}
+{%- assign title = title | append: page.title -%}
+{%- assign title = title | append: " - " -%}
+{%- endif -%}
+{%- assign title = title | append: site.title -%}
 
-{% assign title = "" %}
-{% if page.title %}
-{% assign title = title | append: page.title %}
-{% assign title = title | append: " - " %}
-{% endif %}
-{% assign title = title | append: site.title %}
-
-{% if page.canonical_url %}
-{% assign canonical_url = page.canonical_url %}
-{% else %}
-{% assign canonical_url = page.url | replace: "index.html", "" | absolute_url %}
-{% endif %}
+{%- if page.canonical_url -%}
+{%- assign canonical_url = page.canonical_url -%}
+{%- else -%}
+{%- assign canonical_url = page.url | replace: "index.html", "" | absolute_url -%}
+{%- endif -%}
 
 <!DOCTYPE html>
 <html lang="ja">
@@ -35,11 +34,13 @@
   <title>{{ title }}</title>
   <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@2.0.2/destyle.css">
-  {% if page.url == "/" %}
+  {%- if page.url == "/" %}
   <link rel="stylesheet" href="/assets/css/top.css">
-  {% else if page.url == "/try/" or page.url == "/languages/" or page.url == "/about/" %}
+  {%- elsif page.url == "/try/" or page.url == "/languages/" or page.url == "/about/" %}
   <link rel="stylesheet" href="/assets/css/layouts/single.css">
-  {% endif %}
+  {%- elsif page.url contains "/try/" or page.url contains "/languages/" %}
+  <link rel="stylesheet" href="/assets/css/layouts/article.css">
+  {%- endif %}
 </head>
 <body>
   {% include modules/globalHeader.html %}

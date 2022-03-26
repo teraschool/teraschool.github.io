@@ -1,0 +1,123 @@
+---
+---
+
+@import "_library";
+
+.article {
+  position: relative;
+
+  @media (min-width: $breakpoint-min-width-3) {
+    padding-top: 32px;
+  }
+
+  .article__background {
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    pointer-events: none;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(180deg, rgba($color-base-4, 0.4) 50%, rgba($color-base-4, 1));
+    }
+
+    @media (min-width: $breakpoint-min-width-3) {
+      display: block;
+    }
+  }
+
+  .article__backgroundImage {
+    $blur: 4px;
+
+    position: relative;
+    margin: -$blur;
+    width: 120%;
+    height: auto;
+    filter: blur($blur);
+    
+    @media (min-width: $breakpoint-min-width-2) {
+      width: calc(100% + #{$blur * 2});
+    }
+  }
+
+  .article__main {
+    position: relative;
+    margin: 0 auto;
+    max-width: $container-max-width;
+    background-color: $color-base-5;
+    z-index: 1;
+  }
+
+  .article__mainCover {
+    position: relative;
+    padding-top: 56.25%;
+    height: 0;
+  }
+
+  .article__mainCoverImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .article__mainItem {
+    padding: 32px 16px 48px;
+    
+    @media (min-width: $breakpoint-min-width-2) {
+      padding: 32px 24px 48px;
+    }
+  }
+
+  .article__headerTitle {
+    color: $color-base-2;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: bold;
+    
+    @media (min-width: $breakpoint-min-width-2) {
+      font-size: 32px;
+    }
+  }
+
+  .article__headerTag {
+    margin-top: 16px;
+  }
+
+  .article__headerTagItems {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -8px 0 0 -8px;
+  }
+
+  .article__headerTagContent {
+    display: block;
+    margin: 8px 0 0 8px;
+    font-size: 0;
+  }
+
+  .article__content {
+    margin-top: 40px;
+
+    @include article-base();
+
+    pre {
+      margin: 0 -16px;
+      
+      @media (min-width: $breakpoint-min-width-2) {
+        margin: 0 -24px;
+      }
+    }
+  }
+}
