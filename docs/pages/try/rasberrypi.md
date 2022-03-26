@@ -20,7 +20,7 @@ GPIOピンという端子がついている名刺サイズの小型のパソコ�
 - USBキーボード
 - microSDカード
 
-![Alt text](/raspberry-pi_img/pasokon.jpg)
+![Alt text](/assets/images/try/raspberry-pi/pasokon.jpg)
 
 必要なものを全部つなぐと上の写真のようになります。<br>自分の好きなOSをSDカードにダウンロードしてラズベリーパイにさせば、コードを書いたり通常のパソコンのように使えます。<br>HDMI対応テレビがあれば、2万円ほどで自分のパソコンができます。また、壊れた時も、ラズベリーパイやキーボードだけというように各部品を交換すればよいので費用を安く抑えることができます。
 
@@ -53,17 +53,17 @@ OSのインストールは下記のスライドを参考にしてみて下さい
 ### IoT（Internet of things)に触れたい
 - Raspberry Pi Zero WH (価格が安く、小さくて組み込みやすい）約2000円
 
-![Alt text](/raspberry-pi_img/rasberrypizero.jpg)
+![Alt text](/assets/images/try/raspberry-pi/raspberrypizero.jpg)
 
 - Raspberry Pi 3 モデルB　1GB 　約5000円
 - Raspberry Pi 4 モデルB　2GB 　約6000円  
-![Alt text](/raspberry-pi_img/rasberrypi4modelb.jpg)
+![Alt text](/assets/images/try/raspberry-pi/raspberrypi4modelb.jpg)
 
 ### 子供の専用パソコンとして持ちたい
 - Raspberry Pi 4 モデルB　8GB 　約10000円
 - Raspberry Pi 400（キーボード一体型）4GB 約10000円
 
-![Alt text](/raspberry-pi_img/rasberrypi400.jpg)
+![Alt text](/assets/images/try/raspberry-pi/raspberrypi400.jpg)
 
 写真は[ラズベリーパイ財団の公式ページ](https://www.raspberrypi.org/)より引用しています。
 
@@ -81,4 +81,4 @@ OSのインストールは下記のスライドを参考にしてみて下さい
 
 ラズベリーパイを購入しようと探していたら、ラズベリーパイピコという製品を目にすることがあると思います。価格も安いので、これで自分専用パソコンができたらラッキーと思って購入される方もいるかもしれません。<br>ラズベリーパイピコは、OSを持てないのでこれを購入されても自分専用パソコンはできません。くれぐれもご注意下さい。<br>では、何ができるのかというと電子工作です。マイクロパイソンという言語を使えば、ラズベリーパイのGPIOピンを使ってできたレゴの車を動かす、電気を点灯するなど同じようなことができます。<br>なので、パソコンとしてのラズベリーパイは必要ないけど、今持っている自分のWindowsなどのパソコンで電子工作をしてみたいなという人にはお勧めです。
 
-![Alt text](/raspberry-pi_img/pico.jpg)
+![Alt text](/assets/images/try/raspberry-pi/pico.jpg)
