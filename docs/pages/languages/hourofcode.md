@@ -4,8 +4,6 @@ excerpt:
 thumbnail: /assets/images/card/language/hourofcode.png
 layout: article
 permalink: /languages/hourofcode/
-header:
-  overlay_image: /assets/images/header/default.png
 tags:
   - ブロックプログラミング
   - オンラインで始める

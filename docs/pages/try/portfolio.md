@@ -2,8 +2,6 @@
 title: ポートフォリオサイトを作ってみよう
 layout: article
 permalink: /try/portfolio/
-header:
-  overlay_image: /assets/images/header/default.png
 tags:
   - HTML5
   - CSS3

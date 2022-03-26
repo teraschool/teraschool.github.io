@@ -4,8 +4,6 @@ excerpt: C++ (シー・プラス・プラス) は、コンピュータの性能�
 thumbnail: /assets/images/card/language/cpp.png
 layout: article
 permalink: /languages/cpp
-header:
-  overlay_image: /assets/images/header/default.png
 tags:
   - テキストプログラミング
   - オンラインで始める

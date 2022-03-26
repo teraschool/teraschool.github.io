@@ -2,8 +2,6 @@
 title: デジタルアートをやってみよう！
 layout: article
 permalink: /try/digital-art/
-header:
-  overlay_image: /assets/images/header/default.png
 tags:
   - p5.js
 ---

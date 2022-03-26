@@ -2,8 +2,6 @@
 title: シューティングゲームを作ってみよう
 layout: article
 permalink: /try/shooting-game/
-header:
-  overlay_image: /assets/images/header/default.png
 tags:
   - Scratch
 ---

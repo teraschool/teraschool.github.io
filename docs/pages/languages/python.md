@@ -4,8 +4,6 @@ excerpt:
 thumbnail: /assets/images/card/language/python.png
 layout: article
 permalink: /languages/python/
-header:
-  overlay_image: /assets/images/header/default.png
 tags:
   - テキストプログラミング
   - オンラインで始める

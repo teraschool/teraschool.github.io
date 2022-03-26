@@ -4,8 +4,6 @@ excerpt:
 thumbnail: /assets/images/card/language/scratch.png
 layout: article
 permalink: /languages/scratch/
-header:
-  overlay_image: /assets/images/header/default.png
 tags:
   - ブロックプログラミング
   - オンラインで始める

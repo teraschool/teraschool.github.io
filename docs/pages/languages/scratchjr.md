@@ -4,8 +4,6 @@ excerpt:
 thumbnail: /assets/images/card/language/scratchjr.png
 layout: article
 permalink: /languages/scratchjr/
-header:
-  overlay_image: /assets/images/header/default.png
 tags:
   - ブロックプログラミング
 ---
