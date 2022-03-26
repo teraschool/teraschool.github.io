@@ -1,6 +1,6 @@
 ---
 title: ポートフォリオサイトを作ってみよう
-layout: deprecated-single
+layout: article
 permalink: /try/portfolio/
 header:
   overlay_image: /assets/images/header/default.png

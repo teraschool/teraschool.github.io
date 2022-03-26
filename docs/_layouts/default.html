@@ -1,6 +1,6 @@
 ---
 ---
-{% if page.url == "/" or page.url == "/try/" or page.url == "/languages/" or page.url == "/about/" %}
+{% if page.url == "/" or page.url contains "/try/" or page.url contains "/languages/" or page.url == "/about/" %}
 {% comment %}
 <!-- 新UI -->
 {% endcomment %}

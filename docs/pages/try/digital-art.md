@@ -1,6 +1,6 @@
 ---
 title: デジタルアートをやってみよう！
-layout: deprecated-single
+layout: article
 permalink: /try/digital-art/
 header:
   overlay_image: /assets/images/header/default.png

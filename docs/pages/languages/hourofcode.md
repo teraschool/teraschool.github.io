@@ -2,7 +2,7 @@
 title: Hour of Code
 excerpt:
 thumbnail: /assets/images/card/language/hourofcode.png
-layout: deprecated-single
+layout: article
 permalink: /languages/hourofcode/
 header:
   overlay_image: /assets/images/header/default.png

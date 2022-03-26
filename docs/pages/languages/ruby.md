@@ -2,7 +2,7 @@
 title: Ruby
 excerpt:
 thumbnail: /assets/images/card/language/ruby.png
-layout: deprecated-single
+layout: article
 permalink: /languages/ruby/
 header:
   overlay_image: /assets/images/header/default.png

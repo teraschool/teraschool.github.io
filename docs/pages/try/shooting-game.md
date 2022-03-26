@@ -1,6 +1,6 @@
 ---
 title: シューティングゲームを作ってみよう
-layout: deprecated-single
+layout: article
 permalink: /try/shooting-game/
 header:
   overlay_image: /assets/images/header/default.png

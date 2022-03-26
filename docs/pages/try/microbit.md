@@ -1,6 +1,6 @@
 ---
 title: micro:bitを使ってみよう
-layout: deprecated-single
+layout: article
 permalink: /try/microbit/
 header:
   overlay_image: /assets/images/header/default.png

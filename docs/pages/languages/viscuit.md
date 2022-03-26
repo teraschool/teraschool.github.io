@@ -2,7 +2,7 @@
 title: Viscuit（ビスケット）
 excerpt:
 thumbnail: /assets/images/card/language/viscuit.png
-layout: deprecated-single
+layout: article
 permalink: /languages/viscuit/
 header:
   overlay_image: /assets/images/header/default.png
