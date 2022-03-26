@@ -5,7 +5,6 @@ permalink: /try/shooting-game/
 tags:
   - Scratch
 ---
-# シューティングゲームを作りをやってみよう
 
 今回作る作品は、こちらのシューティングゲームです。
 
