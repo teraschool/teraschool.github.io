@@ -4,7 +4,7 @@ Googleスライドを埋め込む場合は以下の手順で行なってくだ�
 1. 検索リンクを埋め込みたい箇所に以下のタグを挿入します。
 
 ```
-{% include slide.html content="" %}
+{% include modules/googleSlideBlock.html hash="" %}
 ```
 2. 埋め込みたいGoogleスライドにアクセスし「ファイル」メニューから「ウェブに公開」を選択します。
 3. 「ウェブに公開」画面の「埋め込む」タグを選択します。
@@ -22,7 +22,7 @@ Googleスライドを埋め込む場合は以下の手順で行なってくだ�
 5. 4でコピーした文字列を「content=""」の""中に貼り付けます。
 
 ```
-{% include slide.html content="2PACX-4vQXkZTK-IqKORn8APX_E50sx3IYnTg5K9Vz1DYQyGJ_AppPe4ZCPuDG9FltULdJgCO2j77I7Yi5dLCJ" %}
+{% include modules/googleSlideBlock.html hash="2PACX-4vQXkZTK-IqKORn8APX_E50sx3IYnTg5K9Vz1DYQyGJ_AppPe4ZCPuDG9FltULdJgCO2j77I7Yi5dLCJ" %}
 ```
 
 3. 以上でGoogleスライドの埋め込みは完了です。

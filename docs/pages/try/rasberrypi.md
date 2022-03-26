@@ -30,13 +30,13 @@ OSは、Operating Sysemの頭文字をとったものです。OSはハードウ�
 
 OSのインストールは下記のスライドを参考にしてみて下さい。
 
-{% include slide.html content="2PACX-1vTkcBUUCsTJHpsksSj009TGVYLlnTyplcH7-GGkVSKh6d2-l61sWcKRS6D9XhllG6VI90FrRS7jN3MC" %}
+{% include modules/googleSlideBlock.html hash="2PACX-1vTkcBUUCsTJHpsksSj009TGVYLlnTyplcH7-GGkVSKh6d2-l61sWcKRS6D9XhllG6VI90FrRS7jN3MC" %}
 
 ## 電子工作をしてみよう
 {% include modules/youtubeBlock.html src="https://www.youtube.com/embed/_TH95_mIJEI" caption="ラズベリーパイを使ってレゴカーを動かしてみる" %}
 
 ## スライドで手順を解説します
-{% include slide.html content="2PACX-1vQbqABYF-jO10MSBjcph25VAS8Y0jzAPeV6I_TLc3X45QQq16JWWS0qiOvCO8FnEJseBW7y3yKMTCZm" %}
+{% include modules/googleSlideBlock.html hash="2PACX-1vQbqABYF-jO10MSBjcph25VAS8Y0jzAPeV6I_TLc3X45QQq16JWWS0qiOvCO8FnEJseBW7y3yKMTCZm" %}
 
 スライドに記載しているコードは、<https://gist.github.com/ryoko-saito/59d3e13b732de61d24c645064dacb923>からコピーして下さい。Raspberry Piクックブック286ページより引用。
 ここで使っているサーボモーターは、[スイッチサイエンス](https://www.switch-science.com/catalog/6813/)で購入できます。
@@ -45,7 +45,7 @@ OSのインストールは下記のスライドを参考にしてみて下さい
 
 ## スライドで手順を解説します
 
-{% include slide.html content="2PACX-1vQPDn8TxCyKEfPxdZ_ca3U_O8mefTdW3EHZkBfWKpdJPTZJvnMocCvDnk2xUC6jc2J0NNrV4Z37P6qw" %}
+{% include modules/googleSlideBlock.html hash="2PACX-1vQPDn8TxCyKEfPxdZ_ca3U_O8mefTdW3EHZkBfWKpdJPTZJvnMocCvDnk2xUC6jc2J0NNrV4Z37P6qw" %}
 
 ## ラズベリーパイの選び方
 目的によって選ぶモデルを選択する。
