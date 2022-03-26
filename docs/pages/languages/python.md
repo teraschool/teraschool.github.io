@@ -99,7 +99,7 @@ Python でゲームのようなグラフィック画面を使ったプログラ�
 
 インターネット上で多くの情報を見つけることができますので「python tkinter 使い方」などで検索してみてください。
 
-{% include google.html content="python tkinter 使い方" %}
+{% include modules/googleSearchButton.html content="python tkinter 使い方" %}
 
 ### 4-2. クラウド上の環境を利用する
 
