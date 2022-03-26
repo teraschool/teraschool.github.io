@@ -5,6 +5,7 @@
   overflow: hidden;
   border-radius: 8px;
   background-color: $color-base-5;
+  text-decoration: none;
 
   .card__content {
     display: flex;
@@ -60,8 +61,6 @@
   }
 
   &:hover {
-    text-decoration: none;
-
     .card__coverImage {
       transform: scale(1.05);
     }

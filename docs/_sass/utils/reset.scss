@@ -13,9 +13,10 @@ body {
 
 a {
   color: $color-base-2;
-
+  text-decoration: underline;
+  
   &:hover {
-    text-decoration: underline;
+    color: $color-base-1;
   }
 }
 
