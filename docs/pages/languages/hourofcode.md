@@ -13,7 +13,7 @@ Hour of Code は、世界中の 180 ヵ国以上で 1 億人以上が利用し�
 
 Microsoft の創業者であるビル・ゲイツ氏、Facebook 創業者であるマーク・ザッカーバーグ氏なども Hour of Code の賛同者として有名で、アメリカの非営利団体・Code.org が年に1回のキャンペーンと併せて運営しています。Code.orgは子どもたちが教育の中心的な内容としてコンピュータサイエンスを学ぶ機会を提供することを目的に、政策提言や教員研修等も行っています。
 
-{% include youtube.html content="https://www.youtube.com/embed/nKIu9yen5nc" %}
+{% include modules/youtubeBlock.html src="https://www.youtube.com/embed/nKIu9yen5nc" %}
 
 ## 2. 歴史
 2013年、Code.org 創始者の Hadi と Ali Partovi がコンピュータサイエンスを普及させることを目的とした動画を広めたところから、Hour of Code は始まりました。はじめは15,000 ほどの学校が賛同し、声を上げました。
@@ -26,7 +26,7 @@ Appleストアは Hour of Code ワークショップ会場となり、 Tim Cook 
 
 質の良いコンピュータサイエンス教育が、ラッキーな一部の人たちだけでなく、すべての子どもたちに行き渡るようにとの Code.org の思いが着実に毎年実現されています。
 
-{% include youtube.html content="https://www.youtube.com/embed/f2-QYjKEKF4" %}
+{% include modules/youtubeBlock.html src="https://www.youtube.com/embed/f2-QYjKEKF4" %}
 
 ## 3. 特徴
 - コンテンツが豊富  

@@ -1,5 +1,11 @@
 <div class="iframeBlock{% if include.class %} {{ include.class }}{% endif %}">
-  <div class="iframeBlock__main"><iframe src="{{ include.src }}" class="iframeBlock__mainItem"></iframe></div>
+  <div class="iframeBlock__main">
+    <iframe src="{{ include.src }}"
+    {%- if include.scrolling %} scrolling="{{include.scrolling}}"{%- endif %}
+    {%- if include.allow %} allow="{{include.allow}}"{%- endif %}
+    {%- if include.allowfullscreen %} allowfullscreen="{{ include.allowfullscreen }}"{%- endif %}
+    class="iframeBlock__mainItem"></iframe>
+  </div>
   {% if include.caption %}<p class="iframeBlock__caption">{{ include.caption }}</p>{% endif %}
   {% if include.content %}<div class="iframeBlock__content">{{ include.content }}</div>{% endif %}
 </div>

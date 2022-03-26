@@ -56,7 +56,7 @@ _こちらのドキュメント（web サイト）は公式のものではあり
 - [5 才からはじめるすくすくプログラミング](https://www.youtube.com/watch?v=w9pE6jZwsqg&list=PLthT4KrjYnXV6yCK16TafYx7BIljLpxWl)
   こちらは以前 Udemy で公開されていたものが転載されたものです。
 
-{% include youtube.html content="https://www.youtube.com/embed/w9pE6jZwsqg" %}
+{% include modules/youtubeBlock.html src="https://www.youtube.com/embed/w9pE6jZwsqg" %}
 
 ### 書籍
 

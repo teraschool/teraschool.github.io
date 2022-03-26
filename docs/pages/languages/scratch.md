@@ -62,7 +62,7 @@ Scratch アカウントの作成にはメールアドレスが必要ですが、
 
 Scratch アカウントの作り方については、こちらの動画で詳しく説明されています。
 
-{% include youtube.html content="https://www.youtube.com/embed/TfzsNagGC_E" %}
+{% include modules/youtubeBlock.html src="https://www.youtube.com/embed/TfzsNagGC_E" %}
 
 ## 5. 参考情報
 
@@ -88,7 +88,7 @@ _こちらのドキュメント（web サイト）は公式のものではあり
 - [わくわくプログラミング / YouTube](https://www.youtube.com/playlist?list=PLfEbT0fPTpBt0RaNMY5mEGdOZiHZoMo0Y)  
   こちらは以前 Udemy で公開されていたものが公式に転載されたものです。使われている Scratch は 1.4 と古いものですが、基本的な使い方は最新の 3.0 でも大きくは変わっていませんので参考になると思います。
 
-{% include youtube.html content="https://www.youtube.com/embed/videoseries?list=PLfEbT0fPTpBt0RaNMY5mEGdOZiHZoMo0Y" %}
+{% include modules/youtubeBlock.html src="https://www.youtube.com/embed/videoseries?list=PLfEbT0fPTpBt0RaNMY5mEGdOZiHZoMo0Y" %}
 
 ### web サイト
 
