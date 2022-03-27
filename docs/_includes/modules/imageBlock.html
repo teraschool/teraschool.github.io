@@ -1,0 +1,5 @@
+<div class="imageBlock{% if include.class %} {{ include.class }}{% endif %}">
+  <div class="imageBlock__main"><img src="{{ include.src }}" class="imageBlock__mainItem"{% if include.caption %} alt="{{ include.caption }}"{% endif %}></div>
+  {% if include.caption %}<p class="imageBlock__caption">{{ include.caption }}</p>{% endif %}
+  {% if include.content %}<div class="imageBlock__content">{{ include.content }}</div>{% endif %}
+</div>

@@ -1,14 +1,12 @@
 ---
 title: micro:bitを使ってみよう
-layout: deprecated-single
+layout: article
 permalink: /try/microbit/
-header:
-  overlay_image: /assets/images/header/default.png
 tags:
   - micro:bit
   - ブロックプログラミング
 ---
-# micro:bitを使ってみよう
+
 みなさんは、micro:bitを見かけたり使ったりしたことはあるでしょうか？  
 ここでは、「micro:bitのことは、見たり聞いたりしたことはあるけど使ったことはない」とか、「micro:bitを初めて知った」という方向けに、micro:bitを使ってどんなことができるのか、という話ができればと思います。
 

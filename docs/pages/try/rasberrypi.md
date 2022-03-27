@@ -1,9 +1,7 @@
 ---
 title: ラズベリーパイを使ってみよう
-layout: deprecated-single
+layout: article
 permalink: /try/raspberry-pi/
-header:
-overlay_image: /assets/images/header/default.png
 tags:
   - Raspberry Pi
   - Python
@@ -22,7 +20,7 @@ GPIOピンという端子がついている名刺サイズの小型のパソコ�
 - USBキーボード
 - microSDカード
 
-![Alt text](/raspberry-pi_img/pasokon.jpg)
+![Alt text](/assets/images/try/raspberry-pi/pasokon.jpg)
 
 必要なものを全部つなぐと上の写真のようになります。<br>自分の好きなOSをSDカードにダウンロードしてラズベリーパイにさせば、コードを書いたり通常のパソコンのように使えます。<br>HDMI対応テレビがあれば、2万円ほどで自分のパソコンができます。また、壊れた時も、ラズベリーパイやキーボードだけというように各部品を交換すればよいので費用を安く抑えることができます。
 
@@ -32,22 +30,22 @@ OSは、Operating Sysemの頭文字をとったものです。OSはハードウ�
 
 OSのインストールは下記のスライドを参考にしてみて下さい。
 
-{% include slide.html content="2PACX-1vTkcBUUCsTJHpsksSj009TGVYLlnTyplcH7-GGkVSKh6d2-l61sWcKRS6D9XhllG6VI90FrRS7jN3MC" %}
+{% include modules/googleSlideBlock.html hash="2PACX-1vTkcBUUCsTJHpsksSj009TGVYLlnTyplcH7-GGkVSKh6d2-l61sWcKRS6D9XhllG6VI90FrRS7jN3MC" %}
 
 ## 電子工作をしてみよう
-[ラズベリーパイを使ってレゴカーを動かしてみる]{% include youtube.html content="https://www.youtube.com/embed/_TH95_mIJEI" %}
+{% include modules/youtubeBlock.html src="https://www.youtube.com/embed/_TH95_mIJEI" caption="ラズベリーパイを使ってレゴカーを動かしてみる" %}
 
 ## スライドで手順を解説します
-{% include slide.html content="2PACX-1vQbqABYF-jO10MSBjcph25VAS8Y0jzAPeV6I_TLc3X45QQq16JWWS0qiOvCO8FnEJseBW7y3yKMTCZm" %}
+{% include modules/googleSlideBlock.html hash="2PACX-1vQbqABYF-jO10MSBjcph25VAS8Y0jzAPeV6I_TLc3X45QQq16JWWS0qiOvCO8FnEJseBW7y3yKMTCZm" %}
 
 スライドに記載しているコードは、<https://gist.github.com/ryoko-saito/59d3e13b732de61d24c645064dacb923>からコピーして下さい。Raspberry Piクックブック286ページより引用。
 ここで使っているサーボモーターは、[スイッチサイエンス](https://www.switch-science.com/catalog/6813/)で購入できます。
 
-[ラズベリーパイでLチカをしてみる]{% include youtube.html content="https://www.youtube.com/embed/1DdA-yEFzAw" %}
+{% include modules/youtubeBlock.html src="https://www.youtube.com/embed/1DdA-yEFzAw" caption="ラズベリーパイでLチカをしてみる" %}
 
 ## スライドで手順を解説します
 
-{% include slide.html content="2PACX-1vQPDn8TxCyKEfPxdZ_ca3U_O8mefTdW3EHZkBfWKpdJPTZJvnMocCvDnk2xUC6jc2J0NNrV4Z37P6qw" %}
+{% include modules/googleSlideBlock.html hash="2PACX-1vQPDn8TxCyKEfPxdZ_ca3U_O8mefTdW3EHZkBfWKpdJPTZJvnMocCvDnk2xUC6jc2J0NNrV4Z37P6qw" %}
 
 ## ラズベリーパイの選び方
 目的によって選ぶモデルを選択する。
@@ -55,17 +53,17 @@ OSのインストールは下記のスライドを参考にしてみて下さい
 ### IoT（Internet of things)に触れたい
 - Raspberry Pi Zero WH (価格が安く、小さくて組み込みやすい）約2000円
 
-![Alt text](/raspberry-pi_img/rasberrypizero.jpg)
+![Alt text](/assets/images/try/raspberry-pi/raspberrypizero.jpg)
 
 - Raspberry Pi 3 モデルB　1GB 　約5000円
 - Raspberry Pi 4 モデルB　2GB 　約6000円  
-![Alt text](/raspberry-pi_img/rasberrypi4modelb.jpg)
+![Alt text](/assets/images/try/raspberry-pi/raspberrypi4modelb.jpg)
 
 ### 子供の専用パソコンとして持ちたい
 - Raspberry Pi 4 モデルB　8GB 　約10000円
 - Raspberry Pi 400（キーボード一体型）4GB 約10000円
 
-![Alt text](/raspberry-pi_img/rasberrypi400.jpg)
+![Alt text](/assets/images/try/raspberry-pi/raspberrypi400.jpg)
 
 写真は[ラズベリーパイ財団の公式ページ](https://www.raspberrypi.org/)より引用しています。
 
@@ -83,4 +81,4 @@ OSのインストールは下記のスライドを参考にしてみて下さい
 
 ラズベリーパイを購入しようと探していたら、ラズベリーパイピコという製品を目にすることがあると思います。価格も安いので、これで自分専用パソコンができたらラッキーと思って購入される方もいるかもしれません。<br>ラズベリーパイピコは、OSを持てないのでこれを購入されても自分専用パソコンはできません。くれぐれもご注意下さい。<br>では、何ができるのかというと電子工作です。マイクロパイソンという言語を使えば、ラズベリーパイのGPIOピンを使ってできたレゴの車を動かす、電気を点灯するなど同じようなことができます。<br>なので、パソコンとしてのラズベリーパイは必要ないけど、今持っている自分のWindowsなどのパソコンで電子工作をしてみたいなという人にはお勧めです。
 
-![Alt text](/raspberry-pi_img/pico.jpg)
+![Alt text](/assets/images/try/raspberry-pi/pico.jpg)

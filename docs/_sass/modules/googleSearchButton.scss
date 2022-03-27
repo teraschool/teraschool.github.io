@@ -1,0 +1,20 @@
+@import "../utils/variables.scss";
+
+.googleSearchButton {
+  .googleSearchButton__content {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .googleSearchButton__contentIcon {
+    display: block;
+    min-width: 24px;
+    max-width: 24px;
+    height: 24px;
+  }
+
+  .googleSearchButton__contentWords {
+    margin-left: 8px;
+    flex-grow: 1;
+  }
+}

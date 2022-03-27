@@ -2,17 +2,12 @@
 title: C++
 excerpt: C++ (シー・プラス・プラス) は、コンピュータの性能を最大限に引き出すソフトウェアの開発が得意なプログラミング言語です。
 thumbnail: /assets/images/card/language/cpp.png
-layout: deprecated-single
+layout: article
 permalink: /languages/cpp
-header:
-  overlay_image: /assets/images/header/default.png
 tags:
   - テキストプログラミング
   - オンラインで始める
 ---
-
-# C++
-
 ## 1. C++ について
 
 C++ (シー・プラス・プラス) は、コンピュータの性能を最大限に引き出すソフトウェアの開発が得意なプログラミング言語です。世界中のパソコンやスマートフォン、ゲーム機や家電、企業や工場、大学、研究所で動くソフトウェアの開発に使われています。
@@ -158,77 +153,24 @@ C++ の入門書は次の 3 冊がおすすめです。
 
 3 日間コースの中高生向け C++ 教室で使われている教科書です。モダン C++ をベースに入門レベルの内容 (標準入出力、変数、if-else, for, 乱数、std::vector など）を扱っています。無理のないペースと物語形式の題材で、挫折せずにプログラミングに慣れることができるのが特長です。C++ は厚い本が多いなか、約 180 ページと手軽なので、完全読破をして自信をつけて次のステップに進むのに適した最初の一冊です。C++17 に対応しています。
 
-<div class="bookshelf">
-	<div class="book">
-		<img class="cover" src="http://books.google.com/books/content?id=0i10uQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api">
-		<a class="btn amazon" href="https://amazon.jp/dp/4774199184" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4774199184" target="blank">図書館で探す</a>
-		<p class="title">冒険で学ぶ はじめてのプログラミング</p>
-	</div>
-</div>
+{% include modules/bookShelf.html isbns="4774199184" %}
 
 ### 5.2 『やさしい C++ 第 5 版』
 
 C++ の入門～中級レベルの内容のうち、基本的な部分 (『冒険で学ぶ はじめてのプログラミング』に加え、関数、ポインタ、クラス、ファイルなど) を取り上げて、豊富な図を交えて説明しています。学習する順番も適切にデザインされていて親切です。約 550 ページと分量は多いですが、情報系の専門 / 高専 / 大学生が C++ を使えるよう、腰を据えて独学するのに最適な一冊です。ただし、C++11 以降の「範囲 for」や新しい標準ライブラリなど、モダン C++ の機能への言及が少ない点には注意が必要です。
 
-<div class="bookshelf">
-	<div class="book">
-		<img class="cover" src="http://books.google.com/books/content?id=JHe2tAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api">
-		<a class="btn amazon" href="https://amazon.jp/dp/4797392592" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4797392592" target="blank">図書館で探す</a>
-		<p class="title">やさしい C++ 第5版</p>
-	</div>
-</div>
+{% include modules/bookShelf.html isbns="4797392592" %}
 
 ### 5.3 『独習 C++ 新版』
 
 独学のための十分なサンプルと説明が掲載されている入門書で、C++11 ～ C++17 の機能も多く登場します。『やさしい C++ 第 5 版』では扱っていないラムダ式や右辺値参照、また簡単な紹介にとどまっていたテンプレートや例外、データ構造などをしっかり解説しています。序盤からやや高度なトピックも登場するため、プログラミング未経験からこの本を読み始めるのは少し大変です。
 
-<div class="bookshelf">
-	<div class="book">
-		<img class="cover" src="http://books.google.com/books/content?id=rEK8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api">
-		<a class="btn amazon" href="https://amazon.jp/dp/4798150231" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4798150231" target="blank">図書館で探す</a>
-		<p class="title">独習 C++ 新版</p>
-	</div>
-</div>
-
+{% include modules/bookShelf.html isbns="4798150231" %}
 ### 5.4 (競技プログラミング関連の本)
 
 中級以上のレベルになりますが、競技プログラミングに関する以下の書籍は、解説やサンプルプログラムが C++ で記述されています。
 
-<div class="bookshelf">
-	<div class="book">
-		<img class="cover" src="http://books.google.com/books/content?id=7YynBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api">
-		<a class="btn amazon" href="https://amazon.jp/dp/4839951101" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4839951101" target="blank">図書館で探す</a>
-		<p class="title">オンラインジャッジではじめる C/C++ プログラミング入門</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="http://books.google.com/books/content?id=coAvBwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api">
-		<a class="btn amazon" href="https://amazon.jp/dp/4839952957" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4839952957" target="blank">図書館で探す</a>
-		<p class="title">プログラミングコンテスト攻略のためのアルゴリズムとデータ構造</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="http://books.google.com/books/content?id=s40pvgbtOZ8C&printsec=frontcover&img=1&zoom=1&source=gbs_api">
-		<a class="btn amazon" href="https://amazon.jp/dp/4839941068" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4839941068" target="blank">図書館で探す</a>
-		<p class="title">プログラミングコンテストチャレンジブック [第 2 版]</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="http://books.google.com/books/content?id=f2_ezQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api">
-		<a class="btn amazon" href="https://amazon.jp/dp/4065128447" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4065128447" target="blank">図書館で探す</a>
-		<p class="title">問題解決力を鍛える!アルゴリズムとデータ構造</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784297125219.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4297125218" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4297125218" target="blank">図書館で探す</a>
-		<p class="title">問題解決のための「アルゴリズム×数学」が基礎からしっかり身につく本</p>
-	</div>
-</div>
+{% include modules/bookShelf.html isbns="4839951101,4839952957,4839941068,4065128447,4297125218" %}
 
 ## 6. 小中高生向けの C++ プログラミング教室
 

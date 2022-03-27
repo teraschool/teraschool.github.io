@@ -1,0 +1,9 @@
+{%- assign class = "googleSlideBlock" -%}
+{%- if include.class -%}
+{%- assign class = class | append: ' ' -%}
+{%- assign class = class | append: include.class -%}
+{%- endif -%}
+{%- assign src = "https://docs.google.com/presentation/d/e/" -%}
+{%- assign src = src | append: include.hash -%}
+{%- assign src = src | append: "/embed?start=false&loop=false&delayms=3000" -%}
+{% include modules/iframeBlock.html src=src scrolling="no" allowfullscreen="true" caption=include.caption content=include.content class=class %}

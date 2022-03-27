@@ -1,0 +1,39 @@
+---
+layout: default
+---
+{%- if page.header.overlay_image -%}
+{%- assign cover_image = page.header.overlay_image -%}
+{%- elsif page.thumbnail %}
+{%- assign cover_image = page.thumbnail%}
+{%- else %}
+{%- assign cover_image = "/assets/images/img_default_thumbnail.png"%}
+{%- endif %}
+<div class="basicPage article">
+  <div class="article__background" role="presentation" aria-hidden="true">
+    <img src="{{ cover_image }}" class="article__backgroundImage">
+  </div>
+  <div class="article__main">
+    <div class="article__mainCover">
+      <img src="{{ cover_image }}" alt="{{ page.title }}" class="article__mainCoverImage">
+    </div>
+    <div class="article__mainItem">
+      <div class="article__header">
+        <h1 class="article__headerTitle">{{ page.title }}</h1>
+        {%- if page.tags %}
+        <div class="article__headerTag">
+          <ul class="article__headerTagItems">
+            {%- for tag in page.tags %}
+            <li class="article__headerTagItem">
+              <span class="article__headerTagContent">{% include parts/tag.html content=tag %}</span>
+            </li>
+            {%- endfor %}
+          </ul>
+        </div>
+        {%- endif %}
+      </div>
+      <div class="article__content">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>

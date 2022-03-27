@@ -153,6 +153,13 @@
     border-width: 1px 0;
     line-height: 1.2;
     color: inherit;
+    text-decoration: none;
+
+    @media (min-width: $breakpoint-min-width-2) {
+      &:hover:not(.globalHeader__listLink--current) {
+        text-decoration: underline;
+      }
+    }
   }
 
   .globalHeader__listLinkLabel {

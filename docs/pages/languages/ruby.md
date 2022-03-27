@@ -2,10 +2,8 @@
 title: Ruby
 excerpt:
 thumbnail: /assets/images/card/language/ruby.png
-layout: deprecated-single
+layout: article
 permalink: /languages/ruby/
-header:
-  overlay_image: /assets/images/header/default.png
 tags:
   - テキストプログラミング
   - オンラインで始める
@@ -116,38 +114,7 @@ Slack の[ruby-jp](https://ruby-jp.github.io/){:target="\_blank"}コミュニテ
 
 ### 書籍
 
-<div class="bookshelf">
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784873113944.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4873113946" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4873113946" target="blank">図書館で探す</a>
-		<p class="title">プログラミング言語Ruby</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784797399844.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4797399848" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4797399848" target="blank">図書館で探す</a>
-		<p class="title">たのしいRuby 第6版</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784297124373.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4297124378" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4297124378" target="blank">図書館で探す</a>
-		<p class="title">プロを目指す人のためのRuby入門［改訂2版］　言語仕様からテスト駆動開発・デバッグ技法まで</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="/assets/images/no_image.png">
-		<a class="btn amazon" href="https://amazon.jp/dp/4774195022" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4774195022" target="blank">図書館で探す</a>
-		<p class="title">3ステップでしっかり学ぶRuby入門</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784274227417.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4274227413" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4274227413" target="blank">図書館で探す</a>
-		<p class="title">RubyではじめるWebアプリの作り方</p>
-	</div>
-</div>
+{% include modules/bookShelf.html isbns="4873113946,4797399848,4297124378,4774195022,4274227413" %}
 
 ## 6. よくあるご質問
 
