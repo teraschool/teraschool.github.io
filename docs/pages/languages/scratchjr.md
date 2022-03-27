@@ -60,15 +60,7 @@ _こちらのドキュメント（web サイト）は公式のものではあり
 
 ### 書籍
 
-<div class="bookshelf">
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784822297619.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4822297616" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4822297616" target="blank">図書館で探す</a>
-		<p class="title">5才からはじめるすくすくプログラミング</p>
-	</div>
-</div>
-
+{% include modules/bookShelf.html isbns="4822297616" %}
 ## 6. よくあるご質問
 
 ### Q. 今、7 歳の子がいますが対象年齢を考えれば Scratch ではなく、ScratchJr から始めるのが良いでしょうか？

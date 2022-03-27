@@ -103,63 +103,7 @@ Scratch にはオンライン上で公開した作品にコメントや星、ハ
 
 ### 書籍
 
-<div class="bookshelf">
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784800712387.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4800712386" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4800712386" target="blank">図書館で探す</a>
-		<p class="title">CoderDojo Japan公式ブック         Scratchでつくる！たのしむ！プログラミング道場 改訂第2版 Scratch 3.0対応</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784822285159.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4822285154" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4822285154" target="blank">図書館で探す</a>
-		<p class="title">小学生からはじめるわくわくプログラミング</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784822286200.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4822286207" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4822286207" target="blank">図書館で探す</a>
-		<p class="title">小学生からはじめるわくわくプログラミング2 Scratch 3.0版</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784798159850.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4798159859" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4798159859" target="blank">図書館で探す</a>
-		<p class="title">使って遊べる！Scratchおもしろプログラミングレシピ</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784822286255.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4822286258" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4822286258" target="blank">図書館で探す</a>
-		<p class="title">Scratchではじめよう! プログラミング入門　Scratch 3.0版</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="/assets/images/no_image.png">
-		<a class="btn amazon" href="https://amazon.jp/dp/4295009164" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4295009164" target="blank">図書館で探す</a>
-		<p class="title">できるキッズ　スクラッチでゲームをつくろう！　楽しく学べるプログラミング</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="/assets/images/no_image.png">
-		<a class="btn amazon" href="https://amazon.jp/dp/4295001317" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4295001317" target="blank">図書館で探す</a>
-		<p class="title">子どもと学ぶScratchプログラミング入門</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784296070145.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4296070142" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4296070142" target="blank">図書館で探す</a>
-		<p class="title">Scratchで楽しく学ぶアート＆サイエンス 改訂第２版</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="/assets/images/no_image.png">
-		<a class="btn amazon" href="https://amazon.jp/dp/4822286177" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4822286177" target="blank">図書館で探す</a>
-		<p class="title">Scratchで学ぶ プログラミングとアルゴリズムの基本　改訂第２版</p>
-	</div>
-</div>
-
+{% include modules/bookShelf.html isbns="4800712386,4822285154,4822286207,4798159859,4822286258,4295009164,4295001317,4296070142,4822286177" %}
 ## 6. よくあるご質問
 
 ### Q. 対象年齢は 8 歳以上ということですが、何歳ぐらいまでが対象ですか？

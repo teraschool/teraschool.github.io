@@ -1,50 +1,51 @@
 @import "../utils/variables.scss";
 
 @mixin article-base($has-syntax: true) {
-  $line-height: 2;
-
-  line-height: $line-height;
+  > p:not([class]),
+  > blockquote:not([class]) {
+    line-height: 2;
+  }
 
   > div,
-  > p,
-  > ul,
-  > ol,
-  > table,
-  > blockquote,
-  > hr {
+  > p:not([class]),
+  > ul:not([class]),
+  > ol:not([class]),
+  > table:not([class]),
+  > blockquote:not([class]),
+  > hr:not([class]) {
     margin-top: 24px;
   }
 
-  > h2 {
+  > h2:not([class]) {
     font-size: 24px;
   }
   
-  > h3 {
+  > h3:not([class]) {
     font-size: 20px;
   }
 
-  > h4,
-  > h5,
-  > h6 {
+  > h4:not([class]),
+  > h5:not([class]),
+  > h6:not([class]) {
     font-size: 18px;
   }
 
-  > h2,
-  > h3,
-  > h4,
-  > h5,
-  > h6 {
+  > h2:not([class]),
+  > h3:not([class]),
+  > h4:not([class]),
+  > h5:not([class]),
+  > h6:not([class]) {
     margin-top: 40px;
     color: $color-base-2;
     line-height: 1.6;
     font-weight: bold;
   }
 
-  ul,
-  ol {
+  ul:not([class]),
+  ol:not([class]) {
     line-height: 1.6;
 
-    li {
+    li:not([class]) {
       position: relative;
       padding-left: 1.25em;
 
@@ -53,15 +54,15 @@
         left: 0;
       }
 
-      + li,
-      ul,
-      ol {
+      + li:not([class]),
+      ul:not([class]),
+      ol:not([class]) {
         margin-top: 8px;
       }
     }
   }
   
-  ul > li {
+  ul:not([class]) > li:not([class]) {
     &::before {
       $size: 6px;
       content: "";
@@ -73,10 +74,10 @@
     }
   }
 
-  ol {
+  ol:not([class]) {
     counter-reset: item;
 
-    > li {
+    > li:not([class]) {
       counter-increment: item;
 
       &::before {
@@ -86,9 +87,9 @@
     }
   }
 
-  table {
+  table:not([class]) {
     border-collapse: collapse;
-    line-height: 1.4;
+    line-height: 1.6;
 
     th,
     td {
@@ -105,7 +106,7 @@
     }
   }
 
-  blockquote {
+  blockquote:not([class]) {
     border-left: 4px solid $color-base-2;
     padding: 8px 8px 8px 8px + 4px;
     color: $color-base-2;
@@ -116,7 +117,7 @@
     }
   }
 
-  img:not([class]) {
+  p img:not([class]) {
     display: block;
     margin: 0 auto;
     width: auto;
@@ -124,41 +125,41 @@
     height: auto;
   }
 
-  strong {
+  strong:not([class]) {
     font-weight: bold;
   }
 
-  em {
+  em:not([class]) {
     font-style: oblique;
   }
 
-  del {
+  del:not([class]) {
     text-decoration: line-through;
   }
 
   code {
-    padding: 4px 0.5em;
+    padding: 0.25em 0.5em;
     background-color: $color-base-4;
     border-radius: 4px;
     color: $color-base-2;
   }
 
-  hr {
+  hr:not([class]) {
     border-top: 1px dotted $color-base-2;
   }
 
-  > h2,
-  > h3,
-  > h4,
-  > h5,
-  > h6,
-  > div,
-  > p,
-  > ul,
-  > ol,
-  > table,
-  > blockquote,
-  > hr {
+  > h2:not([class]),
+  > h3:not([class]),
+  > h4:not([class]),
+  > h5:not([class]),
+  > h6:not([class]),
+  > div:not([class]),
+  > p,:not([class])
+  > ul:not([class]),
+  > ol:not([class]),
+  > table:not([class]),
+  > blockquote:not([class]),
+  > hr:not([class]) {
     &:first-child {
       margin-top: 0;
     }

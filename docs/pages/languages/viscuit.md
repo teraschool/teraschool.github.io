@@ -64,20 +64,7 @@ _こちらのドキュメント（web サイト）は公式のものではあり
 
 ### 書籍
 
-<div class="bookshelf">
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784798143057.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4798143057" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4798143057" target="blank">図書館で探す</a>
-		<p class="title">ビスケットであそぼう 園児・小学生からはじめるプログラミング</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784295002826.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4295002828" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4295002828" target="blank">図書館で探す</a>
-		<p class="title">子どもと学ぶビスケットプログラミング入門</p>
-	</div>
-</div>
+{% include modules/bookShelf.html isbns="4798143057,4295002828" %}
 
 ## 6. よくあるご質問
 

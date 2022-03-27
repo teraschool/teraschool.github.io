@@ -1,0 +1,36 @@
+{%- assign isbns = include.isbns | split: "," -%}
+<div class="bookShelf" data-bookshelf>
+  <div class="bookShelf__main">
+    <ul class="bookShelf__books">
+      {%- for isbn in isbns %}
+      {%- assign amazon_link = "https://amazon.jp/dp/" | append: isbn -%}
+      {%- assign calil_link = "https://calil.jp/book/" | append: isbn -%}
+      <li class="bookShelf__book bookShelf__book--loading" data-bookshelf-book="{{ isbn }}">
+        <div class="bookShelf__bookMain">
+          <div class="bookShelf__bookImage" data-bookshelf-book-parts="image"></div>
+          <div class="bookShelf__bookInfo">
+            <div class="bookShelf__bookInfoItem">
+              <p class="bookShelf__bookTitle">
+                <span class="bookShelf__bookTitleInner" data-bookshelf-book-parts="title"></span>
+              </p>
+              <p class="bookShelf__bookError" data-bookshelf-book-parts="error" aria-hidden="true">
+                情報を取得できませんでした。<br>リンク先にはアクセスできる可能性があるので、ボタンをクリックしてみてください。
+              </p>
+            </div>
+            <div class="bookShelf__itemInfoFooter">
+              <ul class="bookShelf__bookLinks">
+                <li class="bookShelf__bookLink">
+                  {% include parts/button.html href=amazon_link type="border" target="_blank" class="bookShelf__bookLinkButton" content="Amazon で買う" %}
+                </li>
+                <li class="bookShelf__bookLink">
+                  {% include parts/button.html href=calil_link type="border" target="_blank" class="bookShelf__bookLinkButton" content="図書館で探す" %}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</div>

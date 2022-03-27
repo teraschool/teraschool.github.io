@@ -49,6 +49,11 @@
   </main>
   {% include modules/globalFooter.html %}
   {% include scripts/hamburger.html %}
+  {%- if page.url != "/try/" and page.url != "/languages/" %}
+  {%- if page.url contains "/try/" or page.url contains "/languages/" %}
+  {% include scripts/bookShelf.html %}
+  {%- endif %}
+  {%- endif %}
   {% include analytics.html %}
 </body>
 </html>
