@@ -1,7 +1,7 @@
 ---
 title: Hour of Code
 excerpt:
-thumbnail: /assets/images/card/language/hourofcode.png
+thumbnail: /assets/images/img_default_thumbnail.png
 layout: article
 permalink: /languages/hourofcode/
 tags:

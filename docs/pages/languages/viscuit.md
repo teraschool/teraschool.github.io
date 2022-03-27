@@ -1,7 +1,7 @@
 ---
 title: Viscuit（ビスケット）
 excerpt:
-thumbnail: /assets/images/card/language/viscuit.png
+thumbnail: /assets/images/img_default_thumbnail.png
 layout: article
 permalink: /languages/viscuit/
 tags:

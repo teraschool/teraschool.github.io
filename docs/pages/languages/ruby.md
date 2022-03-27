@@ -1,7 +1,7 @@
 ---
 title: Ruby
 excerpt:
-thumbnail: /assets/images/card/language/ruby.png
+thumbnail: /assets/images/img_default_thumbnail.png
 layout: article
 permalink: /languages/ruby/
 tags:

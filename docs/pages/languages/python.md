@@ -1,7 +1,7 @@
 ---
 title: Python
 excerpt:
-thumbnail: /assets/images/card/language/python.png
+thumbnail: /assets/images/img_default_thumbnail.png
 layout: article
 permalink: /languages/python/
 tags:
