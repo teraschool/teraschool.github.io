@@ -16,10 +16,10 @@ YouTube動画を埋め込む場合は以下の手順で行なってください�
 4. 「共有」画面の「埋め込む」をクリックします。
 ![共有URLの取得](images/youtube02.png)
 
-5. 「動画の埋め込み」画面に表示されるHTMLコードからsrc=""の中にあるURLだけをコピーします。下の画像の反転部分を参照してください。  
+5. 「動画の埋め込み」画面に表示されるHTMLコードから `src="" の中にあるURLだけをコピーします。下の画像の反転部分を参照してください。  
 ![埋め込みのURL](images/youtube03.png)
 
-6. コピーしたURLを手順1で挿入したタグの「content=""」の中に貼り付けます。以下のようになります。
+6. コピーしたURLを手順1で挿入したタグの `content=""` の中に貼り付けます。以下のようになります。
 
 ```
 {% include modules/youtubeBlock.html src="https://www.youtube.com/embed/TfzsNagGC_E" %}
