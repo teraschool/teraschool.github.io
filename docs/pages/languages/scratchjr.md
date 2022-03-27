@@ -1,7 +1,7 @@
 ---
 title: ScratchJr
 excerpt:
-thumbnail: /assets/images/card/language/scratchjr.png
+thumbnail: /assets/images/img_default_thumbnail.png
 layout: article
 permalink: /languages/scratchjr/
 tags:

@@ -1,7 +1,7 @@
 ---
 title: JavaScript
 excerpt:
-thumbnail: /assets/images/card/language/javascript.png
+thumbnail: /assets/images/img_default_thumbnail.png
 layout: article
 permalink: /languages/javascript/
 tags:

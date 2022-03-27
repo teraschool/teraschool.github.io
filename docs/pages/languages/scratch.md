@@ -1,7 +1,7 @@
 ---
 title: Scratch
 excerpt:
-thumbnail: /assets/images/card/language/scratch.png
+thumbnail: /assets/images/img_default_thumbnail.png
 layout: article
 permalink: /languages/scratch/
 tags:
