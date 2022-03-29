@@ -1,11 +1,9 @@
 ---
 title: Python
 excerpt:
-thumbnail: /assets/images/card/language/python.png
-layout: deprecated-single
+thumbnail: /assets/images/img_default_thumbnail.png
+layout: article
 permalink: /languages/python/
-header:
-  overlay_image: /assets/images/header/default.png
 tags:
   - テキストプログラミング
   - オンラインで始める
@@ -101,7 +99,7 @@ Python でゲームのようなグラフィック画面を使ったプログラ�
 
 インターネット上で多くの情報を見つけることができますので「python tkinter 使い方」などで検索してみてください。
 
-{% include google.html content="python tkinter 使い方" %}
+{% include modules/googleSearchButton.html content="python tkinter 使い方" %}
 
 ### 4-2. クラウド上の環境を利用する
 
@@ -157,68 +155,7 @@ Python プログラミングをやっている方のコミュニティもたく�
 
 ### 書籍
 
-<div class="bookshelf">
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784798153193.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4798153192" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4798153192" target="blank">図書館で探す</a>
-		<p class="title">Python 1年生 体験してわかる！会話でまなべる！プログラミングのしくみ</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784798161914.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4798161918" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4798161918" target="blank">図書館で探す</a>
-		<p class="title">Python2年生 スクレイピングのしくみ 体験してわかる！会話でまなべる！</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784798164960.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4798164968" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4798164968" target="blank">図書館で探す</a>
-		<p class="title">Python2年生 データ分析のしくみ 体験してわかる！会話でまなべる！</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784798166575.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/479816657X" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/479816657X" target="blank">図書館で探す</a>
-		<p class="title">Python3年生 機械学習のしくみ 体験してわかる！会話でまなべる！</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784822288822.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/482228882X" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/482228882X" target="blank">図書館で探す</a>
-		<p class="title">ゲームセンターあらしと学ぶ プログラミング入門 まんが版こんにちはPython</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="/assets/images/no_image.png">
-		<a class="btn amazon" href="https://amazon.jp/dp/4295009202" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4295009202" target="blank">図書館で探す</a>
-		<p class="title">つなげば動く！ Pythonふりがなプログラミング パターン文例80</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784822292270.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4822292274" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4822292274" target="blank">図書館で探す</a>
-		<p class="title">独学プログラマー Python言語の基本から仕事のやり方まで</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784297107383.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4297107384" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4297107384" target="blank">図書館で探す</a>
-		<p class="title">Pythonクローリング＆スクレイピング[増補改訂版] -データ収集・解析のための実践開発ガイド-</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="/assets/images/no_image.png">
-		<a class="btn amazon" href="https://amazon.jp/dp/487311778X" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/487311778X" target="blank">図書館で探す</a>
-		<p class="title">退屈なことはPythonにやらせよう</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784873119328.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4873119324" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4873119324" target="blank">図書館で探す</a>
-		<p class="title">入門Python3　第2版</p>
-	</div>
-</div>
+{% include modules/bookShelf.html isbns="4798153192,4798161918,4798164968,479816657X,482228882X,4295009202,4822292274,4297107384,487311778X,4873119324" %}
 
 ## 6. よくあるご質問
 

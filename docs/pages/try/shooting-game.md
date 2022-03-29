@@ -1,17 +1,14 @@
 ---
 title: シューティングゲームを作ってみよう
-layout: deprecated-single
+layout: article
 permalink: /try/shooting-game/
-header:
-  overlay_image: /assets/images/header/default.png
 tags:
   - Scratch
 ---
-# シューティングゲームを作りをやってみよう
 
 今回作る作品は、こちらのシューティングゲームです。
 
-{% include scratch.html content="68155398" %}
+{% include modules/scratchBlock.html id="68155398" %}
 
 このゲームには、ゲームオーバーもスコアもありませんが、弾を発射して敵を攻撃する、敵の弾があたるなどシューティングゲームに必要な機能は入っています。
 

@@ -1,0 +1,28 @@
+.iframeBlock {
+  .iframeBlock__main {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    height: 0;
+  }
+
+  .iframeBlock__mainItem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  .iframeBlock__caption {
+    margin-top: 16px;
+    font-size: 0.875em;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .iframeBlock__content {
+    margin-top: 16px;
+  }
+}

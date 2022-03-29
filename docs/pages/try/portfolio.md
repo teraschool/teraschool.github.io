@@ -1,19 +1,16 @@
 ---
 title: ポートフォリオサイトを作ってみよう
-layout: deprecated-single
+layout: article
 permalink: /try/portfolio/
-header:
-  overlay_image: /assets/images/header/default.png
 tags:
   - HTML5
   - CSS3
   - Web
 ---
 
-# ポートフォリオサイトを作ってみよう
-
 みなさんこんにちは。ひらやま（[@rhirayamaaan](https://twitter.com/rhirayamaaan)）と申します。  
 みなさんは PC やスマホを使っていろいろなものを作っていますか？ もし力作を持っているのであれば、その作品をインターネットで紹介できたら、もっといろんな人に作品を見てもらえます！  
+
 なので今回は、HTML/CSS を書いてポートフォリオ（作品集）サイトを作り、公開するところまでやってみましょう！  
 （この記事内の作業はすべて無料で行えます。）
 
@@ -21,24 +18,14 @@ tags:
 
 今回は [Glitch](https://glitch.com/) というサービスを使ってコーディングしていこうと思います。
 
-<figure style="text-align: center;">
-<div style="width: 100%;">
-<img src="/assets/images/try/portfolio/glitch-top-page.png" alt="Glitch Top Page Capture" style="width: auto; height: auto;">
-</div>
-<figcaption style="width: 100%;">Glitch のトップページ</figcaption>
-</figure>
+{% include modules/imageBlock.html src="/assets/images/try/portfolio/glitch-top-page.png" caption="Glitch のトップページ" %}
 
 Glitch はブラウザ上ですべてのコーディングを完結できて、リアルタイムにコードが反映されていくサービスなので、気軽に Web ページを作成できます。
 
 私が Glitch 上で作成したサンプルをコピーしてもらい、それをベースにポートフォリオサイト作成をしていこうと考えています。  
 そのコード少し編集するだけでもしっかりとしたページになるようにしていますので、HTML/CSS がわからなくても問題ありません！
 
-<figure style="display: block; text-align: center;">
-<div style="position: relative; padding-top: 56.25%;">
-<iframe src="https://rhirayamaaan-portfolio-sample-site.glitch.me" style="position: absolute; top: 0; left: 0; border: 0; width: 100%; height: 100%;"></iframe>
-</div>
-<figcaption style="margin-top: 0.5em; width: 100%;">ポートフォリオのサンプル</figcaption>
-</figure>
+{% include modules/iframeBlock.html src="https://rhirayamaaan-portfolio-sample-site.glitch.me" caption="ポートフォリオのサンプル" %}
 
 また、Glitch は日本語対応されていないため少し操作が難しいところもあるかもしれませんが、この記事でしっかりとサポートしていくので安心してください！  
 もし英文を読まなければならないことが出てきた場合は、[DeepL](https://www.deepl.com/ja/translator) という翻訳サービスを活用するのをおすすめします。
@@ -51,23 +38,12 @@ Glitch はブラウザ上ですべてのコーディングを完結できて、�
 
 上記の URL にアクセスすると、「Facebook」「GitHub」「Google」「Email Magic Link」の 4 つのボタンが出てきます。
 
-<figure style="text-align: center;">
-<div style="width: 100%;">
-<img src="/assets/images/try/portfolio/glitch-signup.png" alt="Glitch Signup Capture" style="width: auto; max-width: 50%; height: auto;">
-</div>
-<figcaption style="width: 100%;">Glitch の会員登録ページ</figcaption>
-</figure>
+{% include modules/imageBlock.html src="/assets/images/try/portfolio/glitch-signup.png" caption="Glitch の会員登録ページ" %}
 
 Facebook、GitHub、Google のアカウントを持っている場合はいずれかを使うとスムーズに会員登録を行えます。  
 もしどのアカウントも持っていない場合は、Email Magic Link を押して、自分のメールアドレスを入力してください。「Send a code」というボタンを押すとメールが届くので、そのメールの中にある「Log in to Glitch」というボタンを押すと、会員登録が完了します。
 
-<figure style="text-align: center;">
-<div style="width: 100%;">
-<img src="/assets/images/try/portfolio/glitch-email-magic-link.png" alt="Email Magic Link Capture" style="width: auto; height: auto;">
-</div>
-<figcaption style="width: 100%;">メールでの会員登録のときに送られてくるメール</figcaption>
-</figure>
-
+{% include modules/imageBlock.html src="/assets/images/try/portfolio/glitch-email-magic-link.png" caption="メールでの会員登録のときに送られてくるメール" %}
 ### ポートフォリオのサンプルコードをコピーする
 
 次に、私が作成したサンプルコードをコピーします。
@@ -77,22 +53,12 @@ Facebook、GitHub、Google のアカウントを持っている場合はいず�
 上記にアクセスすると、私が作成したポートフォリオサイトのサンプルのプロジェクトが表示されます。  
 ページの下の方に行くと「Remix your own」というボタンがあるので、それをクリックします。
 
-<figure style="text-align: center;">
-<div style="width: 100%;">
-<img src="/assets/images/try/portfolio/glitch-remix-button.png" alt="Remix Button Capture" style="width: auto; height: auto;">
-</div>
-<figcaption style="width: 100%;">コピーするときに押すボタン</figcaption>
-</figure>
+{% include modules/imageBlock.html src="/assets/images/try/portfolio/glitch-remix-button.png" caption="コピーするときに押すボタン" %}
 
 すると、作ったアカウントの中に私が作ったコードがそのままコピーされた状態になります。  
 以下のような画面が表示されたら成功です！
 
-<figure style="text-align: center;">
-<div style="width: 100%;">
-<img src="/assets/images/try/portfolio/glitch-edit-page.png" alt="Glitch Code Editor Capture" style="width: auto; height: auto;">
-</div>
-<figcaption style="width: 100%;">コード編集ページ</figcaption>
-</figure>
+{% include modules/imageBlock.html src="/assets/images/try/portfolio/glitch-edit-page.png" caption="コード編集ページ" %}
 
 これで準備完了です！オリジナルのポートフォリオサイトに編集していきましょう！！
 
@@ -167,12 +133,7 @@ Facebook、GitHub、Google のアカウントを持っている場合はいず�
 そこで、新しい画面でプレビュー画面を表示しましょう。上で書いた通り、ページの下側にある虫眼鏡アイコンが付いている `PREVIEW` というボタンを押したあとに `Preview in a new window` のボタンを押すと表示できます。
 すると、以下の画像の箇所が変わっているはずです。
 
-<figure style="text-align: center;">
-<div style="width: 100%;">
-<img src="/assets/images/try/portfolio/html-title-tag.png" alt="Glitch Code Editor Capture" style="width: auto; height: auto;">
-</div>
-<figcaption style="width: 100%;"><code>&lt;title&gt;</code> を変更した後のタブの表示</figcaption>
-</figure>
+{% include modules/imageBlock.html src="/assets/images/try/portfolio/html-title-tag.png" caption="<code>&lt;title&gt;</code> を変更した後のタブの表示" %}
 
 ブラウザのタブのところが更新されていることが確認できますね！  
 `<title>` というのは、作成している HTML 文書そのもののタイトルを指すもので、ページ内には表示されません。  
@@ -210,12 +171,7 @@ Facebook、GitHub、Google のアカウントを持っている場合はいず�
 まず、画像を使うためにはインターネット上にアップロードする必要があります。  
 Glitch には画像のアップロード機能もついているので、それを使って画像をアップロードします。
 
-<figure style="text-align: center;">
-<div style="width: 100%;">
-<img src="/assets/images/try/portfolio/glitch-assets-no-items.png" alt="Glitch Assets Window" style="width: auto; height: auto;">
-</div>
-<figcaption style="width: 100%;">Assets の画面表示の仕方と、アップロードボタンの案内</figcaption>
-</figure>
+{% include modules/imageBlock.html src="/assets/images/try/portfolio/glitch-assets-no-items.png" caption="Assets の画面表示の仕方と、アップロードボタンの案内" %}
 
 まずは、画像の通り画面をクリックします。  
 左のメニューの「Assets」をクリックすると、アップロードした画像一覧の画面が表示されます。まだ画像をアップロードしていない状態なので「No Assets Yet」と表示されているはずです。  
@@ -223,21 +179,11 @@ Glitch には画像のアップロード機能もついているので、それ�
 また、「UPLOAD AN ASSET」を押さなくても、画像をドラッグアンドドロップをしても追加することができます。  
 アップロードが完了すると、以下のように画像が Assets の中に追加されます。
 
-<figure style="text-align: center;">
-<div style="width: 100%;">
-<img src="/assets/images/try/portfolio/glitch-assets-added-items.png" alt="Glitch Assets Window (added an item)" style="width: auto; height: auto;">
-</div>
-<figcaption style="width: 100%;">画像が追加された状態の Assets 画面</figcaption>
-</figure>
+{% include modules/imageBlock.html src="/assets/images/try/portfolio/glitch-assets-added-items.png" caption="画像が追加された状態の Assets 画面" %}
 
 追加された画像をクリックすると、その画像を拡大表示でき、その画像の情報や画像の操作をすることができます。
 
-<figure style="text-align: center;">
-<div style="width: 100%;">
-<img src="/assets/images/try/portfolio/glitch-assets-copy-link.png" alt="Glitch Assets Window (added an item)" style="width: auto; height: auto;">
-</div>
-<figcaption style="width: 100%;">画像を表示する URL のコピー</figcaption>
-</figure>
+{% include modules/imageBlock.html src="/assets/images/try/portfolio/glitch-assets-copy-link.png" caption="Glitch Assets Window (added an item)" %}
 
 表示されたウィンドウの下部に「Copy URL」というボタンがあるので、それを押してみます。すると、そのボタンの上部に書いてある URL がコピーされた状態になります。  
 ブラウザの URL を入力する場所にキーボードで `ctrl + v`（Mac の場合は `⌘ + v`）を押してペーストし、URL にアクセスできるか確認してみましょう。  
@@ -358,12 +304,7 @@ CSS の `.` というのは HTML の `class` を指します。HTML 側で `clas
 
 開発者ツールを使うには、キーボードの `F12`（Mac の場合は `⌘ + option + i`）を押してください。すると以下のようになるはずです。
 
-<figure style="text-align: center;">
-<div style="width: 100%;">
-<img src="/assets/images/try/portfolio/chrome-developer-tools.png" alt="Google Chrome's developer tools" style="width: auto; height: auto;">
-</div>
-<figcaption style="width: 100%;">Google Chrome の「開発者ツール」</figcaption>
-</figure>
+{% include modules/imageBlock.html src="/assets/images/try/portfolio/chrome-developer-tools.png" caption="Google Chrome の「開発者ツール」" %}
 
 画面をよく見てみると、HTML と CSS が表示されているのがわかります。（もし表示されていない場合は「Elements」というタブをクリックしてみてください。）  
 これは、表示されているページの HTML と CSS です。開発者ツールを使うと、このようにコードを見ることができるのです。
@@ -371,23 +312,13 @@ CSS の `.` というのは HTML の `class` を指します。HTML 側で `clas
 ただ、Glitch 上でこれを表示すると、Glitch 全体のコードが表示されていて、右側に表示されている自分のページのコードにたどり着くのは大変です。  
 なので、画面をクリックするとそのコードを表示してくれる機能を使ってみようと思います。
 
-<figure style="text-align: center;">
-<div style="width: 100%;">
-<img src="/assets/images/try/portfolio/chrome-select-element.png" alt="How to use Inspect Element Mode" style="width: auto; height: auto;">
-</div>
-<figcaption style="width: 100%;">「要素の検証モード」のやり方</figcaption>
-</figure>
+{% include modules/imageBlock.html src="/assets/images/try/portfolio/chrome-select-element.png" caption="「要素の検証モード」のやり方" %}
 
 画像の通り、四角とマウスポインタが重なったアイコンをクリックし、「要素の検証モード」にします。  
 そのモードの状態でページの上にマウスを持っていくと要素の範囲がハイライトされるので、その状態で調べたい要素をクリックします。  
 すると、開発者ツールに表示されている HTML と CSS のコードが変わると思います。
 
-<figure style="text-align: center;">
-<div style="width: 100%;">
-<img src="/assets/images/try/portfolio/chrome-selected-element.png" alt="Selected specific element" style="width: auto; height: auto;">
-</div>
-<figcaption style="width: 100%;">「要素の検証モード」で要素を選んだ状態</figcaption>
-</figure>
+{% include modules/imageBlock.html src="/assets/images/try/portfolio/chrome-selected-element.png" caption="「要素の検証モード」で要素を選んだ状態" %}
 
 選択した要素の `class` を見てみると `topBanner__inner` という要素だということが分かります。  
 そして、その要素の CSS も見ることができます。`position` というのと `padding` というのが設定されているようです。  
@@ -436,23 +367,13 @@ CSS の `.` というのは HTML の `class` を指します。HTML 側で `clas
 ただ、色を指定しているのは `topBanner` という名前の要素であることはさっき調べて分かりました。  
 なので `topBanner__inner` の上にある `topBanner` を選択してみましょう。
 
-<figure style="text-align: center;">
-<div style="width: 100%;">
-<img src="/assets/images/try/portfolio/chrome-selected-topbanner.png" alt="Selected `topBanner`" style="width: auto; height: auto;">
-</div>
-<figcaption style="width: 100%;"><code>topBanner</code>を選んだ状態</figcaption>
-</figure>
+{% include modules/imageBlock.html src="/assets/images/try/portfolio/chrome-selected-topbanner.png" caption="<code>topBanner</code>を選んだ状態" %}
 
 すると、CSS のコードも変わり、`background-color` の指定が現れます。  
 その指定をよく見てみると、`var(--color-blue-1)` の左横に、その指定された色で塗られた四角が表示されています。便利ですね！  
 この色のついた四角をクリックしてみましょう。
 
-<figure style="text-align: center;">
-<div style="width: 100%;">
-<img src="/assets/images/try/portfolio/chrome-change-color.gif" alt="Change color with color picker" style="width: auto; height: auto;">
-</div>
-<figcaption style="width: 100%;">カラーピッカーを使って色を試す</figcaption>
-</figure>
+{% include modules/imageBlock.html src="/assets/images/try/portfolio/chrome-change-color.gif" caption="カラーピッカーを使って色を試す" %}
 
 すると、色を選択するウィンドウが表示されます。これは「カラーピッカー」というもので、マウスを使って自由自在に色を変えることができます。  
 色を決めたら、実際にコード上に反映したいので、「HEX」と書かれている上にある `#` から始まる 7 文字の値をコピーしましょう。  
@@ -470,12 +391,7 @@ CSS の `.` というのは HTML の `class` を指します。HTML 側で `clas
 
 そして、実際にページを見てみると、以下のようになっているはずです。
 
-<figure style="text-align: center;">
-<div style="width: 100%;">
-<img src="/assets/images/try/portfolio/preview-changed-color-site.png" alt="Change color with color picker" style="width: auto; height: auto;">
-</div>
-<figcaption style="width: 100%;">色を変更したあとのページ</figcaption>
-</figure>
+{% include modules/imageBlock.html src="/assets/images/try/portfolio/preview-changed-color-site.png" caption="色を変更したあとのページ" %}
 
 `backgroud-color` を変えるために `--color-blue-1` の色を変えたわけですが、見出しの下線の色も同時に変わっているのが分かります。  
 なぜこのようなことがおこるかというと、色を統一するために、あらかじめこの下線の色も `--color-blue-1` に設定していたからです。

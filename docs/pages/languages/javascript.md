@@ -1,11 +1,9 @@
 ---
 title: JavaScript
 excerpt:
-thumbnail: /assets/images/card/language/javascript.png
-layout: deprecated-single
+thumbnail: /assets/images/img_default_thumbnail.png
+layout: article
 permalink: /languages/javascript/
-header:
-  overlay_image: /assets/images/header/default.png
 tags:
   - テキストプログラミング
   - オンラインで始める
@@ -95,44 +93,7 @@ _こちらのドキュメント（web サイト）は公式のものではあり
 
 ## 書籍
 
-<div class="bookshelf">
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784873119229.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4873119227" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4873119227" target="blank">図書館で探す</a>
-		<p class="title">ハンズオンJavaScript</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784797395150.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/479739515X" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/479739515X" target="blank">図書館で探す</a>
-		<p class="title">本当によくわかるJavaScriptの教科書</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="/assets/images/no_image.png">
-		<a class="btn amazon" href="https://amazon.jp/dp/4295005924" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4295005924" target="blank">図書館で探す</a>
-		<p class="title">いちばんやさしいJavaScriptの教本</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="https://cover.openbd.jp/9784798130842.jpg">
-		<a class="btn amazon" href="https://amazon.jp/dp/4798130842" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4798130842" target="blank">図書館で探す</a>
-		<p class="title">独習JavaScript = Teach Yourself JavaScript</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="/assets/images/no_image.png">
-		<a class="btn amazon" href="https://amazon.jp/dp/4873117836" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4873117836" target="blank">図書館で探す</a>
-		<p class="title">初めてのJavaScript 第3版</p>
-	</div>
-	<div class="book">
-		<img class="cover" src="/assets/images/no_image.png">
-		<a class="btn amazon" href="https://amazon.jp/dp/4295003859" target="blank">Amazonで購入</a>
-		<a class="btn library" href="https://calil.jp/book/4295003859" target="blank">図書館で探す</a>
-		<p class="title">スラスラ読めるJavaScriptふりがなプログラミング</p>
-	</div>
-</div>
+{% include modules/bookShelf.html isbns="4873119227,479739515X,4295005924,4798130842,4873117836,4295003859" %}
 
 ## 6. よくあるご質問
 

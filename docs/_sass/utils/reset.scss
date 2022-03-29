@@ -13,9 +13,12 @@ body {
 
 a {
   color: $color-base-2;
-
-  &:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+  
+  @media (min-width: $breakpoint-min-width-2) {
+    &:hover {
+      color: $color-base-1;
+    }
   }
 }
 
