@@ -1,7 +1,7 @@
 ---
 title: 保護者の方へ
 layout: deprecated-single
-permalink: /parents/
+permalink: /deprecated-parents/
 author_profile: false
 header:
   overlay_image: /assets/images/header/default.png

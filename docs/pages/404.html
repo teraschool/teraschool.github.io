@@ -1,0 +1,11 @@
+---
+title: Not Found!
+layout: single
+permalink: /404.html
+---
+
+{% capture sectionMain %}
+<p style="text-align: center">お手数ですが、前の画面か<a href="/">トップページ</a>にお戻りください。</p>
+<p style="text-align: center">URLの入力に誤りがあるか、ページが移動・削除された可能性があります。</p>
+{% endcapture %}
+{% include modules/basicSection.html mode="article" title="ページが見つかりませんでした！" content=sectionMain %}
