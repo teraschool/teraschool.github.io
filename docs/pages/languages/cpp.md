@@ -152,7 +152,7 @@ C++ の入門書は次の 3 冊がおすすめです。
 ### 5.1 『冒険で学ぶ はじめてのプログラミング』
 
 3 日間コースの中高生向け C++ 教室で使われている教科書です。モダン C++ をベースに入門レベルの内容 (標準入出力、変数、if-else, for, 乱数、std::vector など）を扱っています。無理のないペースと物語形式の題材で、挫折せずにプログラミングに慣れることができるのが特長です。C++ は厚い本が多いなか、約 180 ページと手軽なので、完全読破をして自信をつけて次のステップに進むのに適した最初の一冊です。C++17 に対応しています。
-
+              
 <div class="bookShelf" data-bookshelf="">
   <div class="bookShelf__main">
     <ul class="bookShelf__books"><li class="bookShelf__book bookShelf__book--loading" data-bookshelf-book="4774199184">
@@ -163,8 +163,8 @@ C++ の入門書は次の 3 冊がおすすめです。
               <p class="bookShelf__bookTitle">
                 <span class="bookShelf__bookTitleInner" data-bookshelf-book-parts="title"></span>
               </p>
-              <p class="bookShelf__bookError" data-bookshelf-book-parts="error" aria-hidden="true">
-                冒険で学ぶ はじめてのプログラミング
+              <p class="bookShelf__bookTitle">
+                <span class="bookShelf__bookTitleInner" data-bookshelf-book-parts="title" title="冒険で学ぶ はじめてのプログラミング">冒険で学ぶ はじめてのプログラミング</span>
               </p>
             </div>
             <div class="bookShelf__itemInfoFooter">
