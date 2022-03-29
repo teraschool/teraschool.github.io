@@ -2,7 +2,7 @@
 title: ツールと素材
 descirption: 
 layout: deprecated-single
-permalink: /tools_and_materials/
+permalink: /deprecated-tools-and-materials/
 header:
   overlay_image: /assets/images/header/default.png
 ---

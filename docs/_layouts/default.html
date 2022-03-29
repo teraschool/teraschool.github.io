@@ -1,6 +1,6 @@
 ---
 ---
-{%- if page.url == "/" or page.url contains "/try/" or page.url contains "/languages/" or page.url == "/about/" -%}
+{%- if page.url == "/" or page.url contains "/try/" or page.url contains "/languages/" or page.url == "/about/" or page.url == "/parents/" or page.url == "/teachers/" or page.url == "/tools-and-materials/" or page.path == "pages/404.html" -%}
 {% comment %}
 <!-- 新UI -->
 {% endcomment %}
@@ -36,10 +36,13 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@2.0.2/destyle.css">
   {%- if page.url == "/" %}
   <link rel="stylesheet" href="/assets/css/top.css">
-  {%- elsif page.url == "/try/" or page.url == "/languages/" or page.url == "/about/" %}
+  {%- elsif page.url == "/try/" or page.url == "/languages/" or page.url == "/about/" or page.url == "/parents/" or page.url == "/teachers/" or page.url == "/tools-and-materials/" or page.path == "pages/404.html" %}
   <link rel="stylesheet" href="/assets/css/layouts/single.css">
   {%- elsif page.url contains "/try/" or page.url contains "/languages/" %}
   <link rel="stylesheet" href="/assets/css/layouts/article.css">
+  {%- endif %}
+  {%- if page.path == "pages/404.html" %}
+  <meta name="robots" content="noindex">
   {%- endif %}
 </head>
 <body>
