@@ -2,7 +2,7 @@
 title: プログラミングをはじめよう
 descirption: Lets' start programming
 layout: deprecated-single
-permalink: /introduction/
+permalink: /deprecated-introduction/
 header:
   overlay_image: /assets/images/header/default.png
 ---
