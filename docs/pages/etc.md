@@ -1,6 +1,6 @@
 ---
 title: その他
-layout: single
+layout: deprecated-single
 permalink: /etc/
 header:
   overlay_image: /assets/images/cover/header.png

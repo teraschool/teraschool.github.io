@@ -1,0 +1,82 @@
+<script>
+  (() => {
+    const NAMESPACE = 'bookshelf';
+    const API_URL = 'https://api.openbd.jp/v1/get';
+    const API_PARAMETER_KEY = 'isbn';
+
+    const LOADING_MODIFIER_CLASS_NAME = 'loading';
+    const ERROR_MODIFIER_CLASS_NAME = 'error';
+
+    const loadImageSource = (src) => {
+      const image = new Image();
+      return new Promise((resolve, reject) => {
+        image.onload = () => resolve(image);
+        image.onerror = (error) => reject(error);
+        image.src = src;
+      })
+    }
+
+    const $roots = document.querySelectorAll(`[data-${NAMESPACE}]`);
+
+    $roots.forEach(($root) => {
+      const $books = $root.querySelectorAll(`[data-${NAMESPACE}-book]`);
+
+      if (!$books || $books.length <= 0) {
+        return;
+      }
+      
+      $books.forEach(($book) => {
+        const isbn = $book.getAttribute(`data-${NAMESPACE}-book`);
+
+        const bookClasses = $book.classList;
+        const bookLoadingClassName = `${bookClasses[0]}--${LOADING_MODIFIER_CLASS_NAME}`;
+        const bookErrorClassName = `${bookClasses[0]}--${ERROR_MODIFIER_CLASS_NAME}`;
+        bookClasses.add(bookLoadingClassName);
+
+        const $image = $book.querySelector(`[data-${NAMESPACE}-book-parts="image"]`);
+        const $title = $book.querySelector(`[data-${NAMESPACE}-book-parts="title"]`);
+        const $error = $book.querySelector(`[data-${NAMESPACE}-book-parts="error"]`);
+
+        const url = new URL(API_URL);
+        const searchParams = new URLSearchParams([[API_PARAMETER_KEY, isbn]]);
+        url.search = searchParams.toString();
+
+        (async () => {
+          const response = await fetch(url.href, { method: 'GET' }).catch((error) => {
+            bookClasses.remove(bookLoadingClassName);
+            bookClasses.add(bookErrorClassName);
+            $error.setAttribute('aria-hidden', false);
+            throw error;
+          });
+
+          const result = await response.json();
+
+          if (!result || result.length <= 0 || !result[0] || !result[0].summary) {
+            bookClasses.remove(bookLoadingClassName);
+            bookClasses.add(bookErrorClassName);
+            $error.setAttribute('aria-hidden', false);
+            return;
+          }
+
+          const { title, cover } = result[0].summary;
+
+          const image = await loadImageSource(cover).catch(() => {
+            console.error('Failed to load image.');
+          });
+
+          if (image) {
+            image.setAttribute('alt', title);
+            image.setAttribute('title', title);
+            image.setAttribute(`data-${NAMESPACE}-book-parts`, 'cover');
+            $image.appendChild(image);
+          }
+          
+          $title.setAttribute('title', title);
+          $title.innerText = title;
+
+          bookClasses.remove(bookLoadingClassName);
+        })()
+      })
+    })
+  })()
+</script>

@@ -1,0 +1,38 @@
+@import "./variables.scss";
+
+:root {
+  font: 16px/1.8 Helvetica, Arial, Roboto, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", "Noto Sans CJK JP", sans-serif;
+  color: $color-base-1;
+}
+
+body {
+  background-color: $color-base-2;
+  overflow-wrap: break-word;
+}
+
+a {
+  color: $color-base-2;
+  text-decoration: underline;
+  
+  @media (min-width: $breakpoint-min-width-2) {
+    &:hover {
+      color: $color-base-1;
+    }
+  }
+}
+
+a,
+label,
+input,
+button,
+textarea {
+  -webkit-tap-highlight-color: rgba($color-base-3, 0.2);
+}
+
+img,
+svg,
+video,
+iframe {
+  vertical-align: top;
+}

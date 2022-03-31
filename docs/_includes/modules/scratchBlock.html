@@ -1,0 +1,13 @@
+{%- assign class = "scratchBlock" -%}
+{%- if include.class -%}
+{%- assign class = class | append: ' ' -%}
+{%- assign class = class | append: include.class -%}
+{%- endif -%}
+{%- assign url = "https://scratch.mit.edu/projects/" -%}
+{%- assign url = url | append: include.id -%}
+{%- assign href = url | append: "/" -%}
+{%- assign src = url | append: "/embed" -%}
+{%- capture content -%}
+{% include modules/buttonBlock.html href=href target="_blank" position="center" content="Sctatch のサイトで開く" %}
+{%- endcapture -%}
+{% include modules/iframeBlock.html src=src scrolling="no" allowfullscreen="true" caption=include.caption content=include.content class=class content=content %}

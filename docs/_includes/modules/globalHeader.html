@@ -1,0 +1,77 @@
+<header class="globalHeader">
+  <div class="globalHeader__home">
+    <p class="globalHeader__logo">
+      <a href="/" class="globalHeader__logoLink">
+        <img src="/assets/images/modules/globalHeader/img-logo.png" alt="やってみよう！プログラミング+"
+          class="globalHeader__logoImage">
+      </a>
+    </p>
+  </div>
+  <div class="globalHeader__menu" data-hamburger>
+    <div class="globalHeader__menuTrigger">
+      <button class="globalHeader__menuButton globalHeader__menuButton--open" aria-label="メニューを開く"
+        data-hamburger-open></button>
+    </div>
+    <div class="globalHeader__menuMain">
+      <div class="globalHeader__menuMainOverlay" data-hamburger-close aria-label="メニューを閉じる"></div>
+      <div class="globalHeader__menuMainContent">
+        <div class="globalHeader__menuMainTrigger">
+          <button class="globalHeader__menuButton globalHeader__menuButton--close" aria-label="メニューを開く"
+            data-hamburger-close></button>
+        </div>
+        <div class="globalHeader__menuMainItems">
+          <div class="globalHeader__menuMainItem">
+            <ul class="globalHeader__list">
+              <li class="globalHeader__listItem">
+                <a href="/try/" class="globalHeader__listLink{% if page.url contains "/try/"%} globalHeader__listLink--current{% endif %}">
+                  <span class="globalHeader__listLinkLabel">
+                    <span class="globalHeader__listLinkInner">やってみよう</span>
+                  </span>
+                </a>
+              </li>
+              <li class="globalHeader__listItem">
+                <a href="/languages/" class="globalHeader__listLink{% if page.url contains "/languages/"%} globalHeader__listLink--current{% endif %}">
+                  <span class="globalHeader__listLinkLabel">
+                    <span class="globalHeader__listLinkInner">いろいろな言語</span>
+                  </span>
+                </a>
+              </li>
+              <li class="globalHeader__listItem">
+                <a href="/about/" class="globalHeader__listLink{% if page.url contains "/about/"%} globalHeader__listLink--current{% endif %}">
+                  <span class="globalHeader__listLinkLabel">
+                    <span class="globalHeader__listLinkInner">このサイトについて</span>
+                  </span>
+                </a>
+              </li>
+              <li class="globalHeader__listItem">
+                <a href="/tools-and-materials/" class="globalHeader__listLink{% if page.url contains "/tools-and-materials/"%} globalHeader__listLink--current{% endif %}">
+                  <span class="globalHeader__listLinkLabel">
+                    <span class="globalHeader__listLinkInner">ツールと素材</span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="globalHeader__menuMainItem">
+            <ul class="globalHeader__list">
+              <li class="globalHeader__listItem">
+                <a href="/parents/" class="globalHeader__listLink{% if page.url contains "/parents/"%} globalHeader__listLink--current{% endif %}">
+                  <span class="globalHeader__listLinkLabel">
+                    <span class="globalHeader__listLinkInner">保護者の方へ</span>
+                  </span>
+                </a>
+              </li>
+              <!-- <li class="globalHeader__listItem">
+                <a href="/teachers/" class="globalHeader__listLink{% if page.url contains "/teachers/"%} globalHeader__listLink--current{% endif %}">
+                  <span class="globalHeader__listLinkLabel">
+                    <span class="globalHeader__listLinkInner">教職員の方へ</span>
+                  </span>
+                </a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

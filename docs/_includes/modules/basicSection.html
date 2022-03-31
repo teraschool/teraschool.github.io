@@ -1,0 +1,22 @@
+<div class="basicSection{% if include.type %} basicSection--{{include.type}}{% endif %}{% if include.mode %} basicSection--{{include.mode}}{% endif %}">
+  <div class="basicSection__inner">
+    {% if include.title %}
+    <div class="basicSection__header">
+      <h2 class="basicSection__headerTitle">
+        <span class="basicSection__headerTitleInner">
+          <span class="basicSection__headerTitleMain">{{ include.title }}</span>
+          {% if include.subtitle %}
+          <span class="basicSection__headerTitleSub">{{ include.subtitle}}</span>
+          {% endif %}
+        </span>
+      </h2>
+      {% if include.lead %}
+      <p class="basicSection__lead">{{ include.lead }}</p>
+      {% endif %}
+    </div>
+    {% endif %}
+    <div class="basicSection__main">
+      {{ include.content }}
+    </div>
+  </div>
+</div>

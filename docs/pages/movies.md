@@ -1,6 +1,6 @@
 ---
 title: おすすめ動画
-layout: single
+layout: deprecated-single
 permalink: /movies/
 header:
   overlay_image: /assets/images/cover/header.png

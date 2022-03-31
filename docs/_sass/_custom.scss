@@ -21,7 +21,7 @@
 .bookshelf {
   display: grid;
   gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, 10rem);
 
   .book {
     display: grid;

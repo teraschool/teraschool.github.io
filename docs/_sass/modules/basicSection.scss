@@ -1,0 +1,82 @@
+.basicSection {
+  padding: 48px 16px;
+
+  .basicSection__inner {
+    margin: 0 auto;
+    max-width: $container-max-width;
+  }
+
+  .basicSection__headerTitle {
+    display: flex;
+    justify-content: center;
+    color: $color-base-2;
+    font-size: 24px;
+    line-height: 24px * 1.2;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .basicSection__headerTitleInner {
+    display: inline-flex;
+    align-items: baseline;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 24px * 0.1;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background-color: $color-accent-yellow-1;
+    }
+  }
+
+  .basicSection__headerTitleMain,
+  .basicSection__headerTitleSub {
+    flex-shrink: 1;
+    position: relative;
+  }
+
+  .basicSection__headerTitleSub {
+    margin-left: 8px;
+    font-size: 18px;
+    line-height: 1.2;
+
+    &::before,
+    &::after {
+      content: "-";
+    }
+
+    &::before {
+      padding-right: 0.5em;
+    }
+
+    &::after {
+      padding-left: 0.5em;
+    }
+  }
+
+  .basicSection__headerLead {
+    margin-top: 16px;
+  }
+
+  .basicSection__header + .basicSection__main {
+    margin-top: 40px;
+  }
+
+  &.basicSection--emphasis {
+    background-color: $color-base-2;
+    color: $color-base-5;
+
+    .basicSection__headerTitle {
+      color: inherit;
+    }
+  }
+
+  &.basicSection--article {
+    .basicSection__main {
+      @include article-base($has-syntax: false);
+    }
+  }
+}

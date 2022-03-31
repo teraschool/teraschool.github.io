@@ -1,0 +1,25 @@
+<a href="{{ include.url }}" class="card{% if include.class %} {{ include.class }}{% endif %}">
+  <div class="card__content">
+    <div class="card__cover">
+      <img
+        src="{% if include.thumbnail %}{{ include.thumbnail }}{% else %}/assets/images/img_default_thumbnail.png{% endif %}"
+        alt="{{ include.title }}" class="card__coverImage">
+    </div>
+    <div class="card__items">
+      <div class="card__item">
+        <p class="card__title">{{include.title}}</p>
+      </div>
+      {% if include.tags %}
+      <div class="card__item">
+        <ul class="card__tags">
+          {% for tag in include.tags %}
+          <li class="card__tag">
+            <span class="card__tagContent">{% include parts/tag.html content=tag %}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</a>

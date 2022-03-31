@@ -1,6 +1,6 @@
 ---
 title: マリオアクションゲームを作ってみよう
-layout: single
+layout: deprecated-single
 permalink: /try/action-game/
 header:
   overlay_image: /assets/images/header/default.png

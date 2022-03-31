@@ -1,0 +1,54 @@
+@import "../utils/variables.scss";
+
+.globalFooter {
+  padding: 32px 16px;
+  background-color: $color-base-2;
+  color: $color-base-5;
+
+  .globalFooter__mainItem + .globalFooter__mainItem {
+    margin-top: 16px;
+  }
+
+  .globalFooter__menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -8px 0 0 -16px;
+    font-size: 14px;
+
+    @media (min-width: $breakpoint-min-width-2) {
+      margin-left: -24px;
+    }
+  }
+
+  .globalFooter__menuItem + .globalFooter__menuItem {
+    flex-shrink: 1;
+  }
+
+  .globalFooter__menuLink {
+    display: block;
+    margin: 8px 0 0 16px;
+    line-height: 1.4;
+    color: inherit;
+    text-decoration: none;
+
+    @media (min-width: $breakpoint-min-width-2) {
+      margin-left: 24px;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .globalFooter__copyright {
+    margin-top: 24px;
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .globalFooter__copyrightItemPhrase {
+    display: inline-block;
+  }
+}

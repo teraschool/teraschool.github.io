@@ -1,0 +1,24 @@
+@import "./utils/variables.scss";
+@import "./utils/reset.scss";
+
+@import "./mixins/article-base.scss";
+
+@import "./parts/button.scss";
+@import "./parts/card.scss";
+@import "./parts/notice.scss";
+@import "./parts/tag.scss";
+
+@import "./modules/basicSection.scss";
+@import "./modules/bookShelf.scss";
+@import "./modules/buttonBlock.scss";
+@import "./modules/cardList.scss";
+@import "./modules/globalFooter.scss";
+@import "./modules/globalHeader.scss";
+@import "./modules/googleSearchButton.scss";
+@import "./modules/iframeBlock.scss";
+@import "./modules/imageBlock.scss";
+
+.basicPage {
+  padding-bottom: 56px;
+  background-color: $color-base-4;
+}

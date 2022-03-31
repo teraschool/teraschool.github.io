@@ -1,0 +1,6 @@
+{%- assign class = "youtubeBlock" -%}
+{%- if include.class -%}
+{%- assign class = class | append: ' ' -%}
+{%- assign class = class | append: include.class -%}
+{%- endif -%}
+{% include modules/iframeBlock.html src=include.src allow="autoplay; encrypted-media" allowfullscreen="true" caption=include.caption content=include.content class=class %}
