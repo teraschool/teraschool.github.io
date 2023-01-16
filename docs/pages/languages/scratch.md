@@ -62,7 +62,7 @@ Scratch アカウントの作成にはメールアドレスが必要ですが、
 
 Scratch アカウントの作り方については、こちらの動画で詳しく説明されています。
 
-{% include modules/youtubeBlock.html src="https://www.youtube.com/embed/TfzsNagGC_E" %}
+{% include modules/youtubeBlock.html src="https://www.youtube.com/embed/YNHiUN5VZxU" %}
 
 ## 5. 参考情報
 
