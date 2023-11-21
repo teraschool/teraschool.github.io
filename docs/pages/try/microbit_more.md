@@ -17,18 +17,18 @@ tags:
 - micor:bit(バージョンは2以降)
 
 ### Microbit Moreとmicro:bitの接続準備
-/** @ToDo Microbit Moreのホーム画面 **/
+![Microbit Moreのホーム画面](/assets/images/try/microbit_more/microbit_more_0.jpg)
 
 [Microbit More](https://microbit-more.github.io/)を開いたら、micro:bitのプログラムのボタンをクリックして、Microbit More用のhexファイルをダウンロードして、マイクロビットにフラッシングします。
 
 フラッシングの方法は、
 
-/** @ToDo Chromebookでフラッシングのキャプチャ **/
+![フラッシング](/assets/images/try/microbit_more/microbit_more_1.jpg)
 
 のように、hexファイルをMICROBITにドラックします。  
 フラッシングが終了しましたら、マイクロビットとPCのUSB接続を外し
 
-/** @ToDo 電池パックの写真 **/
+![電池パックの写真](/assets/images/try/microbit_more/microbit_more_2.jpg)
 
 電池等の他の電源でマイクロビットを起動します。
 
@@ -40,17 +40,25 @@ tags:
 
 ブルートゥースを有効にしましたら、
 
-/** @ToDo Microbit Moreの起動画面 **/
+![Microbit Moreの起動画面](/assets/images/try/microbit_more/microbit_more_0.jpg)
 
-の画面でエディターを開くのボタンを押し、
+の画面でエディターを開くのボタンを押し、Microbit Moreのエディタを開きます。
 
-Microbit Moreのエディタを開きます。
+![Microbit Moreのブルートゥース設定１](/assets/images/try/microbit_more/microbit_more_3.jpg)
+![Microbit Moreのブルートゥース設定２](/assets/images/try/microbit_more/microbit_more_4.jpg)
 
 MicroBit Moreのブロックを探し、！のアイコンをクリックします。
 
-ブルートゥースでBBC microbit[zipoz]を選び、接続されましたの画面が表示されましたら、設定は終了です。
+![Microbit Moreのブルートゥース設定３](/assets/images/try/microbit_more/microbit_more_5.jpg)
+
+ブルートゥースでBBC microbit[5文字のID]を選び、接続されましたの画面が表示されましたら、設定は終了です。  
+※5文字のIDの箇所にはzipoz等のアルファベット5文字が入ります。
+
+![Microbit Moreのブルートゥース設定４](/assets/images/try/microbit_more/microbit_more_6.jpg)
 
 設定が正しく行われていれば、MicroBit Moreのブロックの箇所のアイコンがチェックに切り替わっています。
+
+![Microbit Moreのブルートゥース設定５](/assets/images/try/microbit_more/microbit_more_7.jpg)
 
 マイクロビットのディスプレイの方もMに変わっている事も確認しましょう。
 
