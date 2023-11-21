@@ -120,8 +120,12 @@ micro:bitに内蔵されているマイクを使うと、周辺の音を拾っ�
 
 ![マイクをコードに組み込む３](/assets/images/try/microbit_more/microbit_more_14.jpg)
 
-このコードを実行してみると、
+このコードを実行してみましょう。
 
 {% include modules/youtubeBlock.html src="https://www.youtube.com/embed/ZRn794I261I" %}
 
-大きな音を出したら、ネコが飛び上がるようになりました。
+micro:bitに大声で声をかけてみて、ネコがびっくりして飛び上がることを確認しましょう。  
+  
+Microbit Moreには他にも面白い機能がたくさんありますので、いろいろと試してみましょう。
+
+{% include modules/bookShelf.html isbns="4416520301" %}
