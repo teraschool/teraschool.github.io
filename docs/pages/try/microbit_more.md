@@ -63,7 +63,8 @@ MicroBit Moreのブロックを探し、！のアイコンをクリックしま�
 
 ![Microbit Moreのブルートゥース設定６](/assets/images/try/microbit_more/microbit_more_8.jpg)
 
-マイクロビットのディスプレイの方もMに変わっている事も確認しましょう。
+micro:bitのディスプレイの方もMに変わっている事も確認しましょう。  
+※上記方法でブルートゥースの設定が終了しなかった場合は、[Microbit More](https://microbit-more.github.io/)にあるScratch Linkをお試しください。
 
 ### micro:bitの水準器を使って、コントローラを作ってみよう
 
