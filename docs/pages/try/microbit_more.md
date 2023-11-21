@@ -13,8 +13,8 @@ tags:
 
 ## Microbit Moreを使ってみよう
 ### 必要なもの
-- Web Bluetoothが使用できるChrome(バージョン56以降)がインストールされたパソコン
-- micor:bit(バージョンは2以降)
+- [Web Bluetooth](https://developer.mozilla.org/ja/docs/Web/API/Web_Bluetooth_API)が使用できる[Chrome](https://www.google.com/intl/ja/chrome/gsem/download/)(バージョン56以降)がインストールされたパソコン
+- [micor:bit](https://microbit.org/ja/)(バージョンは2以降)
 
 ### Microbit Moreとmicro:bitの接続準備
 ![Microbit Moreのホーム画面](/assets/images/try/microbit_more/microbit_more_0.jpg)
