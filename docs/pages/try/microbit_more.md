@@ -68,7 +68,7 @@ micro:bitのディスプレイの方もMに変わっている事も確認しま�
 
 ### micro:bitの水準器を使って、コントローラを作ってみよう
 
-![水準器のイラスト](/assets/images/try/microbit_more/microbit_more_9.jpg)
+![水準器のイラスト](/assets/images/try/microbit_more/microbit_more_9.jpg)  
 ※画像：[水準器 | micro:bit](https://microbit.org/ja/projects/make-it-code-it/spirit-level/)より引用
 
 マイクロビットの水準器には横方向がどれほど傾いたか？を感知するロール(roll)と縦方向を感知するピッチ(pitch)があります。
