@@ -53,7 +53,8 @@ MicroBit Moreのブロックを探し、！のアイコンをクリックしま�
 ![Microbit Moreのブルートゥース設定３](/assets/images/try/microbit_more/microbit_more_5.jpg)
 
 ブルートゥースでBBC microbit[5文字のID]を選び、接続されましたの画面が表示されましたら、設定は終了です。  
-※5文字のIDの箇所にはzipoz等のアルファベット5文字が入ります。
+※5文字のIDの箇所にはzipoz等のアルファベット5文字が入ります。  
+※5文字のIDは読みにくいですが、micro:bitのディスプレイに表示されています。
 
 ![Microbit Moreのブルートゥース設定４](/assets/images/try/microbit_more/microbit_more_6.jpg)  
   
