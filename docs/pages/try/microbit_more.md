@@ -129,7 +129,7 @@ micro:bitに大声で声をかけてみて、ネコがびっくりして飛び�
   
 ### シューティングゲームを改造してみよう
 
-{% include modules/scratchBlock.html id="68155398" %}
+{% include modules/scratchBlock.html id="68155398" %}  
 [シューティングゲームを作ってみよう - やってみよう！プログラミング+](https://lets.teraschool.org/try/shooting-game/)のページで作成するシューティングゲームではキーボードの矢印のキーでロケットが移動して、スペースキーで弾を発射します。  
 この動作をmicro:bitの水準器のロールでロケットを移動して、ボタンAを押した時に弾を発射するように改造してみよう。  
 
