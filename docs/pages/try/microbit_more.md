@@ -108,10 +108,12 @@ micro:bitに内蔵されているマイクを使うと、周辺の音を拾っ�
 
 ![マイクをコードに組み込む１](/assets/images/try/microbit_more/microbit_more_12.jpg)
 
+![マイクをコードに組み込む２](/assets/images/try/microbit_more/microbit_more_13.jpg)
+
 旗のボタンを押した時にマイクロビットの5×5ディスプレイの右上のマイクアイコンが点灯していることを事前に確認しておきましょう。
 マイクアイコンが点灯していたら、マイクロビットに向かって何か話してみます。
 
-![マイクをコードに組み込む２](/assets/images/try/microbit_more/microbit_more_13.jpg)
+![マイクをコードに組み込む３](/assets/images/try/microbit_more/microbit_more_14.jpg)
 
 ネコの吹き出しに数字が表示されたことを確認し、静かな時とうるさい時の値を記録しておきましょう。
 
@@ -119,7 +121,7 @@ micro:bitに内蔵されているマイクを使うと、周辺の音を拾っ�
 
 音の大きさが20より大きい時にネコがジャンプしてびっくりしたと言うようにします。
 
-![マイクをコードに組み込む３](/assets/images/try/microbit_more/microbit_more_14.jpg)
+![マイクをコードに組み込む４](/assets/images/try/microbit_more/microbit_more_15.jpg)
 
 このコードを実行してみましょう。
 
@@ -132,5 +134,29 @@ micro:bitに大声で声をかけてみて、ネコがびっくりして飛び�
 {% include modules/scratchBlock.html id="68155398" %}  
 [シューティングゲームを作ってみよう - やってみよう！プログラミング+](https://lets.teraschool.org/try/shooting-game/)のページで作成するシューティングゲームではキーボードの矢印のキーでロケットが移動して、スペースキーで弾を発射します。  
 この動作をmicro:bitの水準器のロールでロケットを移動して、ボタンAを押した時に弾を発射するように改造してみよう。  
+  
+[First Mission on Scratch](https://scratch.mit.edu/projects/68155398/)を開きましたら、
+
+![First Missionのコードを保存する１](/assets/images/try/microbit_more/microbit_more_16.jpg)  
+  
+画面右上にあります<strong>中を見る</strong>のボタンを押します。  
+  
+![First Missionのコードを保存する２](/assets/images/try/microbit_more/microbit_more_17.jpg)  
+
+![First Missionのコードを保存する３](/assets/images/try/microbit_more/microbit_more_18.jpg)  
+  
+画面右上のメニュにありますファイルから<strong>コンピューターに保存する</strong>を選択して、シューティングゲームのファイルを保存します。  
+  
+![First Missionのコードを読み込む１](/assets/images/try/microbit_more/microbit_more_19.jpg)  
+  
+次にMicrobit Moreの画面を開き、  
+
+![First Missionのコードを読み込む２](/assets/images/try/microbit_more/microbit_more_20.jpg)  
+  
+画面右上のメニュにありますファイルから<strong>コンピューターから読み込む</strong>を選択して、先程ダウンロードしたシューティングゲームのファイルを読み込みます。  
+  
+![First Missionのコードを読み込む３](/assets/images/try/microbit_more/microbit_more_21.jpg)  
+
+Microbit Moreの画面でシューティングゲームが表示されましたら、micro:bitで操作できるように改造してみましょう。
 
 {% include modules/bookShelf.html isbns="4416520301" %}
