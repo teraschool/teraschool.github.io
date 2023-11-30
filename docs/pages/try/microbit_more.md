@@ -3,23 +3,23 @@ title: Microbit Moreを使ってみよう
 layout: article
 permalink: /try/microbit_more/
 tags:
-  - micro:bit 
+  - マイクロビット 
   - Scratch
   - ブロックプログラミング
 ---
 
 ## Microbit Moreとは
-[Microbit More](https://microbit-more.github.io/)はScratchでmicro:bitを使うのに特化したブロックプログラミング環境になります。Scratchの方の拡張ポイントにもmicro:bitがありますが明るさや温度のセンサーが使えません。Scratchでmicro:bitの各種センサーを使用したい場合はMicrobit Moreを使用しましょう。
+[Microbit More](https://microbit-more.github.io/)はScratchでマイクロビットを使うのに特化したブロックプログラミング環境になります。Scratchの方の拡張ポイントにもマイクロビットがありますが明るさや温度のセンサーが使えません。Scratchでマイクロビットの各種センサーを使用したい場合はMicrobit Moreを使用しましょう。
 
 ## Microbit Moreを使ってみよう
 ### 必要なもの
 - [Web Bluetooth](https://developer.mozilla.org/ja/docs/Web/API/Web_Bluetooth_API)が使用できる[Chrome](https://www.google.com/intl/ja/chrome/gsem/download/)(バージョン56以降)がインストールされたパソコン
 - [micor:bit](https://microbit.org/ja/)(バージョンは2以降)
 
-### Microbit Moreとmicro:bitの接続準備
+### Microbit Moreとマイクロビットの接続準備
 ![Microbit Moreのホーム画面](/assets/images/try/microbit_more/microbit_more_0.jpg)
 
-[Microbit More](https://microbit-more.github.io/)を開いたら、micro:bitのプログラムのボタンをクリックして、Microbit More用のhexファイルをダウンロードして、マイクロビットにフラッシングします。
+[Microbit More](https://microbit-more.github.io/)を開いたら、マイクロビットのプログラムのボタンをクリックして、Microbit More用のhexファイルをダウンロードして、マイクロビットにフラッシングします。
 
 フラッシングの方法は、
 
@@ -33,7 +33,23 @@ tags:
 電池等の他の電源でマイクロビットを起動します。
 
 最初にマイクロビットのコンパスのキャリブレーションを行います。  
-コンパスのキャリブレーションの方法は[コンパスの方位 | micro:bit](https://microbit.org/ja/projects/make-it-code-it/compass-bearing/)をご覧ください。
+キャリブレーションはマイクロビットに内蔵されているコンパス(地磁気センサー)を使う前の準備の調整作業になります。  
+
+マイクロビットを起動すると、文字列のスクロールが始まり、しばらく待つと、  
+
+![キャリブレーション１](/assets/images/try/microbit_more/microbit_more_calibration_1.jpg)  
+
+ディスプレイに不規則な模様が表示されます。  
+マイクロビットを様々な方向に傾けると、徐々に点灯が増え、  
+
+![キャリブレーション２](/assets/images/try/microbit_more/microbit_more_calibration_2.jpg)  
+
+ディスプレイのすべてのLEDが点灯すると、  
+
+![キャリブレーション３](/assets/images/try/microbit_more/microbit_more_calibration_3.jpg)  
+
+一瞬だけスマイルアイコンが出力され、すぐに文字列の表示が再開します。  
+これでキャリブレーションは終了です。  
 
 次にパソコン側のブルートゥースを有効にします。  
 ※パソコン側のブルートゥースの設定方法はパソコン毎で異なりますので、詳細は省略します。
@@ -54,7 +70,7 @@ MicroBit Moreのブロックを探し、！のアイコンをクリックしま�
 
 ブルートゥースでBBC microbit[5文字のID]を選び、接続されましたの画面が表示されましたら、設定は終了です。  
 ※5文字のIDの箇所にはzipoz等のアルファベット5文字が入ります。  
-※5文字のIDは読みにくいですが、micro:bitのディスプレイに表示されています。
+※5文字のIDは読みにくいですが、マイクロビットのディスプレイに表示されています。
 
 ![Microbit Moreのブルートゥース設定４](/assets/images/try/microbit_more/microbit_more_6.jpg)  
   
@@ -64,18 +80,18 @@ MicroBit Moreのブロックを探し、！のアイコンをクリックしま�
 
 ![Microbit Moreのブルートゥース設定６](/assets/images/try/microbit_more/microbit_more_8.jpg)
 
-micro:bitのディスプレイの方もMに変わっている事も確認しましょう。  
+マイクロビットのディスプレイの方もMに変わっている事も確認しましょう。  
 ※上記方法でブルートゥースの設定が終了しなかった場合は、[Microbit More](https://microbit-more.github.io/)にあるScratch Linkをお試しください。
 
-### micro:bitの水準器を使って、コントローラを作ってみよう
+### マイクロビットの水準器を使って、コントローラを作ってみよう
 
 ![水準器のイラスト](/assets/images/try/microbit_more/microbit_more_9.jpg)  
-※画像：[水準器 | micro:bit](https://microbit.org/ja/projects/make-it-code-it/spirit-level/)より引用
+※画像：[水準器 | マイクロビット](https://microbit.org/ja/projects/make-it-code-it/spirit-level/)より引用
 
 マイクロビットの水準器には横方向がどれほど傾いたか？を感知するロール(roll)と縦方向を感知するピッチ(pitch)があります。
 この水準器を活用してネコのスプラウトを動かしてみます。
 
-水準器のロールとピッチの値の範囲は共に-180〜180になりまして、micro:bitから得られたデータをそのままx座標とy座標に加算します。  
+水準器のロールとピッチの値の範囲は共に-180〜180になりまして、マイクロビットから得られたデータをそのままx座標とy座標に加算します。  
 一点注意としまして、  
 
 ![Microbit Moreの座標](/assets/images/try/microbit_more/microbit_more_coordinate.jpg)  
@@ -103,9 +119,9 @@ Microbit Moreのy座標と水準器のピッチでは値が上下逆になりま
 
 ネコの動きが穏やかになり、制御しやすくなりました。
 
-### micro:bitのマイクを使って、ネコを驚かせてみよう
+### マイクロビットのマイクを使って、ネコを驚かせてみよう
 
-micro:bitに内蔵されているマイクを使うと、周辺の音を拾ってMicrobit More側に反映する事が出来ます。
+マイクロビットに内蔵されているマイクを使うと、周辺の音を拾ってMicrobit More側に反映する事が出来ます。
 
 最初にMicrobit Moreに接続したマイクロビットのマイクを使って、周辺の音や自分の様々な大きさの声でどのような数字になるのかを確認してみましょう。  
 下記のコードを作成して実行してみます。
@@ -131,14 +147,14 @@ micro:bitに内蔵されているマイクを使うと、周辺の音を拾っ�
 
 {% include modules/youtubeBlock.html src="https://www.youtube.com/embed/ZRn794I261I" %}
 
-micro:bitに大声で声をかけてみて、ネコがびっくりして飛び上がることを確認しましょう。  
+マイクロビットに大声で声をかけてみて、ネコがびっくりして飛び上がることを確認しましょう。  
   
 ### シューティングゲームを改造してみよう
 
 {% include modules/scratchBlock.html id="68155398" %}  
  
 [シューティングゲームを作ってみよう - やってみよう！プログラミング+](https://lets.teraschool.org/try/shooting-game/)のページで作成するシューティングゲームではキーボードの矢印のキーでロケットが移動して、スペースキーで弾を発射します。  
-この動作をmicro:bitの水準器のロールでロケットを移動して、ボタンAを押した時に弾を発射するように改造してみよう。  
+この動作をマイクロビットの水準器のロールでロケットを移動して、ボタンAを押した時に弾を発射するように改造してみよう。  
   
 [First Mission on Scratch](https://scratch.mit.edu/projects/68155398/)を開きましたら、
 
@@ -162,6 +178,6 @@ micro:bitに大声で声をかけてみて、ネコがびっくりして飛び�
   
 ![First Missionのコードを読み込む３](/assets/images/try/microbit_more/microbit_more_21.jpg)  
 
-Microbit Moreの画面でシューティングゲームが表示されましたら、micro:bitで操作できるように改造してみましょう。
+Microbit Moreの画面でシューティングゲームが表示されましたら、マイクロビットで操作できるように改造してみましょう。
 
 {% include modules/bookShelf.html isbns="4416520301" %}
